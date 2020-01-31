@@ -37,6 +37,33 @@
           </form>
         </div>
       </nav>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <form class="form-inline" method="get" action="../search.php">
+            <input class="form-control mr-sm-2" type="search" name="query" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
 
       <nav class="navbar navbar-light navbar-expand-lg bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -102,14 +129,15 @@
           <div class="col-xl-9 col-lg-10 mx-auto" id="content">
             <div class="row">
               <div class="col-md pt-3">
-                <section id="textTest" class="pb-2 mb-3">
+                <section id="textTest" class="shadow p-2 mb-3">
                   <h1>This is h1 heading.</h1>
                   <h2>This is h2 heading.</h2>
                   <h3>This is h3 heading.</h3>
                   <h4>This is h4 heading.</h4>
                   <h5>This is h5 heading.</h5>
                   <p>This is paragraph.</p>
-                  This is free text.
+                  This is free text. This section has regular shadow.
+                  </section>
                 </section>
                 <section id="textTest" class="pb-2">
                   <h3>Modal Test</h3>
@@ -314,37 +342,37 @@
                       6
                     </div>
                     <div class="col-6">
-                      <div class="card my-1 bg-light">6</div>
+                      <div class="card shadow my-1 bg-light">6</div>
                     </div>
                     <div class="col-sm-5">
                       5
                     </div>
                     <div class="col-7">
-                      <div class="card my-1 bg-light">7</div>
+                      <div class="card shadow my-1 bg-light">7</div>
                     </div>
                     <div class="col-sm-4">
                       4
                     </div>
                     <div class="col-8">
-                      <div class="card my-1 bg-light">8</div>
+                      <div class="card shadow my-1 bg-light">8</div>
                     </div>
                     <div class="col-sm-3">
                       3
                     </div>
                     <div class="col-9">
-                      <div class="card my-1 bg-light">9</div>
+                      <div class="card shadow my-1 bg-light">9</div>
                     </div>
                     <div class="col-sm-2">
                       2
                     </div>
                     <div class="col-10">
-                      <div class="card my-1 bg-light">10</div>
+                      <div class="card shadow my-1 bg-light">10</div>
                     </div>
                     <div class="col-sm-1">
                       1
                     </div>
                     <div class="col-11">
-                      <div class="card my-1 bg-light">11</div>
+                      <div class="card shadow my-1 bg-light">11</div>
                     </div>
                   </div>
                 </section>
@@ -353,7 +381,7 @@
                   <div class="d-flex my-3">
 
                     <!-- Jumbotron -->
-                    <div class="jumbotron w-100 py-5 mx-auto">
+                    <div class="shadow jumbotron w-100 py-5 mx-auto">
                       <h1 class="display-3 text-light">Hello, world!</h1>
                       <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
                     </div>
@@ -363,7 +391,7 @@
                     <div class="col-xl-6 col-lg-4 mb-4">
 
                       <!-- Card -->
-                      <div class="card border-primary h-100">
+                      <div class="card shadow border-primary h-100">
                         <div class="card-body d-flex flex-column align-items-start">
                           <h4 class="card-title text-primary">Card Outline</h4>
                           <p class="card-text">With supporting text below as a natural lead-in to additional content. This has text that may wrap to the next line.</p>
@@ -373,7 +401,7 @@
 
                     </div>
                     <div class="col-xl-6 col-lg-4 mb-4">
-                      <div class="card border-primary h-100">
+                      <div class="card shadow border-primary h-100">
                         <div class="card-body">
 
                           <!-- List Group -->
@@ -388,7 +416,7 @@
                       </div>
                     </div>
                     <div class="col-xl-12 col-lg-4 mb-4">
-                      <div class="card bg-primary text-white h-100">
+                      <div class="card shadow bg-primary text-white h-100">
                         <div class="card-body d-flex flex-column align-items-start">
                           <h4 class="card-title">Card</h4>
                           <p class="card-text">Watch me scale, scale. Now watch me stack, stack. Watch me scale, scale...</p>
@@ -397,7 +425,7 @@
                       </div>
                     </div>
                     <div class="col-sm-12 col-lg-4 mb-4">
-                      <div class="card bg-secondary h-100">
+                      <div class="card shadow bg-secondary h-100">
                         <div class="card-body d-flex flex-column align-items-start">
                           <h4 class="card-title text-light">Card</h4>
                           <p class="card-text text-light">Watch me scale, scale. Now watch me stack, stack. Watch me scale, scale...</p>
@@ -406,7 +434,7 @@
                       </div>
                     </div>
                     <div class="col-sm-12 col-lg-4 mb-4">
-                      <div class="card bg-info h-100">
+                      <div class="card shadow bg-info h-100">
                         <div class="card-body d-flex text-light flex-column align-items-start">
                           <h4 class="card-title text-light">Card</h4>
                           <p class="card-text">Watch me scale, scale. Now watch me stack, stack. Watch me scale, scale...</p>
@@ -415,7 +443,7 @@
                       </div>
                     </div>
                     <div class="col-sm-12 col-lg-4 mb-4">
-                      <div class="card border-dark h-100">
+                      <div class="card shadow border-dark h-100">
                         <div class="card-body d-flex flex-column align-items-start">
                           <h4 class="card-title text-primary">Card</h4>
                           <p class="card-text">Watch me scale, scale. Now watch me stack, stack. <span class="text-secondary"> Watch me scale, scale...</span></p>
@@ -438,7 +466,7 @@
         <div class="d-flex my-3">
 
           <!-- Jumbotron -->
-          <div class="jumbotron w-100 py-5 mx-auto mt-3 bg-secondary">
+          <div class="jumbotron shadow w-100 py-5 mx-auto mt-3 bg-secondary">
             <h1 class="display-3 text-light">Hello, world!</h1>
             <p class="lead text-light">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
           </div>
@@ -446,7 +474,7 @@
         <div class="row">
           <div class="col-xl-6 col-lg-4 mb-4">
             <!-- Card -->
-            <div class="card h-100 bg-dark-secondary">
+            <div class="card shadow h-100 bg-dark-secondary">
               <div class="card-body d-flex flex-column align-items-start">
                 <h4 class="card-title text-light font-weight-bold">Card Dark Accent Fill</h4>
                 <p class="card-text text-light">With supporting text below as a natural lead-in to additional content. This has text that may wrap to the next line.</p>
@@ -456,7 +484,7 @@
 
           </div>
           <div class="col-xl-6 col-lg-4 mb-4">
-            <div class="card border-secondary h-100">
+            <div class="card shadowborder-secondary h-100">
               <div class="card-body">
                 <h4 class="card-title text-secondary">Card Outline</h4>
                 <p class="card-text text-dark">With supporting text below as a natural lead-in to additional content. This has text that may wrap to the next line.</p>
@@ -465,7 +493,7 @@
             </div>
           </div>
           <div class="col-xl-12 col-lg-4 mb-4">
-            <div class="card bg-primary text-white h-100">
+            <div class="card shadowbg-primary text-white h-100">
               <div class="card-body d-flex flex-column align-items-start">
                 <h4 class="card-title">Card</h4>
                 <p class="card-text">Watch me scale, scale. Now watch me stack, stack. Watch me scale, scale...</p>

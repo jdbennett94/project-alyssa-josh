@@ -11,18 +11,21 @@
 $theme-colors: (
   "primary": #58D883, //green
   "secondary": #6633FF ,// purple
-  "success": #50b95f,
+  "success": #558c7f,
   "danger": #f44336,
-  "warning": #cda927,
-  "info": #172348,
-  "light": #FFF,//#F6F6F8,
-  "dark": #1e2451,//#221d41,
-  "dark-secondary": #000, //black
+  "warning": #d27c47,
+  "info": #201527,
+  "light": #FFFEFE,//#F6F6F8,
+  "dark": #210527,//#221d41,
+  "dark-secondary": #AB5381, //black
   //"grey": #999999,
-  "light-primary": #cea9da
+  "light-primary": #58d883
 );
 //221d41, 313c99, 7a6dd1, d8A5be, F6F6F8
 $body-color: theme-color("dark");
+
+$enable-shadows: true;
+$enable-rounded: false;
 
 
 $border-radius: 0.3rem;
@@ -52,14 +55,14 @@ $nav-link-disabled-color: rgba(theme-color("dark"), .35);
 $nav-tabs-link-active-color: theme-color("primary");
 
 // Make all navbars have light or dark class
-$navbar-dark-color: theme-color("secondary");
-$navbar-dark-hover-color: theme-color("light-primary");
-$navbar-dark-active-color: theme-color("light");
+$navbar-dark-color: theme-color("light");
+//$navbar-dark-hover-color: theme-color("light-primary");
+$navbar-dark-active-color: theme-color("secondary");
 $navbar-dark-disabled-color: rgba(theme-color("secondary"), .25);
 
 $navbar-light-color: theme-color("dark");
 $navbar-light-hover-color: theme-color("primary");
-$navbar-light-active-color: theme-color("info");
+$navbar-light-active-color: theme-color("secondary");
 $navbar-light-disabled-color: rgba(theme-color("dark"), .25);
 
 $navbar-light-brand-color: theme-color("primary");
