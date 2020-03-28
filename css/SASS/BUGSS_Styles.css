@@ -7,11 +7,6 @@ $progress-bar-bg: theme-color("dark");
 $progress-font-size: 1rem * 1.25;
 $progress-border-radius: $border-radius-lg;
 */
-/*
-$breadcrumb-bg: theme-color("light");
-$breadcrumb-divider-color: theme-color("dark");
-$breadcrumb-active-color: theme-color("primary");
-*/
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -1223,13 +1218,13 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .accordion > .card:last-of-type { border-top-left-radius: 0; border-top-right-radius: 0; }
 .accordion > .card .card-header { margin-bottom: -1px; }
 
-.breadcrumb { display: flex; flex-wrap: wrap; padding: 0.75rem 1rem; margin-bottom: 1rem; list-style: none; background-color: #e9ecef; border-radius: 0.3rem; }
+.breadcrumb { display: flex; flex-wrap: wrap; padding: 0.75rem 1rem; margin-bottom: 1rem; list-style: none; background-color: #fff; border-radius: 0.3rem; }
 
 .breadcrumb-item + .breadcrumb-item { padding-left: 0.5rem; }
-.breadcrumb-item + .breadcrumb-item::before { display: inline-block; padding-right: 0.5rem; color: #6c757d; content: "/"; }
+.breadcrumb-item + .breadcrumb-item::before { display: inline-block; padding-right: 0.5rem; color: #1c2249; content: "/"; }
 .breadcrumb-item + .breadcrumb-item:hover::before { text-decoration: underline; }
 .breadcrumb-item + .breadcrumb-item:hover::before { text-decoration: none; }
-.breadcrumb-item.active { color: #6c757d; }
+.breadcrumb-item.active { color: #511f86; }
 
 .pagination { display: flex; padding-left: 0; list-style: none; border-radius: 0.3rem; }
 
@@ -2771,13 +2766,15 @@ a.text-light-primary:hover, a.text-light-primary:focus { color: #896a9b !importa
   .table-dark { color: inherit; }
   .table-dark th, .table-dark td, .table-dark thead th, .table-dark tbody + tbody { border-color: #dee2e6; }
   .table .thead-dark th { color: inherit; border-color: #dee2e6; } }
+.btn-light { color: #511f86; }
+
 .bg-dark-secondary { background-color: #1d214b; }
 
 .text-light-primary { color: #ad98ba !important; }
 
 .btn-dark-secondary { color: #ece9f0; border-color: #1d214b; background-color: #1d214b; }
 
-.btn-light-primary { color: #ece9f0; background-color: #ad98ba; border-color: #ad98ba; }
+.btn-light-primary { color: #fff; background-color: #ad98ba; border-color: #ad98ba; }
 
 .footer-dark { flex-shrink: none; background-color: #1c2249; color: #ad98ba !important; }
 

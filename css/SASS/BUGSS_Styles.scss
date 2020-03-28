@@ -8,6 +8,7 @@
 @function gray($key: "100") {
   @return map-get($grays, $key);
 }
+$white: #fff;
 $theme-colors: (
   "primary": #511f86,
   "secondary": #7a56e9 ,
@@ -24,6 +25,7 @@ $theme-colors: (
 //  1d214b
 );
 //221d41, 313c99, 7a6dd1, d8A5be, F6F6F8
+
 $body-color: theme-color("dark");
 
 $enable-shadows: true;
@@ -84,11 +86,11 @@ $progress-border-radius: $border-radius-lg;
 */
 
 //Breadcrumbs
-/*
-$breadcrumb-bg: theme-color("light");
+
+$breadcrumb-bg: $white;
 $breadcrumb-divider-color: theme-color("dark");
 $breadcrumb-active-color: theme-color("primary");
-*/
+
 //Forms
 $input-border-color: theme-color("secondary"); //css adjusts text color in form
 $input-border-width: 2px;
@@ -105,7 +107,9 @@ $jumbotron-bg: theme-color("dark");
 
 //NOTE: ADD SASS or CSS to this section of the doc, esp extra classes/ id styles
 //General style changes should override bootstrap defaults above the @import "bootstrap"; statement
-
+.btn-light{
+  color: theme-color("primary");
+}
 .bg-dark-secondary{
   background-color:theme-color("dark-secondary");
 }
@@ -118,7 +122,7 @@ $jumbotron-bg: theme-color("dark");
   background-color:theme-color("dark-secondary");
 }
 .btn-light-primary{
-  color: theme-color("light");
+  color: $white;
   background-color:theme-color("light-primary");
   border-color: theme-color("light-primary");
 
