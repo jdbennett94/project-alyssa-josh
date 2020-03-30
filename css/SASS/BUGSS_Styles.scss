@@ -18,7 +18,7 @@ $theme-colors: (
   "info": #313d6e,
   "light": #ece9f0,//#F6F6F8,
   "dark": #1c2249,//#221d41,
-  "dark-secondary": #1d214b,
+  "dark-secondary": #FFF,
   //"grey": #999999,
   "light-primary": #ad98ba
 
@@ -110,6 +110,9 @@ $jumbotron-bg: theme-color("dark");
 .btn-light{
   color: theme-color("primary");
 }
+.bg-black{
+  background-color: #000;
+}
 .bg-dark-secondary{
   background-color:theme-color("dark-secondary");
 }
@@ -132,4 +135,10 @@ $jumbotron-bg: theme-color("dark");
   background-color:theme-color("dark");
   color: theme-color("light-primary") !important;
 
+}
+.link-light{
+  color: theme-color("light")
+}
+.link-light:hover{
+  color: theme-color("light-primary")
 }
