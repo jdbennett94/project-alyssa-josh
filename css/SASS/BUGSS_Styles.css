@@ -2784,4 +2784,6 @@ a.text-light-primary:hover, a.text-light-primary:focus { color: #896a9b !importa
 
 .link-light:hover { color: #ad98ba; }
 
+.logoNav { height: 15vh; min-height: inherit; }
+
 /*# sourceMappingURL=BUGSS_Styles.css.map */
