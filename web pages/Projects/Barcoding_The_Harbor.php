@@ -2,11 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Barcoding The Harbor</title>
   </head>
   <body>
-
-    Testing commit changes
 
   </body>
 </html>
