@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Master Stylesheet -->
-    <link rel="stylesheet" href="css/SASS/BUGSS_Styles.css">
+    <link rel="stylesheet" href="../../css/SASS/BUGSS_Styles.css">
 
     <!-- CDNs for Bootstrap and jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -12,22 +12,22 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Favicon Settings for Different Devices -->
-    <link rel="apple-touch-icon" sizes="57x57" href="media/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="media/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="media/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="media/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="media/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="media/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="media/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="media/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="media/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="media/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="media/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="media/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="media/favicon/favicon-16x16.png">
-    <link rel="manifest" href="media/favicon/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="../../media/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../media/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../media/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../media/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../media/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../media/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../media/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../media/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../media/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../media/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../media/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../media/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../media/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../media/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="media/favicon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="../../media/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
     <!--font awesome cdn for social Buttons-->
@@ -40,7 +40,7 @@
     <!--TODO: We can decide to use dropdowns or another popup or make them click through.-->
     <!--NAVBAR-->
     <nav class="navbar navbar-light navbar-expand-lg bg-white">
-      <a class="navbar-brand" href="#"><img class="logoNav" src="media/bugsslogo-square300.png"></a>
+      <a class="navbar-brand" href="#"><img class="logoNav" src="../../media/bugsslogo-square300.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -90,21 +90,21 @@
 
     <ul class="nav nav-fill nav-pills bg-black" id="pills-tab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link text-white" id="pills-upcoming-tab" data-toggle="pill" href="#pills-upcoming" role="tab" aria-controls="pills-upcoming" aria-selected="true">Upcoming Events</a>
+        <a class="nav-link text-white active" id="pills-upcoming-tab" data-toggle="pill" href="#pills-upcoming" role="tab" aria-controls="pills-upcoming" aria-selected="true">Upcoming Events</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white active" id="pills-seminars-tab" data-toggle="pill" href="#pills-seminars" role="tab" aria-controls="pills-seminars" aria-selected="false">Past Seminars</a>
+        <a class="nav-link text-white" id="pills-seminars-tab" data-toggle="pill" href="#pills-seminars" role="tab" aria-controls="pills-seminars" aria-selected="false">Past Seminars</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-white" id="pills-courses-tab" data-toggle="pill" href="#pills-courses" role="tab" aria-controls="pills-courses" aria-selected="false">Past Courses</a>
       </li>
     </ul>
     <div class="tab-content container-fluid bg-white" id="pills-tabContent">
-      <div class="tab-pane fade " id="pills-upcoming" role="tabpanel" aria-labelledby="pills-upcoming-tab">
+      <div class="tab-pane fade show active" id="pills-upcoming" role="tabpanel" aria-labelledby="pills-upcoming-tab">
         <h1 class="display-4"> Upcoming Events </h1>
         <p> Eventbrite data here </p>
       </div>
-      <div class="tab-pane fade show active" id="pills-seminars" role="tabpanel" aria-labelledby="pills-seminars-tab">
+      <div class="tab-pane fade" id="pills-seminars" role="tabpanel" aria-labelledby="pills-seminars-tab">
         <h1 class="display-4"> Past Seminars </h1>
         <p class="container-fluid lead">BUGSS hosts an ever-changing array of seminars, Open Mic nights, open houses, and workshops. Our Eventbrite page has the most current listing of seminars, workshops, and courses.</p>
 
