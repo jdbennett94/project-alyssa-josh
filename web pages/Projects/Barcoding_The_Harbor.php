@@ -103,10 +103,10 @@
 
 
     <!--FOOTER Default BG/ACCENT TEXT-->
-    <footer>
+    <footer class="border-top">
       <!-- Add font awesome icons -->
-      <hr>
-      <div class="row justify-content-around text-center">
+
+      <div class="row justify-content-around text-center mt-3">
         <div class="col text-secondary">
           Address: <br>
           101 North Haven Street,<br>
