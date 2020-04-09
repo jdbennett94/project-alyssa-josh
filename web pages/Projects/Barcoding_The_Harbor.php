@@ -40,7 +40,7 @@
     <!--TODO: Update Active classes on links if applicable-->
     <!--NAVBAR-->
     <nav class="navbar navbar-light navbar-expand-lg bg-white">
-      <a class="navbar-brand" href="#"><img class="logoNav" src="../../media/bugsslogo-square300.png"></a>
+      <a class="navbar-brand" href="../index.html"><img class="logoNav" src="../../media/bugsslogo-square300.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -48,16 +48,16 @@
       <div class="collapse navbar-collapse" id="navbarColor02">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="../About/About_Landing_Page.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               About
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Donors and Sponsors</a>
-              <a class="dropdown-item" href="#">FAQ</a>
+              <a class="dropdown-item" href="../About/Donors_and_Sponsors.html">Donors and Sponsors</a>
+              <a class="dropdown-item" href="../About/FAQs.html">FAQ</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Membership</a>
+            <a class="nav-link" href="../Membership/Membership_Landing.html">Membership</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="Projects_Landing_page.html">
@@ -65,16 +65,16 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">For Scientists</a>
+            <a class="nav-link" href="../Scientists/Scientists_Landing.html">For Scientists</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">For Community Members</a>
+            <a class="nav-link" href="../Community/Community_Landing.html">For Community Members</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">For Kids and Parents</a>
+            <a class="nav-link" href="../Kids/Kids_Landing.html">For Kids and Parents</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Support Us</a>
+            <a class="nav-link" href="../Support/Support_Us_Landing.html">Support Us</a>
           </li>
         </ul>
         <!--<form class="form-inline" method="get" action="../search.php">
