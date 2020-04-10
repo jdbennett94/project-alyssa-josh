@@ -14,7 +14,7 @@ Design Specification Doc: https://docs.google.com/document/d/1TyseOpcyrWaspyxnvL
 Testing Specification Doc: https://docs.google.com/document/d/1sGmcwcQPlwAZxTIQhg5IIgr6aG_ARqPyzFMb-GpL9KU/edit?usp=sharing
 
 
-**Project Key Points**\n
+**Project Key Points**  
 Overview of the Project -- The purpose of this project is to redesign and perform an overhaul of the Baltimore Underground Science Space website (bugssonline.org)
 
 **Implemented Features --**

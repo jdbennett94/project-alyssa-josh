@@ -36,7 +36,7 @@
     <title>Barcoding The Harbor</title>
 
   </head>
-  <body class="bg-black">
+  <body>
     <!--TODO: Update Active classes on links if applicable-->
     <!--NAVBAR-->
     <nav class="navbar navbar-light navbar-expand-lg bg-white">
@@ -93,17 +93,85 @@
       </li>
     </ul>
 
+<hr>
 
+<div class="container">
+<p>Barcoding the Harbor is a collaborative, community project between BUGSS, IMET (The Institute of Marine and
+  Environmental Technology) and the National Aquarium.  </p>
+</div>
 
+Images
 
+<div class="container">
+<h3>What are we doing, and why?</h3>
+<p>Let’s face it: the Inner Harbor has seen better days. No one, including mussels, fish, blue crabs, and people,
+  likes the sights of the “fragrant” waters.</p>
+</div>
 
+Images
+
+<div class="container">
+<p>Understanding what calls the Inner Harbor home is an important step in making the Harbor a better place for everybody.
+  We can get a deeper sense of the Inner Harbor’s health over time by sampling and analyzing it at regular intervals.
+  We do this by placing biodisks in the water and sampling what is living on them every month. </p>
+</div>
+
+Images
+
+<div class="container">
+  <p>We then use the microscope and advanced DNA analysis to identify what organisms are present. We can use this data to
+    find ways to effect positive changes on the Harbor so we can more fully use this natural resource.</p>
+</div>
+
+IMages
+
+<div class="container">
+  <p>We want to know if the community of aquatic animals varies in locations with different watersheds and shorelines,
+    such as areas of suburban runoff, industrial legacy pollutants, or restoration activities. The project is therefore
+    expanding and sampling 6 sites around the Chesapeake Bay.</p>
+</div>
+
+Image
+
+<div class="container">
+  <h3>What do we mean by barcoding</h3>
+  <p>Simply that when we read the DNA of an organism, we can use that DNA code to identify the organism, similar to the way
+    that store scanner can read the
+    barcode of an item and use that code to identify the item. </p>
+</div>
+
+Images
+
+<div class="container">
+<h4>Meet The Team</h4>
+<p>Our research team includes media & social artists, nature enthusiasts, civic
+scientists, and students. Our activities involve understanding the history of the Harbor,
+establishing ways to sustain the health of the Harbor, counting & identifying organisms,
+preparation of samples for DNA extraction, analyzing the DNA sequences, and visualizing and
+disseminating our findings to the public. We welcome new members to join the team and new
+extensions for the project that would
+help us to sustain the health of our interconnected ecosystem.</p>
+</div>
+
+Images
+
+<div class="container">
+  <h3>Interested in joining our motley group of scientists, artists, computational experts, and interested hobbyists?</h3>
+  <p>Join us at the Baltimore Underground Science Space to learn new skills, meet new people, and be a part
+    of a positive change in Baltimore! </p>
+
+    <h4 class="text-center">Email Lisa at lscheifele@bugssonline.org for info and to get involved! </h4>
+
+</div>
+
+images
 
 
 
 
 
     <!--FOOTER Default BG/ACCENT TEXT-->
-    <footer class="border-top">
+    <footer class="border-top bg-black">
       <!-- Add font awesome icons -->
 
       <div class="row justify-content-around text-center mt-3">
