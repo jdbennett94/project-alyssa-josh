@@ -10,10 +10,10 @@ Software Specification Doc: https://docs.google.com/document/d/1k7awqzBPn_TgLird
 
 Design Specification Doc: https://docs.google.com/document/d/1TyseOpcyrWaspyxnvLeIHX8_-XtckKfLsNu6xJEAKUs/edit?usp=sharing
 
-Testing Specification Doc:
+Testing Specification Doc: https://docs.google.com/document/d/1sGmcwcQPlwAZxTIQhg5IIgr6aG_ARqPyzFMb-GpL9KU/edit?usp=sharing
 
 
-**Project Key Points** 
+**Project Key Points**
 Overview of the Project -- describe the purpose of project
 Implemented Features -- list the features that have been implemented in the current version. You should update this part of the README as you implement features.
 
