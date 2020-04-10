@@ -1,7 +1,7 @@
-CS496 Capstone Project \n
-Client: Dr. Lisa Scheifele\n
-BUGSS Website - Alyssa Schilke & Josh Bennett\n
-Goal: To update, refresh, and re-contextualize large portions of the Baltimore Underground Science Space Website\n
+CS496 Capstone Project  
+Client: Dr. Lisa Scheifele  
+BUGSS Website - Alyssa Schilke & Josh Bennett  
+Goal: To update, refresh, and re-contextualize large portions of the Baltimore Underground Science Space Website  
 
 **Documentions**
 
