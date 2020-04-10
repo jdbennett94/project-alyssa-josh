@@ -1,9 +1,10 @@
-CS496 Capstone Project
-Client: Dr. Lisa Scheifele
-BUGSS Website - Alyssa Schilke & Josh Bennett
-Goal: To update, refresh, and re-contextualize large portions of the Baltimore Underground Science Space Website
+CS496 Capstone Project \n
+Client: Dr. Lisa Scheifele\n
+BUGSS Website - Alyssa Schilke & Josh Bennett\n
+Goal: To update, refresh, and re-contextualize large portions of the Baltimore Underground Science Space Website\n
 
 **Documentions**
+
 Proposal: https://docs.google.com/document/d/12TbOZMTU15mCxTezGNSLiZwZjOzIOsaWnHSR97uG0Os/edit
 
 Software Specification Doc: https://docs.google.com/document/d/1k7awqzBPn_TgLirdE0IJmUTtXoErDJqY5Rz0Lldsuu0/edit?usp=sharing
@@ -13,7 +14,7 @@ Design Specification Doc: https://docs.google.com/document/d/1TyseOpcyrWaspyxnvL
 Testing Specification Doc: https://docs.google.com/document/d/1sGmcwcQPlwAZxTIQhg5IIgr6aG_ARqPyzFMb-GpL9KU/edit?usp=sharing
 
 
-**Project Key Points**
+**Project Key Points**\n
 Overview of the Project -- The purpose of this project is to redesign and perform an overhaul of the Baltimore Underground Science Space website (bugssonline.org)
 
 **Implemented Features --**
