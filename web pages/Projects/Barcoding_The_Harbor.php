@@ -48,16 +48,16 @@
       <div class="collapse navbar-collapse" id="navbarColor02">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="About/About_Landing_Page.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               About
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Donors and Sponsors</a>
-              <a class="dropdown-item" href="#">FAQ</a>
+              <a class="dropdown-item" href="About/Donors_and_Sponsors.html">Donors and Sponsors</a>
+              <a class="dropdown-item" href="About/FAQs.html">FAQ</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Membership</a>
+            <a class="nav-link" href="Membership/Membership_Landing.html">Membership</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="Projects_Landing_page.html">
@@ -65,16 +65,16 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">For Scientists</a>
+            <a class="nav-link" href="Scientists/Scientists_Landing.html">For Scientists</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">For Community Members</a>
+            <a class="nav-link" href="Community/Community_Landing.html">For Community Members</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">For Kids and Parents</a>
+            <a class="nav-link" href="Kids/Kids_Landing.html">For Kids and Parents</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Support Us</a>
+            <a class="nav-link" href="Support/Support_Us_Landing.html">Support Us</a>
           </li>
         </ul>
         <!--<form class="form-inline" method="get" action="../search.php">
@@ -93,30 +93,54 @@
       </li>
     </ul>
 
+<div class="container shadow jumbotron-secondary w-100 mx-auto">
+    <div class="row">
+      <div class="container">
+        <br>
+      <p>Barcoding the Harbor is a collaborative, community project between BUGSS, IMET (The Institute of Marine and
+        Environmental Technology) and the National Aquarium.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col" style="width:33%">
+       <img src="../../media/IMETLogo.jpg" class="img-fluid" alt="IMET Business logo">
+     </div>
+     <div class="col" style="width:33%">
+      <img src="../../media/bugsslog.png" class="img-fluid"  alt="BUGSS Organism Logo">
+    </div>
+    <div class="col" style="width:33%">
+     <img src="../../media/NatAquarium.png" class="img-fluid" alt="">
+   </div>
+  </div>
+</div>
+
 <hr>
 
-<div class="container">
-<p>Barcoding the Harbor is a collaborative, community project between BUGSS, IMET (The Institute of Marine and
-  Environmental Technology) and the National Aquarium.  </p>
+<div class="container row">
+  <div class="col">
+    <h3>What are we doing, and why?</h3>
+    <p>Let’s face it: the Inner Harbor has seen better days. No one, including mussels, fish, blue crabs, and people,
+      likes the sights of the “fragrant” waters.</p>
+  </div>
+  <div class="col">
+    Images
+  </div>
 </div>
 
-Images
+<hr>
 
-<div class="container">
-<h3>What are we doing, and why?</h3>
-<p>Let’s face it: the Inner Harbor has seen better days. No one, including mussels, fish, blue crabs, and people,
-  likes the sights of the “fragrant” waters.</p>
+<div class="container row">
+  <div class="col">
+    <p>Understanding what calls the Inner Harbor home is an important step in making the Harbor a better place for everybody.
+      We can get a deeper sense of the Inner Harbor’s health over time by sampling and analyzing it at regular intervals.
+      We do this by placing biodisks in the water and sampling what is living on them every month. </p>
+  </div>
+  <div class="col">
+    Images
+  </div>
 </div>
 
-Images
-
-<div class="container">
-<p>Understanding what calls the Inner Harbor home is an important step in making the Harbor a better place for everybody.
-  We can get a deeper sense of the Inner Harbor’s health over time by sampling and analyzing it at regular intervals.
-  We do this by placing biodisks in the water and sampling what is living on them every month. </p>
-</div>
-
-Images
+<hr>
 
 <div class="container">
   <p>We then use the microscope and advanced DNA analysis to identify what organisms are present. We can use this data to
@@ -124,6 +148,8 @@ Images
 </div>
 
 IMages
+
+<hr>
 
 <div class="container">
   <p>We want to know if the community of aquatic animals varies in locations with different watersheds and shorelines,
@@ -133,6 +159,8 @@ IMages
 
 Image
 
+<hr>
+
 <div class="container">
   <h3>What do we mean by barcoding</h3>
   <p>Simply that when we read the DNA of an organism, we can use that DNA code to identify the organism, similar to the way
@@ -141,6 +169,8 @@ Image
 </div>
 
 Images
+
+<hr>
 
 <div class="container">
 <h4>Meet The Team</h4>
@@ -155,6 +185,8 @@ help us to sustain the health of our interconnected ecosystem.</p>
 
 Images
 
+<hr>
+
 <div class="container">
   <h3>Interested in joining our motley group of scientists, artists, computational experts, and interested hobbyists?</h3>
   <p>Join us at the Baltimore Underground Science Space to learn new skills, meet new people, and be a part
@@ -165,6 +197,8 @@ Images
 </div>
 
 images
+
+<hr>
 
 
 
