@@ -36,6 +36,53 @@
     <!--font awesome cdn for social Buttons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <style>
+        .modal-dialog {
+        max-width: 800px;
+        margin: 30px auto;
+        }
+        .modal-body {
+        position:relative;
+        padding:0px;
+        }
+        .close {
+        position:absolute;
+        right:-30px;
+        top:0;
+        z-index:999;
+        font-size:2rem;
+        font-weight: normal;
+        color:#fff;
+        opacity:1;
+        }
+    </style>
+
+    <script type="text/javascript">
+      //Script to play video in modal view partially sourced from https://codepen.io/JacobLett/pen/xqpEYE
+      $(document).ready(function() {
+          // Gets the video src from the data-src on each button
+          var $videoSrc;
+          $('.video-btn').click(function() {
+            $videoSrc = $(this).data( "src" );
+          });
+          console.log($videoSrc);
+
+          // when the modal is opened autoplay it
+          $('#myModal').on('shown.bs.modal', function (e) {
+
+          // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+          $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
+          })
+
+          // stop playing the youtube video when I close the modal
+          $('#myModal').on('hide.bs.modal', function (e) {
+            // a poor man's stop video
+            $("#video").attr('src',$videoSrc);
+          })
+      // document ready
+      });
+    </script>
+
     <title>Baltimore Undergound Science Space Online</title>
   </head>
 <body>
@@ -104,8 +151,8 @@
           <p>BUGSS is a non-profit public laboratory offering classes, seminars, and lab access so that anyone can safely and affordably investigate the living world.
             By democratizing these technologies we hope to facilitate more nuanced dialogue and exploration of the incredible potential, as well as limitations and
             ethical issues.</p>
-            <h5>Click here to learn more</h5>
-            <button type="button" class="btn btn-secondary" name="button"> Learn More </button>
+            <button type="button" class="btn btn-secondary video-btn" data-toggle="modal" data-target="#myModal" name="button" data-src="https://bugssonline.org/wp-content/uploads/2018/12/BUGSS_presentation_720p.mp4">
+              Click Here To Learn More </button>
         </div>
         <div class="col">
         <div id="carouselExampleSlidesOnly" class="carousel slide"  data-ride="carousel" data-interval="5000">
@@ -139,7 +186,38 @@
 <hr>
 
 <div class="container">
-  <p>Brought to you by these fine sponsors</p>
+  <!-- Modal Fromatted From Source Code From https://codepen.io/JacobLett/pen/xqpEYE -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <p class="text-center">Brought to you by these fine sponsors</p>
+  <br>
+  <div class="row">
+    <div class="col">
+      <img class="img-fluid" src="../media/WRLogo.png" alt="VWR Business Logo">
+    </div>
+    <div class="col">
+      <img class="img-fluid" src="../media/RobertDeutchLogo.png" alt="Robert W. Deutsch Foundation Logo">
+    </div>
+    <div class="col">
+      <img class="img-fluid" src="../media/BDCompanyLogo.png" alt="BD Company Logo">
+    </div>
+  </div>
 </div>
 
 <hr>
