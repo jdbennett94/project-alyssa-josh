@@ -93,9 +93,6 @@
       </li>
     </ul>
 
-<!--This Div tag is for toggleable show of web page elements save for selectable org tiles and chart -->
-<div id="ClickAwaySection">
-
 <div class="container shadow jumbotron-secondary w-100 mx-auto">
     <div class="row">
       <div class="container">
@@ -141,6 +138,10 @@
 </script>
 
 <hr>
+
+<!--This Div tag is for toggleable show of web page elements save for selectable org tiles and chart -->
+<div id="ClickAwaySection">
+
 
 <div class="container">
   <div class="row">
@@ -226,10 +227,10 @@
 <div class="container">
   <div class="row">
     <div class="col align-self-center">
-      <img class="img-fluid img-responsive" src="../../media/AnalysisOfSamples.jpg" alt="">
+      <img class="img-fluid img-responsive" src="../../media/AnalysisOfSamples.jpg" alt="scientist analzing biology samples with microscope and monitor">
     </div>
     <div class="col align-self-center">
-      <img class="img-fluid img-responsive" src="../../media/PiperAnalysisOfSamples.jpg" alt="">
+      <img class="img-fluid img-responsive" src="../../media/PiperAnalysisOfSamples.jpg" alt="group of scientists piping smaples into test tubes around a table">
     </div>
   </div>
 </div>
@@ -237,51 +238,119 @@
 <hr>
 
 <div class="container">
-  <p>We want to know if the community of aquatic animals varies in locations with different watersheds and shorelines,
-    such as areas of suburban runoff, industrial legacy pollutants, or restoration activities. The project is therefore
-    expanding and sampling 6 sites around the Chesapeake Bay.</p>
+  <div class="row">
+        <p>We want to know if the community of aquatic animals varies in locations with different watersheds and shorelines,
+          such as areas of suburban runoff, industrial legacy pollutants, or restoration activities. The project is therefore
+          expanding and sampling 6 sites around the Chesapeake Bay.</p>
+  </div>
+  <div class="row text-center">
+      <figure>
+        <img class="img-fluid img-responsive" src="../../media/SamplingMap.jpg" alt='map of sampling area for biolofgical components' />
+        <figcaption>Sampling sites are denoted by red markers</figcaption>
+      </figure>
+  </div>
 </div>
 
-Image
 
 <hr>
 
 <div class="container">
-  <h3>What do we mean by barcoding</h3>
-  <p>Simply that when we read the DNA of an organism, we can use that DNA code to identify the organism, similar to the way
-    that store scanner can read the
-    barcode of an item and use that code to identify the item. </p>
+  <h3 class="text-center">What do we mean by barcoding</h3>
+  <div class="row">
+    <div class="col align-self-center">
+      <p>Simply that when we read the DNA of an organism, we can use that DNA code to identify the organism, similar to the way
+        that store scanner can read the
+        barcode of an item and use that code to identify the item. </p>
+    </div>
+    <div class="col align-self-center">
+        <img class="img-fluid img-responsive" src="../../media/BarcodingCrabImage.png" alt="">
+    </div>
+  </div>
+
 </div>
 
-Images
 
 <hr>
 
 <div class="container">
-<h4>Meet The Team</h4>
-<p>Our research team includes media & social artists, nature enthusiasts, civic
-scientists, and students. Our activities involve understanding the history of the Harbor,
-establishing ways to sustain the health of the Harbor, counting & identifying organisms,
-preparation of samples for DNA extraction, analyzing the DNA sequences, and visualizing and
-disseminating our findings to the public. We welcome new members to join the team and new
-extensions for the project that would
-help us to sustain the health of our interconnected ecosystem.</p>
+    <h4>Meet The Team</h4>
+    <p>Our research team includes media & social artists, nature enthusiasts, civic
+    scientists, and students. Our activities involve understanding the history of the Harbor,
+    establishing ways to sustain the health of the Harbor, counting & identifying organisms,
+    preparation of samples for DNA extraction, analyzing the DNA sequences, and visualizing and
+    disseminating our findings to the public. We welcome new members to join the team and new
+    extensions for the project that would
+    help us to sustain the health of our interconnected ecosystem.</p>
+    <div class="row text-center justify-content-center">
+      <div class="col">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/MoFavli.jpg" alt="">
+      </div>
+      <div class="col">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/DrSchefelde.jpg" alt="">
+      </div>
+      <div class="col">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/StephenB.jpg" alt="">
+      </div>
+      <div class="col">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/TrevorB.jpg" alt="">
+      </div>
+      <div class="col">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/EricS.jpg" alt="">
+      </div>
+      <div class="col">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/AndyJ.jpg" alt="">
+      </div>
+    </div>
+    <br>
+    <div class="row text-center justify-content-center">
+      <div class="col-2">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/Charmaine.jpg" alt="">
+      </div>
+      <div class="col-2">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/StevenS.jpg" alt="">
+      </div>
+      <div class="col-2">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/SairahS.jpg" alt="">
+      </div>
+      <div class="col-2">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/YongL.jpg" alt="">
+      </div>
+      <div class="col-2">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/TimB.jpg" alt="">
+      </div>
+    </div>
+    <br>
+    <div class="row img-center justify-content-center">
+      <div class="col-2">
+        <img class="img-fluid img-responsive" src="../../media/Headshots/You.png" alt="">
+      </div>
+    </div>
 </div>
 
-Images
+
 
 <hr>
 
 <div class="container">
-  <h3>Interested in joining our motley group of scientists, artists, computational experts, and interested hobbyists?</h3>
+  <h3 class="text-center">Interested in joining our motley group of scientists, artists, computational experts, and interested hobbyists?</h3>
   <p>Join us at the Baltimore Underground Science Space to learn new skills, meet new people, and be a part
     of a positive change in Baltimore! </p>
-
-    <h4 class="text-center">Email Lisa at lscheifele@bugssonline.org for info and to get involved! </h4>
-
+    <h4 class="text-center">Email Lisa <br>at lscheifele@bugssonline.org <br>for info and to get involved! </h4>
 </div>
 
-images
+<div class="container">
+  <div class="row">
+    <div class="col">
+        <img class="img-fluid img-responsive" src="../../media/GroupWork.jpg" alt="">
+    </div>
+    <div class="img-fluid img-responsive" class="col">
+        <img class="img-fluid img-responsive" src="../../media/GroupWork2.jpg" alt="">
+    </div>
+    <div class="img-fluid img-responsive" src="../../media/GroupWork3.jpg" lass="col">
+
+    </div>
+  </div>
+</div>
 
 
 </div>
@@ -290,7 +359,7 @@ images
 <hr>
 
 <div class="container text-center">
-    <h5>Missed or what to see the background and information on this project?</h5>
+    <h5>Missed or what to see the <br>background and information on this project?</h5>
     <!-- Button for toggle of elements -->
     <button class="btn btn-secondary" onclick="myFunction()">Click Here</button>
 </div>
