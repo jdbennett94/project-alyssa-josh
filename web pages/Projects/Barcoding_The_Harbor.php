@@ -119,14 +119,28 @@
 
 <hr>
 
-<div class="container row">
+<div class="container">
+  <div class="row">
   <div class="col">
     <h3>What are we doing, and why?</h3>
     <p>Let’s face it: the Inner Harbor has seen better days. No one, including mussels, fish, blue crabs, and people,
       likes the sights of the “fragrant” waters.</p>
   </div>
-  <div class="col">
-    Images
+    <div class="col">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 img-fluid" src="http://www.smilesaidtheriver.com/bugsswordpress2/wp-content/uploads/2017/06/baltimorebiocrew.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid pb-4 mb-2" src="https://bugssonline.org/wp-content/uploads/2017/07/youthprograms-e1498935986114.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid" src="https://bugssonline.org/wp-content/uploads/2019/05/FINAL_v33-1024x684.jpg" alt="Third slide">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
