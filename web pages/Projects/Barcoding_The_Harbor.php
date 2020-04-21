@@ -119,6 +119,9 @@
 
 <br>
 
+<!--This Div tag is for toggleable show of web page elements save for selectable org tiles and chart -->
+<div id="ClickAwaySection">
+
   <div class="container text-center">
     <h5>Click Here To See the Organisms and Data</h5>
     <!-- Button for toggle of elements -->
@@ -138,9 +141,6 @@
 </script>
 
 <hr>
-
-<!--This Div tag is for toggleable show of web page elements save for selectable org tiles and chart -->
-<div id="ClickAwaySection">
 
 
 <div class="container">
@@ -335,37 +335,53 @@
   <h3 class="text-center">Interested in joining our motley group of scientists, artists, computational experts, and interested hobbyists?</h3>
   <p>Join us at the Baltimore Underground Science Space to learn new skills, meet new people, and be a part
     of a positive change in Baltimore! </p>
-    <h4 class="text-center">Email Lisa <br>at lscheifele@bugssonline.org <br>for info and to get involved! </h4>
 </div>
 
 <div class="container">
   <div class="row">
     <div class="col">
-        <img class="img-fluid img-responsive" src="../../media/GroupWork.jpg" alt="">
+        <img class="img-fluid img-responsive" src="../../media/GroupWork.jpg" alt="Group work testing picture">
     </div>
-    <div class="img-fluid img-responsive" class="col">
-        <img class="img-fluid img-responsive" src="../../media/GroupWork2.jpg" alt="">
+    <div class="col">
+        <img class="img-fluid img-responsive" src="../../media/GroupWork2.jpg" alt="Another group workking on bio samples">
     </div>
-    <div class="img-fluid img-responsive" src="../../media/GroupWork3.jpg" lass="col">
-
+    <div class="col">
+        <img class="img-fluid img-responsive" src="../../media/GroupWork3.jpg" alt="People of all ages in lab learning">
     </div>
   </div>
+  <br>
+  <h4 class="text-center">Email Lisa <br>at <u>lscheifele@bugssonline.org</u> <br>for info and to get involved! </h4>
 </div>
 
 
-</div>
+</div> <!--This dev is for the toggle of viewable elements  -->
 
 
 <hr>
 
 <div class="container text-center">
-    <h5>Missed or what to see the <br>background and information on this project?</h5>
+    <h5>Missed or want to see the <br>background and information on this project?</h5>
     <!-- Button for toggle of elements -->
     <button class="btn btn-secondary" onclick="myFunction()">Click Here</button>
 </div>
 
 <hr>
 
+<div class="container shadow jumbotron-secondary">
+  <br>
+    <div class="row">
+      <div class="col align-self-center">
+        <h3>Thank You</h3>
+        <p>To our funders, the Chesapeake Bay Trust!</p>
+      </div>
+      <div class="col align-self-center">
+        <img class="img-fluid img-responsive" src="../../media/CBTrustPlate.png" alt="Chesapeake licencse plate">
+      </div>
+    </div>
+    <br>
+</div>
+
+<br>
     <!--FOOTER Default BG/ACCENT TEXT-->
     <footer class="border-top bg-black">
       <!-- Add font awesome icons -->
