@@ -3,11 +3,11 @@
 <html lang="en" dir="ltr">
   <head>
     <!-- set viewport to screen size -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
     <!-- Master Stylesheet -->
     <link rel="stylesheet" href="../css/SASS/BUGSS_Styles.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <!-- CDNs for Bootstrap and jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -15,77 +15,106 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Favicon Settings for Different Devices -->
-    <link rel="apple-touch-icon" sizes="57x57" href="../../media/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="../../media/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../../media/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="../../media/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../../media/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="../../media/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../../media/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="../../media/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../../media/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="../../media/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../media/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="../../media/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../../media/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../media/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../media/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../media/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../media/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../media/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../media/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../media/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../media/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../media/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../media/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../media/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../media/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../media/favicon/favicon-16x16.png">
     <link rel="manifest" href="../../media/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../../media/favicon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="../media/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
     <!--font awesome cdn for social Buttons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
-        .modal-dialog {
+      .modal-dialog {
         max-width: 800px;
         margin: 30px auto;
-        }
-        .modal-body {
-        position:relative;
-        padding:0px;
-        }
-        .close {
-        position:absolute;
-        right:-30px;
-        top:0;
-        z-index:999;
-        font-size:2rem;
+      }
+
+      .modal-body {
+        position: relative;
+        padding: 0px;
+      }
+
+      .close {
+        position: absolute;
+        right: -30px;
+        top: 0;
+        z-index: 999;
+        font-size: 2rem;
         font-weight: normal;
-        color:#fff;
-        opacity:1;
-        }
+        color: #fff;
+        opacity: 1;
+      }
+
+      /* The hero image */
+      .hero-image {
+        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../media/Ameoba Header.jpg");
+
+        /* Set a specific height */
+        height: 25vh;
+
+        /* Position and center the image to scale nicely on all screens */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      /* Place text in the middle of the image */
+      .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
     </style>
 
     <script type="text/javascript">
       //Script to play video in modal view partially sourced from https://codepen.io/JacobLett/pen/xqpEYE
       $(document).ready(function() {
-          // Gets the video src from the data-src on each button
-          var $videoSrc;
-          $('.video-btn').click(function() {
-            $videoSrc = $(this).data( "src" );
-          });
-          console.log($videoSrc);
-
-          // when the modal is opened autoplay it
-          $('#myModal').on('shown.bs.modal', function (e) {
-
+        // Gets the video src from the data-src on each button
+        var $videoSrc;
+        $('.video-btn').click(function() {
+          $videoSrc = $(this).data("src");
+        });
+        console.log($videoSrc);
+        // when the modal is opened autoplay it
+        $('#myModal').on('shown.bs.modal', function(e) {
           // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-          $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
-          })
+          $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        })
+        // stop playing the youtube video when I close the modal
+        $('#myModal').on('hide.bs.modal', function(e) {
+          // a poor man's stop video
+          debugger;
+          $("#video").attr('src', "");
 
-          // stop playing the youtube video when I close the modal
-          $('#myModal').on('hide.bs.modal', function (e) {
-            // a poor man's stop video
-            $("#video").attr('src',$videoSrc);
-          })
-      // document ready
+          //$("#video").attr('src', $videoSrc);
+
+        })
+
+        // document ready
       });
     </script>
 
     <title>Baltimore Undergound Science Space Online</title>
   </head>
-<body>
+  <body>
     <!--TODO: Update Active classes on links if applicable-->
     <!--TODO: We can decide to use dropdowns or another popup or make them click through.-->
     <!--NAVBAR-->
@@ -127,108 +156,91 @@
             <a class="nav-link" href="Support/Support_Us_Landing.html">Support Us</a>
           </li>
         </ul>
-        <!--<form class="form-inline" method="get" action="../search.php">
-          <input class="form-control mr-sm-2" type="search" name="query" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>-->
       </div>
     </nav>
 
-    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-      <img class="w3-image" src="../media/Ameoba Header.jpg" alt="BUGSS Online Banner" width="1500" height="800">
-      <div class="w3-display-middle w3-margin-top w3-center">
-        <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BUGSS</b></span> <span class="w3-hide-small w3-text-black">Baltimore Undeground Science Space</span></h1>
+    <div class="row hero-image" id="home">
+
+      <div class="container hero-text">
+        <h1><span class="text-white bg-primary p-2"><b>BUGSS</b></span> <span class="text-white">Baltimore Underground Science Space</span></h1>
       </div>
-    </header>
-
-<hr>
-
+    </div>
 
     <!-- Carasel Image -->
-  <div class="container jumbotron-fluid">
+    <div class="container mt-3">
       <div class="row">
         <div class="col">
           <p>BUGSS is a non-profit public laboratory offering classes, seminars, and lab access so that anyone can safely and affordably investigate the living world.
             By democratizing these technologies we hope to facilitate more nuanced dialogue and exploration of the incredible potential, as well as limitations and
             ethical issues.</p>
-            <button type="button" class="btn btn-secondary video-btn" data-toggle="modal" data-target="#myModal" name="button" data-src="https://bugssonline.org/wp-content/uploads/2018/12/BUGSS_presentation_720p.mp4">
-              Click Here To Learn More </button>
+          <button type="button" class="btn btn-secondary video-btn" data-toggle="modal" data-target="#myModal" name="button" data-src="https://bugssonline.org/wp-content/uploads/2018/12/BUGSS_presentation_720p.mp4">
+            Learn More </button>
         </div>
         <div class="col">
-        <div id="carouselExampleSlidesOnly" class="carousel slide"  data-ride="carousel" data-interval="5000">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100 img-fluid" src="http://www.smilesaidtheriver.com/bugsswordpress2/wp-content/uploads/2017/06/baltimorebiocrew.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100 img-fluid" src="https://bugssonline.org/wp-content/uploads/2017/07/youthprograms-e1498935986114.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100 img-fluid" src="https://bugssonline.org/wp-content/uploads/2019/05/FINAL_v33-1024x684.jpg" alt="Third slide">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 img-fluid" src="http://www.smilesaidtheriver.com/bugsswordpress2/wp-content/uploads/2017/06/baltimorebiocrew.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="https://bugssonline.org/wp-content/uploads/2017/07/youthprograms-e1498935986114.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="https://bugssonline.org/wp-content/uploads/2019/05/FINAL_v33-1024x684.jpg" alt="Third slide">
+              </div>
             </div>
           </div>
         </div>
-        </div>
+      </div>
     </div>
-  </div>
 
-<br>
+    <br>
 
-<hr>
+    <hr>
 
-<div class="container text-center">
-  <h4>Click here to learn how to become a member</h4>
-  <a href="Membership/Membership_Landing.html">
-    <button type="button" class="btn btn-primary" href="Membership/Membership_Landing.html" name="button">Membership Options</button>
-  </a>
-</div>
+    <div class="container text-center">
+      <a href="Membership/Membership_Landing.html">
+        <button type="button" class="btn btn-primary" href="Membership/Membership_Landing.html" name="button">Membership Opportunities</button>
+      </a>
+    </div>
 
-<hr>
+    <hr>
 
-<div class="container">
-  <!-- Modal Fromatted From Source Code From https://codepen.io/JacobLett/pen/xqpEYE -->
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-          <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+    <div class="container">
+      <!-- Modal Fromatted From Source Code From https://codepen.io/JacobLett/pen/xqpEYE -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <!-- 16:9 aspect ratio -->
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+              </div>
             </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<div class="container">
-  <p class="text-center">Brought to you by these fine sponsors</p>
-  <br>
-  <div class="row">
-    <div class="col">
-      <img class="img-fluid" src="../media/WRLogo.png" alt="VWR Business Logo">
+    <div class="container mb-3">
+      <p class="text-center">Brought to you by these fine sponsors</p>
+      <br>
+      <div class="row">
+        <div class="col">
+          <img class="img-fluid" src="../media/WRLogo.png" alt="VWR Business Logo">
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="../media/RobertDeutchLogo.png" alt="Robert W. Deutsch Foundation Logo">
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="../media/BDCompanyLogo.png" alt="BD Company Logo">
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <img class="img-fluid" src="../media/RobertDeutchLogo.png" alt="Robert W. Deutsch Foundation Logo">
-    </div>
-    <div class="col">
-      <img class="img-fluid" src="../media/BDCompanyLogo.png" alt="BD Company Logo">
-    </div>
-  </div>
-</div>
 
-<hr>
-
-
-
-
-
-
-
-    <!--FOOTER Default BG/ACCENT TEXT-->
     <footer class="border-top bg-black">
       <!-- Add font awesome icons -->
 
@@ -250,4 +262,5 @@
       </div>
     </footer>
   </body>
+
 </html>
