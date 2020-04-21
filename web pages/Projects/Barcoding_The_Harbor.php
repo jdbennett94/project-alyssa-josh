@@ -147,6 +147,11 @@
   <div class="row">
     <div class="col align-self-center">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="0">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
         <div class="carousel-inner">
             <div class="carousel-item active" style="height: 40vh;">
               <img src="../../media/BioDisk Pipe.jpg" class="d-block w-100 img-fluid img-responsive" alt="A barnacled biodisk pipe">
@@ -179,7 +184,7 @@
       </div>
     </div>
     <div class="col align-self-center">
-      <p>Understanding what calls the Inner Harbor home is an important step in making the Harbor a better place for everybody.
+      <p class="text-center">Understanding what calls the Inner Harbor home is an important step in making the Harbor a better place for everybody.
         We can get a deeper sense of the Inner Harbor’s health over time by sampling and analyzing it at regular intervals.
         We do this by placing biodisks in the water and sampling what is living on them every month. </p>
     </div>
@@ -189,11 +194,22 @@
 <hr>
 
 <div class="container">
-  <p>We then use the microscope and advanced DNA analysis to identify what organisms are present. We can use this data to
-    find ways to effect positive changes on the Harbor so we can more fully use this natural resource.</p>
+  <div class="jumbotron bg-primary shadow">
+    <p class="lead text-light">We then use the microscope and advanced DNA analysis to identify what organisms are present. We can use this data to
+      find ways to effect positive changes on the Harbor so we can more fully use this natural resource.</p>
+  </div>
 </div>
-
-IMages
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col align-self-center">
+      <img class="img-fluid img-responsive" src="../../media/AnalysisOfSamples.jpg" alt="">
+    </div>
+    <div class="col align-self-center">
+      <img class="img-fluid img-responsive" src="../../media/PiperAnalysisOfSamples.jpg" alt="">
+    </div>
+  </div>
+</div>
 
 <hr>
 
