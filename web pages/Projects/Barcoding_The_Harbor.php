@@ -102,15 +102,18 @@
       </div>
     </div>
     <div class="row">
-      <div class="col" style="width:33%">
+      <div class="col" style="width:25%">
        <img src="../../media/IMETLogo.jpg" class="img-fluid" alt="IMET Business logo">
      </div>
-     <div class="col" style="width:33%">
+     <div class="col" style="width:25%">
       <img src="../../media/bugsslog.png" class="img-fluid"  alt="BUGSS Organism Logo">
     </div>
-    <div class="col" style="width:33%">
-     <img src="../../media/NatAquarium.png" class="img-fluid" alt="">
+    <div class="col" style="width:25%">
+     <img src="../../media/NatAquarium.png" class="img-fluid" alt="national aquarium logo">
    </div>
+   <div class="col" style="width:25%">
+    <img src="../../media/seagrant_logo.png" class="img-fluid" alt="sea grant logo">
+  </div>
   </div>
 </div>
 
