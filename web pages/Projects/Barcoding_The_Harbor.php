@@ -121,22 +121,20 @@
 
 <div class="container">
   <div class="row">
-  <div class="col">
-    <h3>What are we doing, and why?</h3>
-    <p>Let’s face it: the Inner Harbor has seen better days. No one, including mussels, fish, blue crabs, and people,
-      likes the sights of the “fragrant” waters.</p>
-  </div>
-    <div class="col">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <div class="col align-self-center">
+      <h3>What are we doing, and why?</h3>
+      <br>
+      <p>Let’s face it: the Inner Harbor has seen better days. No one, including mussels, fish, blue crabs, and people,
+        likes the sights of the “fragrant” waters.</p>
+    </div>
+    <div class="col align-self-center">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="7000">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100 img-fluid" src="http://www.smilesaidtheriver.com/bugsswordpress2/wp-content/uploads/2017/06/baltimorebiocrew.jpg" alt="First slide">
+          <div class="carousel-item active" style="height: 25vh;">
+            <img class="d-block w-100 img-fluid img-responsive" src="../../media/Trashy McBoatface.jpg" alt="First slide">
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-fluid pb-4 mb-2" src="https://bugssonline.org/wp-content/uploads/2017/07/youthprograms-e1498935986114.jpg" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-fluid" src="https://bugssonline.org/wp-content/uploads/2019/05/FINAL_v33-1024x684.jpg" alt="Third slide">
+          <div class="carousel-item" style="height: 25vh;">
+            <img class="d-block w-100 pb-4 mb-2 img-fluid img-responsive" src="../../media/Picking Up Grabage.jpg" alt="Second slide">
           </div>
         </div>
       </div>
@@ -146,15 +144,17 @@
 
 <hr>
 
-<div class="container row">
-  <div class="col">
-    <p>Understanding what calls the Inner Harbor home is an important step in making the Harbor a better place for everybody.
-      We can get a deeper sense of the Inner Harbor’s health over time by sampling and analyzing it at regular intervals.
-      We do this by placing biodisks in the water and sampling what is living on them every month. </p>
-  </div>
+<div class="container">
+  <div class="row">
+    <div class="col align-self-center">
+      <p>Understanding what calls the Inner Harbor home is an important step in making the Harbor a better place for everybody.
+        We can get a deeper sense of the Inner Harbor’s health over time by sampling and analyzing it at regular intervals.
+        We do this by placing biodisks in the water and sampling what is living on them every month. </p>
+    </div>
   <div class="col">
     Images
   </div>
+</div>
 </div>
 
 <hr>
