@@ -123,12 +123,11 @@
   <div class="row">
     <div class="col align-self-center">
       <h3>What are we doing, and why?</h3>
-      <br>
       <p>Let’s face it: the Inner Harbor has seen better days. No one, including mussels, fish, blue crabs, and people,
         likes the sights of the “fragrant” waters.</p>
     </div>
     <div class="col align-self-center">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="7000">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="10000">
         <div class="carousel-inner">
           <div class="carousel-item active" style="height: 25vh;">
             <img class="d-block w-100 img-fluid img-responsive" src="../../media/Trashy McBoatface.jpg" alt="First slide">
@@ -147,13 +146,43 @@
 <div class="container">
   <div class="row">
     <div class="col align-self-center">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="0">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 40vh;">
+              <img src="../../media/BioDisk Pipe.jpg" class="d-block w-100 img-fluid img-responsive" alt="A barnacled biodisk pipe">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>A Biodisk</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 40vh;">
+              <img src="../../media/Taking Samples.jpg" class="d-block w-100 img-fluid img-responsive" alt="Taking samples from the water">
+                <div class="carousel-caption d-none d-md-block">
+                  <p style="background-color:black;z-index:0;opacity:0.5;">Collecting sample from water</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 40vh;">
+              <img src="../../media/TakingSamplesCloser.jpg" class="d-block w-100 img-fluid img-responsive" alt="Taking samples from biodisk">
+                <div class="carousel-caption d-none d-md-block">
+                  <p style="background-color:black;z-index:0;opacity:0.5;">Collecting samples from the biodisk</p>
+                  <br>
+                </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div>
+    </div>
+    <div class="col align-self-center">
       <p>Understanding what calls the Inner Harbor home is an important step in making the Harbor a better place for everybody.
         We can get a deeper sense of the Inner Harbor’s health over time by sampling and analyzing it at regular intervals.
         We do this by placing biodisks in the water and sampling what is living on them every month. </p>
     </div>
-  <div class="col">
-    Images
-  </div>
 </div>
 </div>
 
