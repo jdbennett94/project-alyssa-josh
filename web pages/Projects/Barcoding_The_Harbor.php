@@ -93,6 +93,9 @@
       </li>
     </ul>
 
+<!--This Div tag is for toggleable show of web page elements save for selectable org tiles and chart -->
+<div id="ClickAwaySection">
+
 <div class="container shadow jumbotron-secondary w-100 mx-auto">
     <div class="row">
       <div class="container">
@@ -116,6 +119,26 @@
   </div>
   </div>
 </div>
+
+<br>
+
+  <div class="container text-center">
+    <h5>Click Here To See the Organisms and Data</h5>
+    <!-- Button for toggle of elements -->
+    <button class="btn btn-primary" onclick="myFunction()">Organisms & Data</button>
+  </div>
+
+<!--Script for button to hide/show elements -->
+<script type="text/javascript">
+    function myFunction() {
+        var x = document.getElementById("ClickAwaySection");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+    }
+</script>
 
 <hr>
 
@@ -260,11 +283,19 @@ Images
 
 images
 
+
+</div>
+
+
 <hr>
 
+<div class="container text-center">
+    <h5>Missed or what to see the background and information on this project?</h5>
+    <!-- Button for toggle of elements -->
+    <button class="btn btn-secondary" onclick="myFunction()">Click Here</button>
+</div>
 
-
-
+<hr>
 
     <!--FOOTER Default BG/ACCENT TEXT-->
     <footer class="border-top bg-black">
