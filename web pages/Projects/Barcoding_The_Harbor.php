@@ -102,108 +102,286 @@
       </div>
     </div>
     <div class="row">
-      <div class="col" style="width:33%">
+      <div class="col" style="width:25%">
        <img src="../../media/IMETLogo.jpg" class="img-fluid" alt="IMET Business logo">
      </div>
-     <div class="col" style="width:33%">
+     <div class="col" style="width:25%">
       <img src="../../media/bugsslog.png" class="img-fluid"  alt="BUGSS Organism Logo">
     </div>
-    <div class="col" style="width:33%">
-     <img src="../../media/NatAquarium.png" class="img-fluid" alt="">
+    <div class="col" style="width:25%">
+     <img src="../../media/NatAquarium.png" class="img-fluid" alt="national aquarium logo">
    </div>
+   <div class="col" style="width:25%">
+    <img src="../../media/seagrant_logo.png" class="img-fluid" alt="sea grant logo">
+  </div>
   </div>
 </div>
 
+<br>
+
+<!--This Div tag is for toggleable show of web page elements save for selectable org tiles and chart -->
+<div id="ClickAwaySection">
+
+  <div class="container text-center">
+    <h5>Click Here To See the Organisms and Data</h5>
+    <!-- Button for toggle of elements -->
+    <button class="btn btn-primary" onclick="myFunction()">Organisms & Data</button>
+  </div>
+
+<!--Script for button to hide/show elements -->
+<script type="text/javascript">
+    function myFunction() {
+        var x = document.getElementById("ClickAwaySection");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+    }
+</script>
+
 <hr>
 
-<div class="container row">
-  <div class="col">
-    <h3>What are we doing, and why?</h3>
-    <p>Let’s face it: the Inner Harbor has seen better days. No one, including mussels, fish, blue crabs, and people,
-      likes the sights of the “fragrant” waters.</p>
-  </div>
-  <div class="col">
-    Images
-  </div>
-</div>
 
-<hr>
-
-<div class="container row">
-  <div class="col">
-    <p>Understanding what calls the Inner Harbor home is an important step in making the Harbor a better place for everybody.
-      We can get a deeper sense of the Inner Harbor’s health over time by sampling and analyzing it at regular intervals.
-      We do this by placing biodisks in the water and sampling what is living on them every month. </p>
-  </div>
-  <div class="col">
-    Images
+<div class="container">
+  <div class="row">
+    <div class="col align-self-center">
+      <h3>What are we doing, and why?</h3>
+      <p>Let’s face it: the Inner Harbor has seen better days. No one, including mussels, fish, blue crabs, and people,
+        likes the sights of the “fragrant” waters.</p>
+    </div>
+    <div class="col align-self-center">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="10000">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="height: 25vh;">
+            <img class="d-block w-100 img-fluid img-responsive" src="../../media/Trashy McBoatface.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item" style="height: 25vh;">
+            <img class="d-block w-100 pb-4 mb-2 img-fluid img-responsive" src="../../media/Picking Up Grabage.jpg" alt="Second slide">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 <hr>
 
 <div class="container">
-  <p>We then use the microscope and advanced DNA analysis to identify what organisms are present. We can use this data to
-    find ways to effect positive changes on the Harbor so we can more fully use this natural resource.</p>
+  <div class="row">
+    <div class="col align-self-center">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="0">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 40vh;">
+              <img src="../../media/BioDisk Pipe.jpg" class="d-block w-100 img-fluid img-responsive" alt="A barnacled biodisk pipe">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>A Biodisk</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 40vh;">
+              <img src="../../media/Taking Samples.jpg" class="d-block w-100 img-fluid img-responsive" alt="Taking samples from the water">
+                <div class="carousel-caption d-none d-md-block">
+                  <p style="background-color:black;z-index:0;opacity:0.5;">Collecting sample from water</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 40vh;">
+              <img src="../../media/TakingSamplesCloser.jpg" class="d-block w-100 img-fluid img-responsive" alt="Taking samples from biodisk">
+                <div class="carousel-caption d-none d-md-block">
+                  <p style="background-color:black;z-index:0;opacity:0.5;">Collecting samples from the biodisk</p>
+                  <br>
+                </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div>
+    </div>
+    <div class="col align-self-center">
+      <p class="text-center">Understanding what calls the Inner Harbor home is an important step in making the Harbor a better place for everybody.
+        We can get a deeper sense of the Inner Harbor’s health over time by sampling and analyzing it at regular intervals.
+        We do this by placing biodisks in the water and sampling what is living on them every month. </p>
+    </div>
 </div>
-
-IMages
+</div>
 
 <hr>
 
 <div class="container">
-  <p>We want to know if the community of aquatic animals varies in locations with different watersheds and shorelines,
-    such as areas of suburban runoff, industrial legacy pollutants, or restoration activities. The project is therefore
-    expanding and sampling 6 sites around the Chesapeake Bay.</p>
+  <div class="jumbotron bg-primary shadow">
+    <p class="lead text-light">We then use the microscope and advanced DNA analysis to identify what organisms are present. We can use this data to
+      find ways to effect positive changes on the Harbor so we can more fully use this natural resource.</p>
+  </div>
 </div>
-
-Image
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col align-self-center">
+      <img class="img-fluid img-responsive" src="../../media/AnalysisOfSamples.jpg" alt="scientist analzing biology samples with microscope and monitor">
+    </div>
+    <div class="col align-self-center">
+      <img class="img-fluid img-responsive" src="../../media/PiperAnalysisOfSamples.jpg" alt="group of scientists piping smaples into test tubes around a table">
+    </div>
+  </div>
+</div>
 
 <hr>
 
 <div class="container">
-  <h3>What do we mean by barcoding</h3>
-  <p>Simply that when we read the DNA of an organism, we can use that DNA code to identify the organism, similar to the way
-    that store scanner can read the
-    barcode of an item and use that code to identify the item. </p>
+  <div class="row">
+        <p>We want to know if the community of aquatic animals varies in locations with different watersheds and shorelines,
+          such as areas of suburban runoff, industrial legacy pollutants, or restoration activities. The project is therefore
+          expanding and sampling 6 sites around the Chesapeake Bay.</p>
+  </div>
+  <div class="row text-center">
+      <figure>
+        <img class="img-fluid img-responsive" src="../../media/SamplingMap.jpg" alt='map of sampling area for biolofgical components' />
+        <figcaption>Sampling sites are denoted by red markers</figcaption>
+      </figure>
+  </div>
 </div>
 
-Images
 
 <hr>
 
 <div class="container">
-<h4>Meet The Team</h4>
-<p>Our research team includes media & social artists, nature enthusiasts, civic
-scientists, and students. Our activities involve understanding the history of the Harbor,
-establishing ways to sustain the health of the Harbor, counting & identifying organisms,
-preparation of samples for DNA extraction, analyzing the DNA sequences, and visualizing and
-disseminating our findings to the public. We welcome new members to join the team and new
-extensions for the project that would
-help us to sustain the health of our interconnected ecosystem.</p>
+  <h3 class="text-center">What do we mean by barcoding</h3>
+  <div class="row">
+    <div class="col align-self-center">
+      <p>Simply that when we read the DNA of an organism, we can use that DNA code to identify the organism, similar to the way
+        that store scanner can read the
+        barcode of an item and use that code to identify the item. </p>
+    </div>
+    <div class="col align-self-center">
+        <img class="img-fluid img-responsive" src="../../media/BarcodingCrabImage.png" alt="">
+    </div>
+  </div>
+
 </div>
 
-Images
 
 <hr>
 
 <div class="container">
-  <h3>Interested in joining our motley group of scientists, artists, computational experts, and interested hobbyists?</h3>
+    <h4>Meet The Team</h4>
+    <p>Our research team includes media & social artists, nature enthusiasts, civic
+    scientists, and students. Our activities involve understanding the history of the Harbor,
+    establishing ways to sustain the health of the Harbor, counting & identifying organisms,
+    preparation of samples for DNA extraction, analyzing the DNA sequences, and visualizing and
+    disseminating our findings to the public. We welcome new members to join the team and new
+    extensions for the project that would
+    help us to sustain the health of our interconnected ecosystem.</p>
+    <div class="row text-center justify-content-center">
+      <div class="col">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/MoFavli.jpg" alt="">
+      </div>
+      <div class="col">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/DrSchefelde.jpg" alt="">
+      </div>
+      <div class="col">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/StephenB.jpg" alt="">
+      </div>
+      <div class="col">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/TrevorB.jpg" alt="">
+      </div>
+      <div class="col">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/EricS.jpg" alt="">
+      </div>
+      <div class="col">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/AndyJ.jpg" alt="">
+      </div>
+    </div>
+    <br>
+    <div class="row text-center justify-content-center">
+      <div class="col-2">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/Charmaine.jpg" alt="">
+      </div>
+      <div class="col-2">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/StevenS.jpg" alt="">
+      </div>
+      <div class="col-2">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/SairahS.jpg" alt="">
+      </div>
+      <div class="col-2">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/YongL.jpg" alt="">
+      </div>
+      <div class="col-2">
+        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/TimB.jpg" alt="">
+      </div>
+    </div>
+    <br>
+    <div class="row img-center justify-content-center">
+      <div class="col-2">
+        <img class="img-fluid img-responsive" src="../../media/Headshots/You.png" alt="">
+      </div>
+    </div>
+</div>
+
+
+
+<hr>
+
+<div class="container">
+  <h3 class="text-center">Interested in joining our motley group of scientists, artists, computational experts, and interested hobbyists?</h3>
   <p>Join us at the Baltimore Underground Science Space to learn new skills, meet new people, and be a part
     of a positive change in Baltimore! </p>
-
-    <h4 class="text-center">Email Lisa at lscheifele@bugssonline.org for info and to get involved! </h4>
-
 </div>
 
-images
+<div class="container">
+  <div class="row">
+    <div class="col">
+        <img class="img-fluid img-responsive" src="../../media/GroupWork.jpg" alt="Group work testing picture">
+    </div>
+    <div class="col">
+        <img class="img-fluid img-responsive" src="../../media/GroupWork2.jpg" alt="Another group workking on bio samples">
+    </div>
+    <div class="col">
+        <img class="img-fluid img-responsive" src="../../media/GroupWork3.jpg" alt="People of all ages in lab learning">
+    </div>
+  </div>
+  <br>
+  <h4 class="text-center">Email Lisa <br>at <u>lscheifele@bugssonline.org</u> <br>for info and to get involved! </h4>
+</div>
+
+
+</div> <!--This dev is for the toggle of viewable elements  -->
+
 
 <hr>
 
+<div class="container text-center">
+    <h5>Missed or want to see the <br>background and information on this project?</h5>
+    <!-- Button for toggle of elements -->
+    <button class="btn btn-secondary" onclick="myFunction()">Click Here</button>
+</div>
 
+<hr>
 
+<div class="container shadow jumbotron-secondary">
+  <br>
+    <div class="row">
+      <div class="col align-self-center">
+        <h3>Thank You</h3>
+        <p>To our funders, the Chesapeake Bay Trust!</p>
+      </div>
+      <div class="col align-self-center">
+        <img class="img-fluid img-responsive" src="../../media/CBTrustPlate.png" alt="Chesapeake licencse plate">
+      </div>
+    </div>
+    <br>
+</div>
 
-
+<br>
     <!--FOOTER Default BG/ACCENT TEXT-->
     <footer class="border-top bg-black">
       <!-- Add font awesome icons -->
