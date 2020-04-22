@@ -7,6 +7,7 @@
     <!-- Master Stylesheet -->
     <link rel="stylesheet" href="../../css/SASS/BUGSS_Styles.css">
 
+
     <!-- CDNs for Bootstrap and jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -33,10 +34,34 @@
 
     <!--font awesome cdn for social Buttons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style rel="stylesheet">
+    .shake:hover {
+        /* Start the shake animation and make the animation last for 0.5 seconds */
+        animation: shake 0.5s;
+
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite;
+        }
+
+        @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+        }
+    </style>
+
     <title>BUGSS Kids and Parents</title>
 
   </head>
-  <body class="bg-black">
+  <body>
     <!--TODO: Update Active classes on links if applicable-->
     <!--TODO: We can decide to use dropdowns or another popup or make them click through.-->
     <!--NAVBAR-->
@@ -87,36 +112,97 @@
 
     <ul class="nav nav-fill nav-pills bg-primary" id="pills-tab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link text-white active rounded-0" id="pills-youth-tab" data-toggle="pill" href="#pills-youth" role="tab" aria-controls="pills-youth" aria-selected="true">BUGSS Kids Home</a>
+        <a class="nav-link text-white active rounded-0 shake" id="pills-youth-tab" data-toggle="pill" href="#pills-youth" role="tab" aria-controls="pills-youth" aria-selected="true">BUGSS Kids Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white rounded-0" id="pills-clubs-tab" data-toggle="pill" href="#pills-clubs" role="tab" aria-controls="pills-clubs" aria-selected="true">Programs for Clubs and Groups</a>
+        <a class="nav-link text-white rounded-0 shake" id="pills-clubs-tab" data-toggle="pill" href="#pills-clubs" role="tab" aria-controls="pills-clubs" aria-selected="true">Programs for Clubs and Groups</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white rounded-0" id="pills-igem-tab" data-toggle="pill" href="#pills-igem" role="tab" aria-controls="pills-igem" aria-selected="false">Baltimore BioCrew iGEM Team</a>
+        <a class="nav-link text-white rounded-0 shake" id="pills-igem-tab" data-toggle="pill" href="#pills-igem" role="tab" aria-controls="pills-igem" aria-selected="false">Baltimore BioCrew iGEM Team</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white rounded-0" id="pills-agar-tab" data-toggle="pill" href="#pills-agar" role="tab" aria-controls="pills-agar" aria-selected="false">Agar Art</a>
+        <a class="nav-link text-white rounded-0 shake" id="pills-agar-tab" data-toggle="pill" href="#pills-agar" role="tab" aria-controls="pills-agar" aria-selected="false">Agar Art</a>
       </li>
     </ul>
 
-    <div class="tab-content container-fluid bg-white" id="pills-tabContent">
-      <!--UPCOMING Youth Home TAB -->
-      <div class="tab-pane fade show active" id="pills-youth" role="tabpanel" aria-labelledby="pills-youth-tab">
-        <h1 class="display-4">Hear from some BUGSS Kids</h1>
-        <h4 class="text-primary"> BUGSS provides creative learning experiences, responsive to the interests of our community members. </h4>
-        <p class="pb-3">Neiyer Correal-Winters and his two sons Naige and Patrick read about groundbreaking CRISPR technology that allows rapid and efficient genome editing. Eager to try their hands with the technology, they obtained a family
-          membership to BUGSS, ordered materials online, and developed their own CRISPR project under the guidance of lab staff and mentors. At the BUGSS lab, they are able to pursue this unique family activity!</p>
-        <h4 class="text-primary"> BUGSS motivates students with socially relevant science. </h4>
-        <p class="pb-3">Ella Coleman is a home schooled student who joined the BUGSS team for the International Genetically Engineered Machines competition (iGEM). The six high school students conceived of a project, engineering bacterial cells to
-          degrade plastic and help clean up pollution in the Inner Harbor. Ella traveled to Boston with the team, delivered oral and poster presentations at the International Jamboree of high school and college students, talked about her work with
-          faculty judges, and won a team bronze medal. The team’s incredible work was recognized with an article and video of Ella on the front page of the Baltimore Sun!</p>
-        <h4 class="text-primary"> BUGSS inspires science and technology careers. </h4>
-        <p class="pb-3">Rachael Avidor, Julius Gingles, and Mercedes Thompson are three students from Baltimore city high schools who participated in BUGSS’ 2016 iGEM team. While these three students had long been interested in science, the iGEM
-          experience was unique in allowing them to take leadership and ownership of a scientific project. Each is continuing to excel on their scientific path, engaging in additional research at Johns Hopkins and the NIH, winning full scholarships
-          to Brown and Johns Hopkins Universities, and founding Baltimore Beyond Plastic. These students will lead the scientific revolution of the next generation!</p>
+<div class="my-1 jumbotron card bg-primary">
+  <div class="container-fluid">
+    <h2 class="display-4 text-light">Hear From Other <br>BUGSS Kids & Check Out<br>Fun Activites Just For You! </h2>
+
+    <h5 class="text-light">And parents, check out our brochure on how to get invloved</h5>
+    <a class="" href="../../media/BUGSS-educational-brochure.pdf">Click Here For Our Educational Borchure</a>
+  </div>
+</div>
+
+<div class="tab-content container-fluid bg-white" id="pills-tabContent">
+  <!--UPCOMING Youth Home TAB -->
+<div class="container-fluid tab-pane active" id="pills-tabContent" id="pills-youth" role="tabpanel" aria-labelledby="pills-youth-tab">
+
+    <div class="container-fluid my-5">
+      <div class="row">
+        <div class="col mx-2 jumbotron bg-white shadow">
+            <h5 class="text-center">For Yonger Kids</h5>
+            <img class="img-fluid rounded my-1" src="../../media/Margia 2_CropEdit.png" alt="Baltimore BioCrew group picture ">
+            <h4 class="card-title text-primary text-center mt-3 mb-2">Agar Art</h4>
+            <hr>
+            <h5 class="card-subtitle mb-2 text-center">1 hour class</h5>
+            <p class="card-text">
+              Use colored bacteria and yeast to create your own living art works by drawing with colored organisms on petri dishes.</p>
+          </p>
+        </div>
+
+        <div class="col jumbotron bg-white shadow">
+            <h5 class="text-center">For Big Kids</h5>
+            <img class="img-fluid rounded my-1" src="../../media/ACTG_Fruit.jpg" alt="Kids working with scientific tools in lab">
+            <h4 class="card-title text-primary text-center mt-2">The ACTG's of Fruit!</h4>
+            <hr>
+            <h5 class="card-subtitle mb-2 text-center">1.5 hour course</h5>
+            <p class="card-text mt-1">
+              What is DNA? What is a gene? We’ll learn by using chemistry to extract DNA from several fruits. Can you guess the number of chromosomes in each based on the amount of DNA?
+            </p>
+        </div>
+
+        <div class="col jumbotron bg-white shadow">
+            <h5 class="text-center">For Older Kids</h5>
+            <img class="img-fluid rounded my-1" src="../../media/ITuneDevice.png" alt="Kids working with scientific tools in lab">
+            <h4 class="card-title text-primary text-center mt-2">iTune Device </h4>
+            <hr>
+            <h5 class="card-subtitle mb-2 text-center">4 hour course</h5>
+            <p class="card-text">
+              This lab focuses on predictable design. Students will examine the role of parts, such as promoters and ribosome binding sites, in determining the output of a genetic device. The students measure &#946;-galactosidase enzymatic
+              activity as the device’s output, enabling them to look through the lens of molecular genetics to evaluate a device’s behavior.
+            </p>
+          </p>
+        </div>
 
       </div>
+    </div>
+
+
+    <div class="col card shadow mx-auto my-7">
+      <h4 class="text-primary mt-3"> "BUGSS provides creative learning experiences, responsive to the interests of our community members." </h4>
+      <hr>
+      <p class="pb-3">Neiyer Correal-Winters and his two sons Naige and Patrick read about groundbreaking CRISPR technology that allows rapid and efficient genome editing. Eager to try their hands with the technology, they obtained a family
+        membership to BUGSS, ordered materials online, and developed their own CRISPR project under the guidance of lab staff and mentors. At the BUGSS lab, they are able to pursue this unique family activity!</p>
+    </div>
+    <div class="col card shadow mx-auto my-4">
+      <h4 class="text-primary mt-3"> "BUGSS motivates students with socially relevant science." </h4>
+      <hr>
+      <p class="pb-3">Ella Coleman is a home schooled student who joined the BUGSS team for the International Genetically Engineered Machines competition (iGEM). The six high school students conceived of a project, engineering bacterial cells to
+        degrade plastic and help clean up pollution in the Inner Harbor. Ella traveled to Boston with the team, delivered oral and poster presentations at the International Jamboree of high school and college students, talked about her work with
+        faculty judges, and won a team bronze medal. The team’s incredible work was recognized with an article and video of Ella on the front page of the Baltimore Sun!</p>
+    </div>
+    <div class="col card shadow mx-auto my-4">
+      <h4 class="text-primary mt-3"> "BUGSS inspires science and technology careers." </h4>
+      <hr>
+      <p class="pb-3">Rachael Avidor, Julius Gingles, and Mercedes Thompson are three students from Baltimore city high schools who participated in BUGSS’ 2016 iGEM team. While these three students had long been interested in science, the iGEM
+        experience was unique in allowing them to take leadership and ownership of a scientific project. Each is continuing to excel on their scientific path, engaging in additional research at Johns Hopkins and the NIH, winning full scholarships
+        to Brown and Johns Hopkins Universities, and founding Baltimore Beyond Plastic. These students will lead the scientific revolution of the next generation!</p>
+    </div>
+
+
+</div>
+
       <!--Clubs and Groups Tab-->
       <div class="tab-pane fade" id="pills-clubs" role="tabpanel" aria-labelledby="pills-clubs-tab">
         <h1 class="display-4">Programs for Clubs and Groups</h1>
@@ -538,7 +624,7 @@
     </div>
     </div>
     <!--FOOTER Default BG/ACCENT TEXT-->
-    <footer class="border-top mt-3">
+    <footer class="bg-black border-top mt-3">
       <!-- Add font awesome icons -->
       <div class="row justify-content-around text-center mt-3">
         <div class="col text-secondary">
