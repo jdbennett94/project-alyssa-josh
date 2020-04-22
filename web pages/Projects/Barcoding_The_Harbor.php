@@ -39,16 +39,14 @@
     .zoom {
       /*padding: 50px;*/
       transition: transform .2s; /* Animation */
-      width: 200px;
+      /*width: 200px;
       height: 200px;
-      margin: 0 auto;
-      position: relative; 
+      margin: 0 auto; */
       }
 
     .zoom:hover {
-      transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-      position: absolute;
-      }
+      transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
     </style>
 
     <title>Barcoding The Harbor</title>
@@ -351,50 +349,68 @@
 
 <hr>
 
+
+
+</div> <!--This dev is for the toggle of viewable elements  -->
+
+
+
 <div class="container-fluid">
   <h4 class="card display-5 text-center shadow">Time To Play With Some of What We Found!</h4>
   <p class="text-center">Select an organism</p>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <img class="card img-fluid zoom stretched-link" src="../../media/ClayWorm.jpg" alt="">
+      <div class="row mb-5">
+        <div class="col card-img zoom">
+          <img class="img-fluid" src="../../media/ClayWorm.jpg" alt="">
+          <a class="stretched-link" onclick="myFunction()"></a>
         </div>
-        <div class="col">
-          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        <div class="col card-img zoom">
+          <img class="img-fluid " src="../../media/ClayWorm.jpg" alt="">
+          <a class="stretched-link" onclick="myFunction()"></a>
         </div>
-        <div class="col">
-          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        <div class="col card-img zoom">
+          <img class=" img-fluid " src="../../media/ClayWorm.jpg" alt="">
+          <a class="stretched-link" onclick="myFunction()"></a>
         </div>
-        <div class="col">
-          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col ">
-          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
-        </div>
-        <div class="col ">
-          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
-        </div>
-        <div class="col ">
-          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
-        </div>
-        <div class="col ">
-          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        <div class="col card-img zoom">
+          <img class="img-fluid" src="../../media/ClayWorm.jpg" alt="">
+          <a class="stretched-link" onclick="myFunction()"></a>
         </div>
       </div>
-      <div class="row">
-        <div class="col ">
-          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+      <div class="row mb-5">
+        <div class="col card-img zoom">
+          <img class="img-fluid" src="../../media/ClayWorm.jpg" alt="">
+          <a class="stretched-link" onclick="myFunction()"></a>
         </div>
-        <div class="col ">
-          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        <div class="col card-img zoom">
+          <img class="img-fluid " src="../../media/ClayWorm.jpg" alt="">
+          <a class="stretched-link" onclick="myFunction()"></a>
         </div>
-        <div class="col">
-          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        <div class="col card-img zoom">
+          <img class=" img-fluid " src="../../media/ClayWorm.jpg" alt="">
+          <a class="stretched-link" onclick="myFunction()"></a>
         </div>
-        <div class="col ">
-          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        <div class="col card-img zoom">
+          <img class="img-fluid" src="../../media/ClayWorm.jpg" alt="">
+          <a class="stretched-link" onclick="myFunction()"></a>
+        </div>
+      </div>
+      <div class="row my-auto">
+        <div class="col card-img zoom">
+          <img class="img-fluid" src="../../media/ClayWorm.jpg" alt="">
+          <a class="stretched-link" onclick="myFunction()"></a>
+        </div>
+        <div class="col card-img zoom">
+          <img class="img-fluid " src="../../media/ClayWorm.jpg" alt="">
+          <a class="stretched-link" onclick="myFunction()"></a>
+        </div>
+        <div class="col card-img zoom">
+          <img class=" img-fluid " src="../../media/ClayWorm.jpg" alt="">
+          <a class="stretched-link" onclick="myFunction()"></a>
+        </div>
+        <div class="col card-img zoom">
+          <img class="img-fluid" src="../../media/ClayWorm.jpg" alt="">
+          <a class="stretched-link" onclick="myFunction()"></a>
         </div>
       </div>
     </div>
@@ -432,8 +448,6 @@
   <h4 class="text-center">Email Lisa <br>at <u>lscheifele@bugssonline.org</u> <br>for info and to get involved! </h4>
 </div>
 
-
-</div> <!--This dev is for the toggle of viewable elements  -->
 
 
 <hr>
