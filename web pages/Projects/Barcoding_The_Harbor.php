@@ -34,7 +34,7 @@
     <!--font awesome cdn for social Buttons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Barcoding The Harbor</title>
-
+ 
   </head>
   <body>
     <!--TODO: Update Active classes on links if applicable-->
