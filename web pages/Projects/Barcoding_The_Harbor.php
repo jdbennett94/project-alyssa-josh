@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
   <head>
     <!-- set viewport to screen size -->
@@ -33,6 +33,24 @@
 
     <!--font awesome cdn for social Buttons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Zoom effect on organism cards-->
+    <style rel="stylesheet">
+    .zoom {
+      /*padding: 50px;*/
+      transition: transform .2s; /* Animation */
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+      position: relative; 
+      }
+
+    .zoom:hover {
+      transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      position: absolute;
+      }
+    </style>
+
     <title>Barcoding The Harbor</title>
 
   </head>
@@ -331,6 +349,63 @@
     </div>
 </div>
 
+<hr>
+
+<div class="container-fluid">
+  <h4 class="card display-5 text-center shadow">Time To Play With Some of What We Found!</h4>
+  <p class="text-center">Select an organism</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <img class="card img-fluid zoom stretched-link" src="../../media/ClayWorm.jpg" alt="">
+        </div>
+        <div class="col">
+          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        </div>
+        <div class="col">
+          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        </div>
+        <div class="col">
+          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col ">
+          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        </div>
+        <div class="col ">
+          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        </div>
+        <div class="col ">
+          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        </div>
+        <div class="col ">
+          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col ">
+          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        </div>
+        <div class="col ">
+          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        </div>
+        <div class="col">
+          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        </div>
+        <div class="col ">
+          <img class="card img-fluid zoom" src="../../media/ClayWorm.jpg" alt="">
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+
 
 
 <hr>
@@ -408,6 +483,5 @@
       </div>
     </footer>
 
-  </body>
-
+    </body>
   </html>
