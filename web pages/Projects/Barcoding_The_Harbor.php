@@ -34,7 +34,7 @@
     <!--font awesome cdn for social Buttons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Barcoding The Harbor</title>
- 
+
   </head>
   <body>
     <!--TODO: Update Active classes on links if applicable-->
@@ -59,10 +59,14 @@
           <li class="nav-item">
             <a class="nav-link" href="../Membership/Membership_Landing.html">Membership</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="../Projects_Landing_page.html">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../Projects/Projects_Landing.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Group Projects
             </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../Projects/Scramble_Synthetic_Yeast.html">Scramble and Synthetic Yeast</a>
+              <a class="dropdown-item" href="../Barcoding_The_Harbor.php">Barcoding The Harbor</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../Scientists/Scientists_Landing.html">For Scientists</a>
