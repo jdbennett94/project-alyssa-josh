@@ -361,12 +361,12 @@
     <div class="container-fluid">
       <div class="row mb-5">
         <div class="col card-img zoom align-self-center">
-          <img class="img-fluid" src="../../media/ClayWorm.jpg" alt="">
+          <img class="img-fluid" src="https://www.researchgate.net/publication/330852558/figure/fig6/AS:722579690102787@1549287831959/Lumbriculus-mud-worm.ppm" alt="Mud worm image">
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></a>
         </div>
         <div class="col card-img zoom align-self-center">
           <img class="img-fluid " src="https://media.gettyimages.com/photos/nematodes-sem-picture-id1148109598?s=2048x2048" alt="Round worm image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample12"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"></a>
         </div>
         <div class="col card-img zoom align-self-center">
           <img class=" img-fluid " src="https://media.gettyimages.com/photos/barnacle-larvae-nauplius-sp-microscopic-two-pair-white-background-cut-picture-id520528808?s=2048x2048" alt="Barnacle larvae image">
@@ -379,68 +379,102 @@
       </div>
       <div class="collapse multi-collapse" id="multiCollapseExample1">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Batrachochytrium_dendrobatidis" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Earthworm" allowfullscreen></iframe>
         </div>
       </div>
       <div class="collapse multi-collapse" id="multiCollapseExample2">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Batrachochytrium_dendrobatidis" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Nematode" allowfullscreen></iframe>
         </div>
       </div>
       <div class="collapse multi-collapse" id="multiCollapseExample2">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Batrachochytrium_dendrobatidis" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Barnacle" allowfullscreen></iframe>
         </div>
       </div>
       <div class="collapse multi-collapse" id="multiCollapseExample2">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Batrachochytrium_dendrobatidis" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Flatworm" allowfullscreen></iframe>
         </div>
       </div>
 
 <!-- Second row of organisms -->
       <div class="row mb-5">
         <div class="col card-img zoom align-self-center">
-          <img class="img-fluid" src="https://media.gettyimages.com/photos/copepod-micrograph-picture-id117333409?s=2048x2048" alt="">
-          <a class="stretched-link" onclick="myFunction2()"></a>
+          <img class="img-fluid" src="https://media.gettyimages.com/photos/copepod-micrograph-picture-id117333409?s=2048x2048" alt="Copepod image">
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample5"></a>
         </div>
         <div class="col card-img zoom align-self-center">
           <img class="img-fluid " src="https://farm66.staticflickr.com/65535/45691332935_695b169753_b.jpg" alt="Grass shrimp image">
-          <a class="stretched-link" onclick="myFunction2()"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample6"></a>
         </div>
         <div class="col card-img zoom align-self-center">
           <img class=" img-fluid " src="https://media.gettyimages.com/photos/barnacles-on-hainan-island-picture-id845069720?s=2048x2048" alt="Barnacles image">
-          <a class="stretched-link" onclick="myFunction2()"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample7"></a>
         </div>
         <div class="col card-img zoom align-self-center">
           <img class="img-fluid" src="http://www.aphotomarine.com/images/marine_bivalves/bivalve_mytilopsis_leucophaeata_26-02-16_1.jpg" alt="False dark mussel image">
-          <a class="stretched-link" onclick="myFunction2()"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample8"></a>
         </div>
       </div>
-      <div class="Collapseable text">
-
+      <div class="collapse multi-collapse" id="multiCollapseExample5">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Copepod" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="collapse multi-collapse" id="multiCollapseExample6">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Palaemonetes" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="collapse multi-collapse" id="multiCollapseExample7">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Barnacle" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="collapse multi-collapse" id="multiCollapseExample8">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Mytilopsis_leucophaeata" allowfullscreen></iframe>
+        </div>
       </div>
 
       <div class="row my-auto">
         <div class="col card-img zoom align-self-center">
           <img class="img-fluid" src="https://media.gettyimages.com/photos/bristle-worm-picture-id976282458?s=2048x2048" alt="Polycheate worm image">
-          <a class="stretched-link" onclick="myFunction2()"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample9"></a>
         </div>
         <div class="col card-img zoom align-self-center">
           <img class="img-fluid " src="https://media.gettyimages.com/photos/sea-anemone-in-underwater-picture-id597280371?s=2048x2048" alt="Aenomone image">
-          <a class="stretched-link" onclick="myFunction2()"></a>
+          <a class="stretched-link"data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample10"></a>
         </div>
         <div class="col card-img zoom align-self-center">
           <img class=" img-fluid " src="https://alchetron.com/cdn/batrachochytrium-dendrobatidis-e2523ae1-fefc-428e-b3f9-1df3c916074-resize-750.jpeg" alt="Chytrid fungus image">
-          <a class="stretched-link" onclick="myFunction2()"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample11"></a>
         </div>
         <div class="col card-img zoom align-self-center">
           <img class="img-fluid" src="https://media.gettyimages.com/photos/ciliate-blepharisma-americanum-micrograph-picture-id169940394?s=2048x2048" alt="Ciliates image">
-          <a class="stretched-link" onclick="myFunction2()"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample12"></a>
         </div>
       </div>
-      <div class="Collapseable text">
-
+      <div class="collapse multi-collapse" id="multiCollapseExample9">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Polychaete" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="collapse multi-collapse" id="multiCollapseExample10">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Sea_anemone" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="collapse multi-collapse" id="multiCollapseExample11">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Batrachochytrium_dendrobatidis" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="collapse multi-collapse" id="multiCollapseExample12">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Ciliate" allowfullscreen></iframe>
+        </div>
       </div>
 
     </div>
