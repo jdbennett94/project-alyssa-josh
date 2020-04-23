@@ -356,25 +356,25 @@
 
 
 <div class="container-fluid">
-  <h4 class="card display-5 text-center shadow">Time To Play With Some of What We Found!</h4>
-  <p class="text-center">Select an organism</p>
+  <h4 class="card display-3 text-center shadow">Time To Play With Some of What We Found!</h4>
+  <p class="text-center display-5">Select an organism</p>
     <div class="container-fluid">
       <div class="row mb-5">
-        <div class="col card-img zoom align-self-center">
+        <div class="col card-img zoom align-self-center mx-2">
           <img class="img-fluid" src="https://www.researchgate.net/publication/330852558/figure/fig6/AS:722579690102787@1549287831959/Lumbriculus-mud-worm.ppm" alt="Mud worm image">
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></a>
         </div>
-        <div class="col card-img zoom align-self-center">
+        <div class="col card-img zoom align-self-center mx-2">
           <img class="img-fluid " src="https://media.gettyimages.com/photos/nematodes-sem-picture-id1148109598?s=2048x2048" alt="Round worm image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"></a>
         </div>
-        <div class="col card-img zoom align-self-center">
+        <div class="col card-img zoom align-self-center mx-2">
           <img class=" img-fluid " src="https://media.gettyimages.com/photos/barnacle-larvae-nauplius-sp-microscopic-two-pair-white-background-cut-picture-id520528808?s=2048x2048" alt="Barnacle larvae image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample3"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3"></a>
         </div>
-        <div class="col card-img zoom align-self-center">
+        <div class="col card-img zoom align-self-center mx-2">
           <img class="img-fluid" src="https://media.gettyimages.com/photos/an-image-of-a-photo-micrograph-of-flatworm-picture-id116938770?s=2048x2048" alt="Flatworm image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"></a>
         </div>
       </div>
       <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -400,21 +400,21 @@
 
 <!-- Second row of organisms -->
       <div class="row mb-5">
-        <div class="col card-img zoom align-self-center">
+        <div class="col card-img zoom align-self-center mx-2">
           <img class="img-fluid" src="https://media.gettyimages.com/photos/copepod-micrograph-picture-id117333409?s=2048x2048" alt="Copepod image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample5"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample5" role="button" aria-expanded="false" aria-controls="multiCollapseExample5"></a>
         </div>
-        <div class="col card-img zoom align-self-center">
+        <div class="col card-img zoom align-self-center mx-2">
           <img class="img-fluid " src="https://farm66.staticflickr.com/65535/45691332935_695b169753_b.jpg" alt="Grass shrimp image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample6"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample6" role="button" aria-expanded="false" aria-controls="multiCollapseExample6"></a>
         </div>
-        <div class="col card-img zoom align-self-center">
+        <div class="col card-img zoom align-self-center mx-2">
           <img class=" img-fluid " src="https://media.gettyimages.com/photos/barnacles-on-hainan-island-picture-id845069720?s=2048x2048" alt="Barnacles image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample7"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample7" role="button" aria-expanded="false" aria-controls="multiCollapseExample7"></a>
         </div>
-        <div class="col card-img zoom align-self-center">
+        <div class="col card-img zoom align-self-center mx-2">
           <img class="img-fluid" src="http://www.aphotomarine.com/images/marine_bivalves/bivalve_mytilopsis_leucophaeata_26-02-16_1.jpg" alt="False dark mussel image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample8"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample8" role="button" aria-expanded="false" aria-controls="multiCollapseExample8"></a>
         </div>
       </div>
       <div class="collapse multi-collapse" id="multiCollapseExample5">
@@ -438,22 +438,23 @@
         </div>
       </div>
 
+<!-- Third Row Of Organisms -->
       <div class="row my-auto">
-        <div class="col card-img zoom align-self-center">
+        <div class="col card-img zoom align-self-center mx-2">
           <img class="img-fluid" src="https://media.gettyimages.com/photos/bristle-worm-picture-id976282458?s=2048x2048" alt="Polycheate worm image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample9"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample9" role="button" aria-expanded="false" aria-controls="multiCollapseExample9"></a>
         </div>
-        <div class="col card-img zoom align-self-center">
+        <div class="col card-img zoom align-self-center mx-2">
           <img class="img-fluid " src="https://media.gettyimages.com/photos/sea-anemone-in-underwater-picture-id597280371?s=2048x2048" alt="Aenomone image">
-          <a class="stretched-link"data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample10"></a>
+          <a class="stretched-link"data-toggle="collapse" href="#multiCollapseExample10" role="button" aria-expanded="false" aria-controls="multiCollapseExample10"></a>
         </div>
-        <div class="col card-img zoom align-self-center">
+        <div class="col card-img zoom align-self-center mx-2">
           <img class=" img-fluid " src="https://alchetron.com/cdn/batrachochytrium-dendrobatidis-e2523ae1-fefc-428e-b3f9-1df3c916074-resize-750.jpeg" alt="Chytrid fungus image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample11"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample11" role="button" aria-expanded="false" aria-controls="multiCollapseExample11"></a>
         </div>
-        <div class="col card-img zoom align-self-center">
+        <div class="col card-img zoom align-self-center mx-2">
           <img class="img-fluid" src="https://media.gettyimages.com/photos/ciliate-blepharisma-americanum-micrograph-picture-id169940394?s=2048x2048" alt="Ciliates image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample12"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample12" role="button" aria-expanded="false" aria-controls="multiCollapseExample12"></a>
         </div>
       </div>
       <div class="collapse multi-collapse" id="multiCollapseExample9">
