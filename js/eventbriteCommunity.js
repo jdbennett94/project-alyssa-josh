@@ -27,7 +27,7 @@ function getEventList() {
         }
 
 
-          HTMLstr += '<div class="col-md-4 mb-4"><div class="card shadow h-100"><div class="card-body d-flex flex-column"><h4 class="card-title">'+name+'</h4><p class="card-text">' + descript + '</p><div class="mt-auto"><h5>'+dateStr+'</h5><a class="btn btn-primary" href="'+url+'" target="_blank"">Learn More</a></div></div></div></div>';
+          HTMLstr += '<div class="col-sm-6 col-lg-4 mb-4"><div class="card shadow h-100"><div class="card-body d-flex flex-column"><h4 class="card-title">'+name+'</h4><p class="card-text">' + descript + '</p><div class="mt-auto"><h5>'+dateStr+'</h5><a class="btn btn-primary" href="'+url+'" target="_blank"">Learn More</a></div></div></div></div>';
       }
 
       $('#eventbriteStuff').html(HTMLstr);
