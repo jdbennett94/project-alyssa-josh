@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="../../css/SASS/BUGSS_Styles.css">
 
     <!-- CDNs for Bootstrap and jquery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
 
     <!-- Favicon Settings for Different Devices -->
     <link rel="apple-touch-icon" sizes="57x57" href="../../media/favicon/apple-icon-57x57.png">
@@ -29,6 +31,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../media/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
 
     <!--font awesome cdn for social Buttons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -100,14 +103,21 @@
         <a class="nav-link text-white rounded-0" id="pills-courses-tab" data-toggle="pill" href="#pills-courses" role="tab" aria-controls="pills-courses" aria-selected="false">Past Courses</a>
       </li>
     </ul>
-    <div class="tab-content container-fluid bg-white" id="pills-tabContent">
+    <div class="tab-content container-fluid bg-white px-0" id="pills-tabContent">
       <!--UPCOMING EVENTS TAB -->
-      <div class="tab-pane fade show active" id="pills-upcoming" role="tabpanel" aria-labelledby="pills-upcoming-tab">
-        <h1 class="display-4"> Upcoming Events </h1>
-        <p> Eventbrite data here </p>
+      <div class="tab-pane fade show active bg-black px-3" id="pills-upcoming" role="tabpanel" aria-labelledby="pills-upcoming-tab">
+
+        <div class="jumbotron shadow bg-secondary py-4 my-3">
+
+          <h1 class="display-3 text-white">Upcoming Events </h1>
+          <p class="lead text-white">These are the new and exciting events coming up soon! Learn more about each one on our Eventbrite page!</p>
+        </div>
+        <h1 class="display-4"> </h1>
+        <div class="row" id="eventbriteStuff"></div>
+
       </div>
       <!--SEMINARS TAB-->
-      <div class="tab-pane fade" id="pills-seminars" role="tabpanel" aria-labelledby="pills-seminars-tab">
+      <div class="tab-pane fade px-3" id="pills-seminars" role="tabpanel" aria-labelledby="pills-seminars-tab">
         <h1 class="display-4"> Past Seminars </h1>
         <p class="container-fluid lead">BUGSS hosts an ever-changing array of seminars, Open Mic nights, open houses, and workshops. Our Eventbrite page has the most current listing of seminars, workshops, and courses.</p>
 
@@ -153,7 +163,7 @@
 
       </div>
       <!--COURSES TAB-->
-      <div class="tab-pane fade" id="pills-courses" role="tabpanel" aria-labelledby="pills-courses-tab">
+      <div class="tab-pane fade px-3" id="pills-courses" role="tabpanel" aria-labelledby="pills-courses-tab">
         <h1 class="display-4"> Past Courses </h1>
         <p class="container-fluid lead">BUGGS offers numerous courses where the public can engage directly with hands-on biotechnology activities. Courses involve short lectures interspersed with hands-on lab experiments.</p>
 
@@ -358,7 +368,8 @@
         </div>
       </div>
     </footer>
-
+  <script src="../../js/eventbriteCommunity.js"></script>
+  <script>getEventList()</script>
   </body>
 
 </html>
