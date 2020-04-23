@@ -377,22 +377,22 @@
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"></a>
         </div>
       </div>
-      <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="collapse multi-collapse container-fluid" id="multiCollapseExample1">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Earthworm" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="collapse multi-collapse container-fluid" id="multiCollapseExample2">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Nematode" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="collapse multi-collapse container-fluid" id="multiCollapseExample3">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Barnacle" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="collapse multi-collapse container-fluid" id="multiCollapseExample4">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Flatworm" allowfullscreen></iframe>
         </div>
@@ -417,22 +417,22 @@
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample8" role="button" aria-expanded="false" aria-controls="multiCollapseExample8"></a>
         </div>
       </div>
-      <div class="collapse multi-collapse" id="multiCollapseExample5">
+      <div class="collapse multi-collapse container" id="multiCollapseExample5">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Copepod" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse" id="multiCollapseExample6">
+      <div class="collapse multi-collapse container" id="multiCollapseExample6">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Palaemonetes" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse" id="multiCollapseExample7">
+      <div class="collapse multi-collapse container" id="multiCollapseExample7">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Barnacle" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse" id="multiCollapseExample8">
+      <div class="collapse multi-collapse container" id="multiCollapseExample8">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Mytilopsis_leucophaeata" allowfullscreen></iframe>
         </div>
@@ -457,22 +457,22 @@
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample12" role="button" aria-expanded="false" aria-controls="multiCollapseExample12"></a>
         </div>
       </div>
-      <div class="collapse multi-collapse" id="multiCollapseExample9">
+      <div class="collapse multi-collapse container" id="multiCollapseExample9">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Polychaete" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse" id="multiCollapseExample10">
+      <div class="collapse multi-collapse container" id="multiCollapseExample10">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Sea_anemone" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse" id="multiCollapseExample11">
+      <div class="collapse multi-collapse container" id="multiCollapseExample11">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Batrachochytrium_dendrobatidis" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse" id="multiCollapseExample12">
+      <div class="collapse multi-collapse container" id="multiCollapseExample12">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Ciliate" allowfullscreen></iframe>
         </div>
