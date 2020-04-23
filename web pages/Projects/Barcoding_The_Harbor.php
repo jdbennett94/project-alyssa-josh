@@ -36,17 +36,17 @@
 
     <!-- Zoom effect on organism cards-->
     <style rel="stylesheet">
-    .zoom {
-      /*padding: 50px;*/
-      transition: transform .2s; /* Animation */
-      /*width: 200px;
-      height: 200px;
-      margin: 0 auto; */
-      }
+      .zoom {
+        /*padding: 50px;*/
+        transition: transform .2s; /* Animation */
+        /*width: 200px;
+        height: 200px;
+        margin: 0 auto; */
+        }
 
-    .zoom:hover {
-      transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    }
+      .zoom:hover {
+        transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
     </style>
 
     <title>Barcoding The Harbor</title>
@@ -360,59 +360,89 @@
   <p class="text-center">Select an organism</p>
     <div class="container-fluid">
       <div class="row mb-5">
-        <div class="col card-img zoom">
+        <div class="col card-img zoom align-self-center">
           <img class="img-fluid" src="../../media/ClayWorm.jpg" alt="">
-          <a class="stretched-link" onclick="myFunction()"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></a>
         </div>
-        <div class="col card-img zoom">
-          <img class="img-fluid " src="../../media/ClayWorm.jpg" alt="">
-          <a class="stretched-link" onclick="myFunction()"></a>
+        <div class="col card-img zoom align-self-center">
+          <img class="img-fluid " src="https://media.gettyimages.com/photos/nematodes-sem-picture-id1148109598?s=2048x2048" alt="Round worm image">
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample12"></a>
         </div>
-        <div class="col card-img zoom">
-          <img class=" img-fluid " src="../../media/ClayWorm.jpg" alt="">
-          <a class="stretched-link" onclick="myFunction()"></a>
+        <div class="col card-img zoom align-self-center">
+          <img class=" img-fluid " src="https://media.gettyimages.com/photos/barnacle-larvae-nauplius-sp-microscopic-two-pair-white-background-cut-picture-id520528808?s=2048x2048" alt="Barnacle larvae image">
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample3"></a>
         </div>
-        <div class="col card-img zoom">
-          <img class="img-fluid" src="../../media/ClayWorm.jpg" alt="">
-          <a class="stretched-link" onclick="myFunction()"></a>
+        <div class="col card-img zoom align-self-center">
+          <img class="img-fluid" src="https://media.gettyimages.com/photos/an-image-of-a-photo-micrograph-of-flatworm-picture-id116938770?s=2048x2048" alt="Flatworm image">
+          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"></a>
         </div>
       </div>
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Batrachochytrium_dendrobatidis" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="collapse multi-collapse" id="multiCollapseExample2">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Batrachochytrium_dendrobatidis" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="collapse multi-collapse" id="multiCollapseExample2">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Batrachochytrium_dendrobatidis" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="collapse multi-collapse" id="multiCollapseExample2">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Batrachochytrium_dendrobatidis" allowfullscreen></iframe>
+        </div>
+      </div>
+
+<!-- Second row of organisms -->
       <div class="row mb-5">
-        <div class="col card-img zoom">
-          <img class="img-fluid" src="../../media/ClayWorm.jpg" alt="">
-          <a class="stretched-link" onclick="myFunction()"></a>
+        <div class="col card-img zoom align-self-center">
+          <img class="img-fluid" src="https://media.gettyimages.com/photos/copepod-micrograph-picture-id117333409?s=2048x2048" alt="">
+          <a class="stretched-link" onclick="myFunction2()"></a>
         </div>
-        <div class="col card-img zoom">
-          <img class="img-fluid " src="../../media/ClayWorm.jpg" alt="">
-          <a class="stretched-link" onclick="myFunction()"></a>
+        <div class="col card-img zoom align-self-center">
+          <img class="img-fluid " src="https://farm66.staticflickr.com/65535/45691332935_695b169753_b.jpg" alt="Grass shrimp image">
+          <a class="stretched-link" onclick="myFunction2()"></a>
         </div>
-        <div class="col card-img zoom">
-          <img class=" img-fluid " src="../../media/ClayWorm.jpg" alt="">
-          <a class="stretched-link" onclick="myFunction()"></a>
+        <div class="col card-img zoom align-self-center">
+          <img class=" img-fluid " src="https://media.gettyimages.com/photos/barnacles-on-hainan-island-picture-id845069720?s=2048x2048" alt="Barnacles image">
+          <a class="stretched-link" onclick="myFunction2()"></a>
         </div>
-        <div class="col card-img zoom">
-          <img class="img-fluid" src="../../media/ClayWorm.jpg" alt="">
-          <a class="stretched-link" onclick="myFunction()"></a>
+        <div class="col card-img zoom align-self-center">
+          <img class="img-fluid" src="http://www.aphotomarine.com/images/marine_bivalves/bivalve_mytilopsis_leucophaeata_26-02-16_1.jpg" alt="False dark mussel image">
+          <a class="stretched-link" onclick="myFunction2()"></a>
         </div>
       </div>
+      <div class="Collapseable text">
+
+      </div>
+
       <div class="row my-auto">
-        <div class="col card-img zoom">
-          <img class="img-fluid" src="../../media/ClayWorm.jpg" alt="">
-          <a class="stretched-link" onclick="myFunction()"></a>
+        <div class="col card-img zoom align-self-center">
+          <img class="img-fluid" src="https://media.gettyimages.com/photos/bristle-worm-picture-id976282458?s=2048x2048" alt="Polycheate worm image">
+          <a class="stretched-link" onclick="myFunction2()"></a>
         </div>
-        <div class="col card-img zoom">
-          <img class="img-fluid " src="../../media/ClayWorm.jpg" alt="">
-          <a class="stretched-link" onclick="myFunction()"></a>
+        <div class="col card-img zoom align-self-center">
+          <img class="img-fluid " src="https://media.gettyimages.com/photos/sea-anemone-in-underwater-picture-id597280371?s=2048x2048" alt="Aenomone image">
+          <a class="stretched-link" onclick="myFunction2()"></a>
         </div>
-        <div class="col card-img zoom">
-          <img class=" img-fluid " src="../../media/ClayWorm.jpg" alt="">
-          <a class="stretched-link" onclick="myFunction()"></a>
+        <div class="col card-img zoom align-self-center">
+          <img class=" img-fluid " src="https://alchetron.com/cdn/batrachochytrium-dendrobatidis-e2523ae1-fefc-428e-b3f9-1df3c916074-resize-750.jpeg" alt="Chytrid fungus image">
+          <a class="stretched-link" onclick="myFunction2()"></a>
         </div>
-        <div class="col card-img zoom">
-          <img class="img-fluid" src="../../media/ClayWorm.jpg" alt="">
-          <a class="stretched-link" onclick="myFunction()"></a>
+        <div class="col card-img zoom align-self-center">
+          <img class="img-fluid" src="https://media.gettyimages.com/photos/ciliate-blepharisma-americanum-micrograph-picture-id169940394?s=2048x2048" alt="Ciliates image">
+          <a class="stretched-link" onclick="myFunction2()"></a>
         </div>
       </div>
+      <div class="Collapseable text">
+
+      </div>
+
     </div>
 </div>
 
