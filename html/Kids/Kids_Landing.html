@@ -7,7 +7,6 @@
     <!-- Master Stylesheet -->
     <link rel="stylesheet" href="../../css/SASS/BUGSS_Styles.css">
 
-
     <!-- CDNs for Bootstrap and jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -35,27 +34,59 @@
     <!--font awesome cdn for social Buttons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style rel="stylesheet">
-    .shake:hover {
+      .shake:hover {
         /* Start the shake animation and make the animation last for 0.5 seconds */
         animation: shake 0.5s;
 
         /* When the animation is finished, start again */
         animation-iteration-count: infinite;
+      }
+
+      @keyframes shake {
+        0% {
+          transform: translate(1px, 1px) rotate(0deg);
         }
 
-        @keyframes shake {
-        0% { transform: translate(1px, 1px) rotate(0deg); }
-        10% { transform: translate(-1px, -2px) rotate(-1deg); }
-        20% { transform: translate(-3px, 0px) rotate(1deg); }
-        30% { transform: translate(3px, 2px) rotate(0deg); }
-        40% { transform: translate(1px, -1px) rotate(1deg); }
-        50% { transform: translate(-1px, 2px) rotate(-1deg); }
-        60% { transform: translate(-3px, 1px) rotate(0deg); }
-        70% { transform: translate(3px, 1px) rotate(-1deg); }
-        80% { transform: translate(-1px, -1px) rotate(1deg); }
-        90% { transform: translate(1px, 2px) rotate(0deg); }
-        100% { transform: translate(1px, -2px) rotate(-1deg); }
+        10% {
+          transform: translate(-1px, -2px) rotate(-1deg);
         }
+
+        20% {
+          transform: translate(-3px, 0px) rotate(1deg);
+        }
+
+        30% {
+          transform: translate(3px, 2px) rotate(0deg);
+        }
+
+        40% {
+          transform: translate(1px, -1px) rotate(1deg);
+        }
+
+        50% {
+          transform: translate(-1px, 2px) rotate(-1deg);
+        }
+
+        60% {
+          transform: translate(-3px, 1px) rotate(0deg);
+        }
+
+        70% {
+          transform: translate(3px, 1px) rotate(-1deg);
+        }
+
+        80% {
+          transform: translate(-1px, -1px) rotate(1deg);
+        }
+
+        90% {
+          transform: translate(1px, 2px) rotate(0deg);
+        }
+
+        100% {
+          transform: translate(1px, -2px) rotate(-1deg);
+        }
+      }
     </style>
 
     <title>BUGSS Kids and Parents</title>
@@ -78,6 +109,7 @@
               About
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../About/About_Landing_Page.html">About BUGSS</a>
               <a class="dropdown-item" href="../About/Donors_and_Sponsors.html">Donors and Sponsors</a>
               <a class="dropdown-item" href="../About/FAQs.html">FAQ</a>
             </div>
@@ -90,7 +122,7 @@
               Group Projects
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="../Projects/Scramble_Synthetic_Yeast.html">Scramble and Synthetic Yeast</a>
+              <a class="dropdown-item" href="../Projects/Projects_Landing.html">Group Projects Home</a><a class="dropdown-item" href="../Projects/Scramble_Synthetic_Yeast.html">Scramble and Synthetic Yeast</a>
               <a class="dropdown-item" href="../Projects/Barcoding_The_Harbor.php">Barcoding The Harbor</a>
             </div>
           </li>
@@ -98,10 +130,10 @@
             <a class="nav-link" href="../Scientists/Scientists_Landing.html">For Scientists</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="../Community/Community_Landing.html">For Community Members</a>
+            <a class="nav-link" href="../Community/Community_Landing.html">For Community Members</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../Kids/Kids_Landing.html">For Kids and Parents</a>
+            <a class="nav-link active" href="../Kids/Kids_Landing.html">For Kids and Parents</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../Support/Support_Us_Landing.html">Support Us</a>
@@ -124,84 +156,97 @@
         <a class="nav-link text-white rounded-0 shake" id="pills-agar-tab" data-toggle="pill" href="#pills-agar" role="tab" aria-controls="pills-agar" aria-selected="false">Agar Art</a>
       </li>
     </ul>
+    <div class="container-fluid">
+      <div class="my-1 jumbotron card bg-primary">
 
-<div class="my-1 jumbotron card bg-primary">
-  <div class="container-fluid">
-    <h2 class="display-4 text-light">Hear From Other <br>BUGSS Kids & Check Out<br>Fun Activites Just For You! </h2>
+        <h2 class="display-4 text-white">Hear From Other BUGSS Kids <br>& Check Out Fun Activites Just For You! </h2>
 
-    <h5 class="text-light">And parents, check out our brochure on how to get invloved</h5>
-    <a class="" href="../../media/BUGSS-educational-brochure.pdf">Click Here For Our Educational Borchure</a>
-  </div>
-</div>
-
-<div class="tab-content container-fluid bg-white" id="pills-tabContent">
-  <!--UPCOMING Youth Home TAB -->
-<div class="container-fluid tab-pane active" id="pills-tabContent" id="pills-youth" role="tabpanel" aria-labelledby="pills-youth-tab">
-
-    <div class="container-fluid my-5">
-      <div class="row">
-        <div class="col mx-2 jumbotron bg-white shadow">
-            <h5 class="text-center">For Younger Kids</h5>
-            <img class="img-fluid rounded my-1" src="../../media/Margia 2_CropEdit.png" alt="Baltimore BioCrew group picture ">
-            <h4 class="card-title text-primary text-center mt-3 mb-2">Agar Art</h4>
-            <hr>
-            <h5 class="card-subtitle mb-2 text-center">1 hour class</h5>
-            <p class="card-text">
-              Use colored bacteria and yeast to create your own living art works by drawing with colored organisms on petri dishes.</p>
-          </p>
-        </div>
-
-        <div class="col jumbotron bg-white shadow">
-            <h5 class="text-center">For Big Kids</h5>
-            <img class="img-fluid rounded my-1" src="../../media/ACTG_Fruit.jpg" alt="Kids working with scientific tools in lab">
-            <h4 class="card-title text-primary text-center mt-2">The ACTG's of Fruit!</h4>
-            <hr>
-            <h5 class="card-subtitle mb-2 text-center">1.5 hour course</h5>
-            <p class="card-text mt-1">
-              What is DNA? What is a gene? We’ll learn by using chemistry to extract DNA from several fruits. Can you guess the number of chromosomes in each based on the amount of DNA?
-            </p>
-        </div>
-
-        <div class="col jumbotron bg-white shadow">
-            <h5 class="text-center">For Older Kids</h5>
-            <img class="img-fluid rounded my-1" src="../../media/ITuneDevice.png" alt="Kids working with scientific tools in lab">
-            <h4 class="card-title text-primary text-center mt-2">iTune Device </h4>
-            <hr>
-            <h5 class="card-subtitle mb-2 text-center">4 hour course</h5>
-            <p class="card-text">
-              This lab focuses on predictable design. Students will examine the role of parts, such as promoters and ribosome binding sites, in determining the output of a genetic device. The students measure &#946;-galactosidase enzymatic
-              activity as the device’s output, enabling them to look through the lens of molecular genetics to evaluate a device’s behavior.
-            </p>
-          </p>
-        </div>
-
+        <h5 class="text-white">And parents, check out our brochure on how to get invloved</h5>
+        <a class="link-light" href="../../media/BUGSS-educational-brochure.pdf">Click Here For Our Educational Brochure</a>
       </div>
     </div>
 
+    <div class="tab-content container-fluid bg-white" id="pills-tabContent">
+      <!--UPCOMING Youth Home TAB -->
+      <div class="container-fluid tab-pane active" id="pills-tabContent" id="pills-youth" role="tabpanel" aria-labelledby="pills-youth-tab">
 
-    <div class="col card shadow mx-auto my-7">
-      <h4 class="text-primary mt-3"> "BUGSS provides creative learning experiences, responsive to the interests of our community members." </h4>
-      <hr>
-      <p class="pb-3">Neiyer Correal-Winters and his two sons Naige and Patrick read about groundbreaking CRISPR technology that allows rapid and efficient genome editing. Eager to try their hands with the technology, they obtained a family
-        membership to BUGSS, ordered materials online, and developed their own CRISPR project under the guidance of lab staff and mentors. At the BUGSS lab, they are able to pursue this unique family activity!</p>
-    </div>
-    <div class="col card shadow mx-auto my-4">
-      <h4 class="text-primary mt-3"> "BUGSS motivates students with socially relevant science." </h4>
-      <hr>
-      <p class="pb-3">Ella Coleman is a home schooled student who joined the BUGSS team for the International Genetically Engineered Machines competition (iGEM). The six high school students conceived of a project, engineering bacterial cells to
-        degrade plastic and help clean up pollution in the Inner Harbor. Ella traveled to Boston with the team, delivered oral and poster presentations at the International Jamboree of high school and college students, talked about her work with
-        faculty judges, and won a team bronze medal. The team’s incredible work was recognized with an article and video of Ella on the front page of the Baltimore Sun!</p>
-    </div>
-    <div class="col card shadow mx-auto my-4">
-      <h4 class="text-primary mt-3"> "BUGSS inspires science and technology careers." </h4>
-      <hr>
-      <p class="pb-3">Rachael Avidor, Julius Gingles, and Mercedes Thompson are three students from Baltimore city high schools who participated in BUGSS’ 2016 iGEM team. While these three students had long been interested in science, the iGEM
-        experience was unique in allowing them to take leadership and ownership of a scientific project. Each is continuing to excel on their scientific path, engaging in additional research at Johns Hopkins and the NIH, winning full scholarships
-        to Brown and Johns Hopkins Universities, and founding Baltimore Beyond Plastic. These students will lead the scientific revolution of the next generation!</p>
-    </div>
+        <div class="container-fluid my-5">
+          <div class="row">
+            <div class="col">
+              <div class="card border-white shadow h-100">
+                <div class="card-header bg-white">
+              <h3 class="card-title text-center">For Younger Kids</h3>
+
+              <img class="img-fluid rounded my-1" src="../../media/Margia 2_CropEdit.png" alt="Baltimore BioCrew group picture ">
+              <h3 class="card-title text-primary text-center mt-3 mb-2">Agar Art</h3>
+            </div>
+            <div class="card-body">
+              <h5 class="card-subtitle mb-2 text-center">1 hour class</h5>
+              <p class="card-text">
+                Use colored bacteria and yeast to create your own living art works by drawing with colored organisms on petri dishes.</p>
+              </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-white shadow h-100">
+              <div class="card-header bg-white">
+            <h3 class="card-title text-center">For Big Kids</h3>
+              <img class="img-fluid rounded my-1" src="../../media/ACTG_Fruit.jpg" alt="Kids working with scientific tools in lab">
+              <h3 class="card-title text-primary text-center mt-2">The ACTG's of Fruit!</h3>
+            </div>
+                <div class="card-body">
+              <h5 class="card-subtitle mb-2 text-center">1.5 hour course</h5>
+              <p class="card-text mt-1">
+                What is DNA? What is a gene? We’ll learn by using chemistry to extract DNA from several fruits. Can you guess the number of chromosomes in each based on the amount of DNA?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card border-white shadow h-100">
+            <div class="card-header bg-white">
+          <h3 class="card-title text-center">For Older Kids</h3>
+              <img class="img-fluid rounded my-1" src="../../media/ITuneDeviceSquare.png" alt="Kids working with scientific tools in lab">
+              <h3 class="card-title text-primary text-center mt-2">iTune Device </h3>
+            </div>
+            <div class="card-body">
+              <h5 class="card-subtitle mb-2 text-center">4 hour course</h5>
+              <p class="card-text">
+                This lab focuses on predictable design. Students will examine the role of parts, such as promoters and ribosome binding sites, in determining the output of a genetic device. The students measure &#946;-galactosidase enzymatic
+                activity as the device’s output, enabling them to look through the lens of molecular genetics to evaluate a device’s behavior.
+              </p>
+            </div>
+          </div>
+        </div>
 
 
-</div>
+          </div>
+        </div>
+
+        <div class="col card shadow mx-auto my-7">
+          <h4 class="text-primary mt-3"> "BUGSS provides creative learning experiences, responsive to the interests of our community members." </h4>
+          <hr>
+          <p class="pb-3">Neiyer Correal-Winters and his two sons Naige and Patrick read about groundbreaking CRISPR technology that allows rapid and efficient genome editing. Eager to try their hands with the technology, they obtained a family
+            membership to BUGSS, ordered materials online, and developed their own CRISPR project under the guidance of lab staff and mentors. At the BUGSS lab, they are able to pursue this unique family activity!</p>
+        </div>
+        <div class="col card shadow mx-auto my-4">
+          <h4 class="text-primary mt-3"> "BUGSS motivates students with socially relevant science." </h4>
+          <hr>
+          <p class="pb-3">Ella Coleman is a home schooled student who joined the BUGSS team for the International Genetically Engineered Machines competition (iGEM). The six high school students conceived of a project, engineering bacterial cells to
+            degrade plastic and help clean up pollution in the Inner Harbor. Ella traveled to Boston with the team, delivered oral and poster presentations at the International Jamboree of high school and college students, talked about her work with
+            faculty judges, and won a team bronze medal. The team’s incredible work was recognized with an article and video of Ella on the front page of the Baltimore Sun!</p>
+        </div>
+        <div class="col card shadow mx-auto my-4">
+          <h4 class="text-primary mt-3"> "BUGSS inspires science and technology careers." </h4>
+          <hr>
+          <p class="pb-3">Rachael Avidor, Julius Gingles, and Mercedes Thompson are three students from Baltimore city high schools who participated in BUGSS’ 2016 iGEM team. While these three students had long been interested in science, the iGEM
+            experience was unique in allowing them to take leadership and ownership of a scientific project. Each is continuing to excel on their scientific path, engaging in additional research at Johns Hopkins and the NIH, winning full scholarships
+            to Brown and Johns Hopkins Universities, and founding Baltimore Beyond Plastic. These students will lead the scientific revolution of the next generation!</p>
+        </div>
+
+      </div>
 
       <!--Clubs and Groups Tab-->
       <div class="tab-pane fade" id="pills-clubs" role="tabpanel" aria-labelledby="pills-clubs-tab">
@@ -361,77 +406,77 @@
             </p>
           </div>
 
-        <div class="tab-pane fade" id="pills-2018" role="tabpanel" aria-labelledby="pills-2018-tab">
-          <h1 class="display-4">About the Baltimore BioCrew</h1>
-          <div class="row justify-content-between mb-3">
-            <div class="col">
-              <img src="../../media/20180505_163343.jpg" class="img-fluid">
+          <div class="tab-pane fade" id="pills-2018" role="tabpanel" aria-labelledby="pills-2018-tab">
+            <h1 class="display-4">About the Baltimore BioCrew</h1>
+            <div class="row justify-content-between mb-3">
+              <div class="col">
+                <img src="../../media/20180505_163343.jpg" class="img-fluid">
+              </div>
+              <div class="col">
+                <p>
+                  Hello, we are the Baltimore Bio Crew and we are a team of high school students. We work at the Baltimore Underground Science Space (BUGSS). BUGSS is a public laboratory offering classes, seminars, and lab access so that anyone can
+                  safely
+                  and affordably investigate the living world.
+                </p>
+                <p>
+                  We successfully showcased “Coagulance Rx” at the 2018 iGEM Giant Jamboree, the synthetic biology industry’s largest innovation event hosted by the International Genetically Engineered Machine (iGEM) Foundation. The Giant Jamboree
+                  is
+                  the
+                  culminating event of iGEM’s annual, worldwide, synthetic biology competition for students all around the world to use genetic engineering to solve local problems.
+                </p>
+              </div>
             </div>
-            <div class="col">
-              <p>
-                Hello, we are the Baltimore Bio Crew and we are a team of high school students. We work at the Baltimore Underground Science Space (BUGSS). BUGSS is a public laboratory offering classes, seminars, and lab access so that anyone can
-                safely
-                and affordably investigate the living world.
-              </p>
-              <p>
-                We successfully showcased “Coagulance Rx” at the 2018 iGEM Giant Jamboree, the synthetic biology industry’s largest innovation event hosted by the International Genetically Engineered Machine (iGEM) Foundation. The Giant Jamboree
-                is
-                the
-                culminating event of iGEM’s annual, worldwide, synthetic biology competition for students all around the world to use genetic engineering to solve local problems.
-              </p>
-            </div>
-          </div>
-          <h3>
-            We’re thrilled that our team won a bronze medal and also the award for Best High School Presentation!
-          </h3>
-          <p>
-            Each year, the competition brings together more than 6,000 participants from across the globe to explore and create unique applications of synthetic biology with the mission to bring positive contributions to their communities and
-            society at large. Beyond the technology, participants are evaluated on teamwork, responsibility, entrepreneurship, sharing, safety and more. Baltimore Underground Science Space (BUGSS), Baltimore’s regional community laboratory,
-            sponsors a team each year, the Baltimore BioCrew, which brings together students from Baltimore and our neighboring communities to combat a local problem using synthetic biology. “The Baltimore BioCrew program is a true collaborative
-            project,” says Lisa Scheifele Ph.D., Executive Director of BUGSS. “It brings our students together with professional scientists and trainees who serve as their scientific mentors, local professionals such as the Chesapeake Area
-            Biological Safety Association and the University of Maryland’s Science, Technology and Society program who mentor our students on safety and presentation skills, and individual and corporate sponsors such as Becton Dickinson, Inc. who
-            partner with us to support this amazing team.”
-          </p>
-
-          <p>
-            The Baltimore BioCrew’s team’s project, Coagulance Rx, originated from the team’s desire to address gun violence in Baltimore. When meeting with Dr. Thomas Scalea, Physician-in-Chief at the University of Maryland Shock Trauma Center
-            and
-            Dr. Habeeba Park of Stop the Bleed, they learned that massive blood loss can cause death within only 5-10 minutes. Rallied to action by stories of preventable deaths during incidents like the Sandy Hook massacre, the BioCrew used
-            synthetic biology to engineer bacterial cells that would produce the Russel’s viper snake venom protein. This protein coagulates blood and can be embedded in bandages that are distributed to the public to help stop bleeding in
-            emergency
-            situations. BioCrew team member Henry Ryle found that, “iGEM was an incredible experience. I learned so much about myself and the synthetic biology field, a field of study that I barely knew existed. I learned graduate level
-            scientific
-            procedures as a high schooler, and learned how to program a website. It has totally changed my view of the world- seeing other teams and listening to their work in Boston was eye opening to me. I am so glad I got this opportunity, and
-            I
-            hope other high schoolers in Baltimore get it as well.”
-          </p>
-          <p>
-            <!--TODO: format list-->
-            Students on the team include: </p>
-          <p>
-            Melissa Jones (Eleanor Roosevelt High School, Greenbelt), Akinwumi Akinfenwa, Mya Smith, Shikei Morrison, Heydy Herbert (Baltimore Polytechnic Institute), Abner Russom (Northwood High School, Rockville), Zoe Hsieh (Hereford High
-            School,
-            Parkton), Justin Bai (Gilman School), Jocelyn Choo, Naige Correal-Winters, and Patrick Correal-Winters (Centennial High School, Ellicott City), Zion Smith, and Nidele Dongmo (Baltimore City College), Mame Gueye, Mercedes Ferandes,
-            Ryan
-            Scott, and Henry Ryle (Bard High School Early College Baltimore), and Ella Coleman (Rensselaer Polytechnic Institute).
-          </p>
-          <blockquote class="container blockquote">
+            <h3>
+              We’re thrilled that our team won a bronze medal and also the award for Best High School Presentation!
+            </h3>
             <p>
-              “This year’s Giant Jamboree was a spectacular display of hard work and ingenuity. These students are showing the world what’s possible when we fearlessly tackle tough problems and open our minds to new applications of engineering
-              biology. Many of the projects presented at iGEM will serve as the foundation and inspiration for important research, influential companies and international interest to come – these participants are most certainly tomorrow’s
-              leaders.”
+              Each year, the competition brings together more than 6,000 participants from across the globe to explore and create unique applications of synthetic biology with the mission to bring positive contributions to their communities and
+              society at large. Beyond the technology, participants are evaluated on teamwork, responsibility, entrepreneurship, sharing, safety and more. Baltimore Underground Science Space (BUGSS), Baltimore’s regional community laboratory,
+              sponsors a team each year, the Baltimore BioCrew, which brings together students from Baltimore and our neighboring communities to combat a local problem using synthetic biology. “The Baltimore BioCrew program is a true collaborative
+              project,” says Lisa Scheifele Ph.D., Executive Director of BUGSS. “It brings our students together with professional scientists and trainees who serve as their scientific mentors, local professionals such as the Chesapeake Area
+              Biological Safety Association and the University of Maryland’s Science, Technology and Society program who mentor our students on safety and presentation skills, and individual and corporate sponsors such as Becton Dickinson, Inc. who
+              partner with us to support this amazing team.”
             </p>
-            <footer class="blockquote-footer">Randy Rettberg, co-founder and president of iGEM.</footer>
-          </blockquote>
-          </p>
-          <h5>
-            For more information on the BioCrew’s project, visit<a href="http://2018.igem.org/Team:Baltimore_BioCrew"> our page on iGEM's website. </a>
-          </h5>
-          <p>
-            Your donations help sustain our team and ensure that we can register a team in 2019. Thank you for your donation in any amount!
-          </p>
+
+            <p>
+              The Baltimore BioCrew’s team’s project, Coagulance Rx, originated from the team’s desire to address gun violence in Baltimore. When meeting with Dr. Thomas Scalea, Physician-in-Chief at the University of Maryland Shock Trauma Center
+              and
+              Dr. Habeeba Park of Stop the Bleed, they learned that massive blood loss can cause death within only 5-10 minutes. Rallied to action by stories of preventable deaths during incidents like the Sandy Hook massacre, the BioCrew used
+              synthetic biology to engineer bacterial cells that would produce the Russel’s viper snake venom protein. This protein coagulates blood and can be embedded in bandages that are distributed to the public to help stop bleeding in
+              emergency
+              situations. BioCrew team member Henry Ryle found that, “iGEM was an incredible experience. I learned so much about myself and the synthetic biology field, a field of study that I barely knew existed. I learned graduate level
+              scientific
+              procedures as a high schooler, and learned how to program a website. It has totally changed my view of the world- seeing other teams and listening to their work in Boston was eye opening to me. I am so glad I got this opportunity, and
+              I
+              hope other high schoolers in Baltimore get it as well.”
+            </p>
+            <p>
+              <!--TODO: format list-->
+              Students on the team include: </p>
+            <p>
+              Melissa Jones (Eleanor Roosevelt High School, Greenbelt), Akinwumi Akinfenwa, Mya Smith, Shikei Morrison, Heydy Herbert (Baltimore Polytechnic Institute), Abner Russom (Northwood High School, Rockville), Zoe Hsieh (Hereford High
+              School,
+              Parkton), Justin Bai (Gilman School), Jocelyn Choo, Naige Correal-Winters, and Patrick Correal-Winters (Centennial High School, Ellicott City), Zion Smith, and Nidele Dongmo (Baltimore City College), Mame Gueye, Mercedes Ferandes,
+              Ryan
+              Scott, and Henry Ryle (Bard High School Early College Baltimore), and Ella Coleman (Rensselaer Polytechnic Institute).
+            </p>
+            <blockquote class="container blockquote">
+              <p>
+                “This year’s Giant Jamboree was a spectacular display of hard work and ingenuity. These students are showing the world what’s possible when we fearlessly tackle tough problems and open our minds to new applications of engineering
+                biology. Many of the projects presented at iGEM will serve as the foundation and inspiration for important research, influential companies and international interest to come – these participants are most certainly tomorrow’s
+                leaders.”
+              </p>
+              <footer class="blockquote-footer">Randy Rettberg, co-founder and president of iGEM.</footer>
+            </blockquote>
+            </p>
+            <h5>
+              For more information on the BioCrew’s project, visit<a href="http://2018.igem.org/Team:Baltimore_BioCrew"> our page on iGEM's website. </a>
+            </h5>
+            <p>
+              Your donations help sustain our team and ensure that we can register a team in 2019. Thank you for your donation in any amount!
+            </p>
+          </div>
         </div>
-</div>
       </div>
 
       <!--Agar Art TAB-->
@@ -440,8 +485,6 @@
         <p class="container-fluid lead">
           this page is under construction
         </p>
-
-
 
       </div>
     </div>
