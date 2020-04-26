@@ -1,0 +1,310 @@
+<html>
+  <head>
+    <!-- set viewport to screen size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <!-- Master Stylesheet -->
+    <link rel="stylesheet" href="../../css/SASS/BUGSS_Styles.css">
+
+    <!-- CDNs for Bootstrap and jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Favicon Settings for Different Devices -->
+    <link rel="apple-touch-icon" sizes="57x57" href="../../media/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../media/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../media/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../media/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../media/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../media/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../media/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../media/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../media/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../media/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../media/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../media/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../media/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../media/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../media/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--font awesome cdn for social Buttons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style rel="stylesheet">
+      .shake:hover {
+        /* Start the shake animation and make the animation last for 0.5 seconds */
+        animation: shake 0.5s;
+
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes shake {
+        0% {
+          transform: translate(1px, 1px) rotate(0deg);
+        }
+
+        10% {
+          transform: translate(-1px, -2px) rotate(-1deg);
+        }
+
+        20% {
+          transform: translate(-3px, 0px) rotate(1deg);
+        }
+
+        30% {
+          transform: translate(3px, 2px) rotate(0deg);
+        }
+
+        40% {
+          transform: translate(1px, -1px) rotate(1deg);
+        }
+
+        50% {
+          transform: translate(-1px, 2px) rotate(-1deg);
+        }
+
+        60% {
+          transform: translate(-3px, 1px) rotate(0deg);
+        }
+
+        70% {
+          transform: translate(3px, 1px) rotate(-1deg);
+        }
+
+        80% {
+          transform: translate(-1px, -1px) rotate(1deg);
+        }
+
+        90% {
+          transform: translate(1px, 2px) rotate(0deg);
+        }
+
+        100% {
+          transform: translate(1px, -2px) rotate(-1deg);
+        }
+      }
+    </style>
+
+    <title>BUGSS Kids and Parents</title>
+
+  </head>
+  <body>
+    <!--TODO: Update Active classes on links if applicable-->
+    <!--TODO: We can decide to use dropdowns or another popup or make them click through.-->
+    <!--NAVBAR-->
+    <nav class="navbar navbar-light navbar-expand-lg bg-white">
+      <a class="navbar-brand" href="../index.html"><img class="logoNav" src="../../media/bugsslogo-square300.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../About/About_Landing_Page.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../About/About_Landing_Page.html">About BUGSS</a>
+              <a class="dropdown-item" href="../About/Donors_and_Sponsors.html">Donors and Sponsors</a>
+              <a class="dropdown-item" href="../About/FAQs.html">FAQ</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Membership/Membership_Landing.html">Membership</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../Projects/Projects_Landing.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Group Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../Projects/Projects_Landing.html">Group Projects Home</a><a class="dropdown-item" href="../Projects/Scramble_Synthetic_Yeast.html">Scramble and Synthetic Yeast</a>
+              <a class="dropdown-item" href="../Projects/Barcoding_The_Harbor.php">Barcoding The Harbor</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Scientists/Scientists_Landing.html">For Scientists</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Community/Community_Landing.html">For Community Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../Kids/Kids_Landing.html">For Kids and Parents</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Support/Support_Us_Landing.html">Support Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="nav nav-fill nav-pills bg-primary" id="pills-tab">
+      <li class="nav-item">
+        <a class="nav-link text-white rounded-0 shake" id="pills-youth-tab" href="../Kids/Kids_Landing.html">BUGSS Kids Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white rounded-0 shake" id="pills-clubs-tab" href="ProgramsForGroups.html">Programs for Clubs and Groups</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white active rounded-0 shake" id="pills-igem-tab" href="iGEM.html">Baltimore BioCrew iGEM Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white rounded-0 shake" id="pills-agar-tab" href="AgarArt.html">Agar Art</a>
+      </li>
+    </ul>
+    <div class="container-fluid">
+      <div class="my-2 jumbotron card bg-primary">
+
+        <h2 class="display-4 text-white">Hear From Other BUGSS Kids <br>& Check Out Fun Activites Just For You! </h2>
+
+        <h5 class="text-white">And parents, check out our brochure on how to get invloved</h5>
+        <a class="link-light" href="../../media/BUGSS-educational-brochure.pdf">Click Here For Our Educational Brochure</a>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-white" >
+  <ul class="nav justify-content-around" id="pills-tab-1" role="tablist" style=".active{color:#7a56e9}">
+          <li class="nav-item">
+            <a class="nav-link active rounded-0 text-primary" id="pills-join-tab" data-toggle="pill" href="#pills-join" role="tab" aria-controls="pills-igem" aria-selected="false">Join the team!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-0 text-primary" id="pills-2018-tab" data-toggle="pill" href="#pills-2018" role="tab" aria-controls="pills-youth" aria-selected="true">Baltimore BioCrew 2018</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-0 text-primary" id="pills-ed-tab" data-toggle="pill" href="#pills-ed" role="tab" aria-controls="pills-clubs" aria-selected="true">Thank You</a>
+          </li>
+
+        </ul>
+
+        <div class="tab-content container-fluid bg-white" id="pills-tab-1Content">
+          <div class="tab-pane fade show active" id="pills-join" role="tabpanel" aria-labelledby="pills-join-tab">
+            <h1 class="display-4">Baltimore BioCrew iGEM team</h1>
+            <h3>
+              Do you know any students that would be interested in hands-on learning in the lab by building with biology in the summer?
+            </h3>
+            <p>The International Genetically Engineered Machines (iGEM) competition is an annual event open to undergraduate teams, high school students, and community labs like BUGSS from around the world. Explore the iGEM website:
+              http://igem.org/About
+            </p>
+            <p>
+
+              It’s kind of a big deal, with teams working all year to make their own genetic machines from existing and novel parts. Examples include a rainbow of pigmented bacteria, banana and wintergreen smelling bacteria, and an arsenic sensor.
+              Know any
+              wiz kids who love science? This is a great opportunity to let their creativity flow and build a genetic device of their own design.
+            </p>
+            <p>
+              For the past two years, the BUGSS (Baltimore Underground Science Space) community lab has hosted a team of high school students who participated in iGEM-they are the Baltimore BioCrew! Their project was to engineer bacteria to break
+              down
+              plastic that contaminates the inner harbor. Check out a front page story on the Baltimore Sun here: http://www.baltimoresun.com/news/maryland/bs-md-plastic-eating-bacteria-20161116-story.html
+            </p>
+            <p>
+              This year, the BioCrew mentored middle school students who were associate members and worked on a related project on plastic degradation. The team is looking for more middle school associate members and high school members to join the
+              team!
+              The team will meet throughout the winter and spring on Saturdays to prepare for their summer working in the lab. This is a unique opportunity for students to participate in creative hands-on science!
+            </p>
+          </div>
+
+          <div class="tab-pane fade" id="pills-2018" role="tabpanel" aria-labelledby="pills-2018-tab">
+            <h1 class="display-4">About the Baltimore BioCrew</h1>
+            <div class="row justify-content-between mb-3">
+              <div class="col">
+                <img src="../../media/20180505_163343.jpg" class="img-fluid">
+              </div>
+              <div class="col">
+                <p>
+                  Hello, we are the Baltimore Bio Crew and we are a team of high school students. We work at the Baltimore Underground Science Space (BUGSS). BUGSS is a public laboratory offering classes, seminars, and lab access so that anyone can
+                  safely
+                  and affordably investigate the living world.
+                </p>
+                <p>
+                  We successfully showcased “Coagulance Rx” at the 2018 iGEM Giant Jamboree, the synthetic biology industry’s largest innovation event hosted by the International Genetically Engineered Machine (iGEM) Foundation. The Giant Jamboree
+                  is
+                  the
+                  culminating event of iGEM’s annual, worldwide, synthetic biology competition for students all around the world to use genetic engineering to solve local problems.
+                </p>
+              </div>
+            </div>
+            <h3>
+              We’re thrilled that our team won a bronze medal and also the award for Best High School Presentation!
+            </h3>
+            <p>
+              Each year, the competition brings together more than 6,000 participants from across the globe to explore and create unique applications of synthetic biology with the mission to bring positive contributions to their communities and
+              society at large. Beyond the technology, participants are evaluated on teamwork, responsibility, entrepreneurship, sharing, safety and more. Baltimore Underground Science Space (BUGSS), Baltimore’s regional community laboratory,
+              sponsors a team each year, the Baltimore BioCrew, which brings together students from Baltimore and our neighboring communities to combat a local problem using synthetic biology. “The Baltimore BioCrew program is a true collaborative
+              project,” says Lisa Scheifele Ph.D., Executive Director of BUGSS. “It brings our students together with professional scientists and trainees who serve as their scientific mentors, local professionals such as the Chesapeake Area
+              Biological Safety Association and the University of Maryland’s Science, Technology and Society program who mentor our students on safety and presentation skills, and individual and corporate sponsors such as Becton Dickinson, Inc. who
+              partner with us to support this amazing team.”
+            </p>
+
+            <p>
+              The Baltimore BioCrew’s team’s project, Coagulance Rx, originated from the team’s desire to address gun violence in Baltimore. When meeting with Dr. Thomas Scalea, Physician-in-Chief at the University of Maryland Shock Trauma Center
+              and
+              Dr. Habeeba Park of Stop the Bleed, they learned that massive blood loss can cause death within only 5-10 minutes. Rallied to action by stories of preventable deaths during incidents like the Sandy Hook massacre, the BioCrew used
+              synthetic biology to engineer bacterial cells that would produce the Russel’s viper snake venom protein. This protein coagulates blood and can be embedded in bandages that are distributed to the public to help stop bleeding in
+              emergency
+              situations. BioCrew team member Henry Ryle found that, “iGEM was an incredible experience. I learned so much about myself and the synthetic biology field, a field of study that I barely knew existed. I learned graduate level
+              scientific
+              procedures as a high schooler, and learned how to program a website. It has totally changed my view of the world- seeing other teams and listening to their work in Boston was eye opening to me. I am so glad I got this opportunity, and
+              I
+              hope other high schoolers in Baltimore get it as well.”
+            </p>
+            <p>
+              <!--TODO: format list-->
+              Students on the team include: </p>
+            <p>
+              Melissa Jones (Eleanor Roosevelt High School, Greenbelt), Akinwumi Akinfenwa, Mya Smith, Shikei Morrison, Heydy Herbert (Baltimore Polytechnic Institute), Abner Russom (Northwood High School, Rockville), Zoe Hsieh (Hereford High
+              School,
+              Parkton), Justin Bai (Gilman School), Jocelyn Choo, Naige Correal-Winters, and Patrick Correal-Winters (Centennial High School, Ellicott City), Zion Smith, and Nidele Dongmo (Baltimore City College), Mame Gueye, Mercedes Ferandes,
+              Ryan
+              Scott, and Henry Ryle (Bard High School Early College Baltimore), and Ella Coleman (Rensselaer Polytechnic Institute).
+            </p>
+            <blockquote class="container blockquote">
+              <p>
+                “This year’s Giant Jamboree was a spectacular display of hard work and ingenuity. These students are showing the world what’s possible when we fearlessly tackle tough problems and open our minds to new applications of engineering
+                biology. Many of the projects presented at iGEM will serve as the foundation and inspiration for important research, influential companies and international interest to come – these participants are most certainly tomorrow’s
+                leaders.”
+              </p>
+              <footer class="blockquote-footer">Randy Rettberg, co-founder and president of iGEM.</footer>
+            </blockquote>
+            </p>
+            <h5>
+              For more information on the BioCrew’s project, visit<a href="http://2018.igem.org/Team:Baltimore_BioCrew"> our page on iGEM's website. </a>
+            </h5>
+            <p>
+              Your donations help sustain our team and ensure that we can register a team in 2019. Thank you for your donation in any amount!
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <!--FOOTER Default BG/ACCENT TEXT-->
+    <footer class="bg-black border-top mt-3">
+      <!-- Add font awesome icons -->
+      <div class="row justify-content-around text-center mt-3">
+        <div class="col text-secondary">
+          Address: <br>
+          101 North Haven Street,<br>
+          Baltimore MD 21224
+        </div>
+        <div class="col" style="font-size: 3.5rem;">
+          <a href="https://www.facebook.com/BUGSS-Baltimore-Under-Ground-Science-Space-275707269195705/" class="fa fa-facebook text-decoration-none"></a>
+          <a href="https://twitter.com/bugsslab" class="fa fa-twitter text-decoration-none"></a>
+          <a href="https://www.youtube.com/channel/UCr4bqCH50xDCnrWBCUbobBQ" class="fa fa-youtube text-decoration-none"></a>
+          <a href="https://www.instagram.com/bugsslab/" class="fa fa-instagram text-decoration-none"></a>
+        </div>
+        <div class="col text-secondary">
+          Email<br> <a class="link-light" href="mailto:info@bugssonline.org">info@bugssonline.org</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+</html>
