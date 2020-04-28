@@ -1,0 +1,206 @@
+<html>
+  <head>
+    <!-- set viewport to screen size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <!-- Master Stylesheet -->
+    <link rel="stylesheet" href="../../css/SASS/BUGSS_Styles.css">
+
+    <!-- CDNs for Bootstrap and jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Favicon Settings for Different Devices -->
+    <link rel="apple-touch-icon" sizes="57x57" href="../../media/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../media/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../media/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../media/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../media/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../media/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../media/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../media/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../media/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../media/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../media/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../media/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../media/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../media/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../media/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--font awesome cdn for social Buttons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style rel="stylesheet">
+      .shake:hover {
+        /* Start the shake animation and make the animation last for 0.5 seconds */
+        animation: shake 0.5s;
+
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes shake {
+        0% {
+          transform: translate(1px, 1px) rotate(0deg);
+        }
+
+        10% {
+          transform: translate(-1px, -2px) rotate(-1deg);
+        }
+
+        20% {
+          transform: translate(-3px, 0px) rotate(1deg);
+        }
+
+        30% {
+          transform: translate(3px, 2px) rotate(0deg);
+        }
+
+        40% {
+          transform: translate(1px, -1px) rotate(1deg);
+        }
+
+        50% {
+          transform: translate(-1px, 2px) rotate(-1deg);
+        }
+
+        60% {
+          transform: translate(-3px, 1px) rotate(0deg);
+        }
+
+        70% {
+          transform: translate(3px, 1px) rotate(-1deg);
+        }
+
+        80% {
+          transform: translate(-1px, -1px) rotate(1deg);
+        }
+
+        90% {
+          transform: translate(1px, 2px) rotate(0deg);
+        }
+
+        100% {
+          transform: translate(1px, -2px) rotate(-1deg);
+        }
+      }
+    </style>
+
+    <title>Agar Art</title>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-light navbar-expand-lg bg-white">
+      <a class="navbar-brand" href="../index.html"><img class="logoNav" src="../../media/bugsslogo-square300.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../About/About_Landing_Page.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../About/About_Landing_Page.html">About BUGSS</a>
+              <a class="dropdown-item" href="../About/Donors_and_Sponsors.html">Donors and Sponsors</a>
+              <a class="dropdown-item" href="../About/FAQs.html">FAQ</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Membership/Membership_Landing.html">Membership</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../Projects/Projects_Landing.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Group Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../Projects/Projects_Landing.html">Group Projects Home</a><a class="dropdown-item" href="../Projects/Scramble_Synthetic_Yeast.html">Scramble and Synthetic Yeast</a>
+              <a class="dropdown-item" href="../Projects/Barcoding_The_Harbor.php">Barcoding The Harbor</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Scientists/Scientists_Landing.html">For Scientists</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Community/Community_Landing.html">For Community Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../Kids/Kids_Landing.html">For Kids and Parents</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Support/Support_Us_Landing.html">Support Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="nav nav-fill nav-pills bg-primary" id="pills-tab">
+      <li class="nav-item">
+        <a class="nav-link text-white rounded-0 shake" id="pills-youth-tab" href="../Kids/Kids_Landing.html">BUGSS Kids Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white rounded-0 shake" id="pills-clubs-tab" href="ProgramsForGroups.html">Programs for Clubs and Groups</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white rounded-0 shake" id="pills-igem-tab" href="iGEM.html">Baltimore BioCrew iGEM Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white active rounded-0 shake" id="pills-agar-tab" href="AgarArt.html">Agar Art</a>
+      </li>
+    </ul>
+    <div class="container-fluid">
+
+      <h1 class="display-4"> Agar Art </h1>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <img class="img-fluid rounded" src="../../media/IMG_4970-1.jpg">
+        </div>
+        <div class="col mb-3">
+          <p>
+            BUGSS is extremely excited that we get to partner with American Society of Microbiology (ASM) to host Agar Art workshops in 2018! What is Agar Art you ask? It is a perfect marriage of biology and art that everyone and anyone can get into.
+            Come to the BUGSS lab to learn about some special microbes that produce and array of beautiful and striking colors. You will be able to use the tools and guidance provided by BUGSS to create your very own living work of art on agar
+            plates!
+            You may have seen the incredible works of art on petri dishes being shared all over social media? If not just Google image search “Agar Art” and be inspired.
+          </p>
+          <p>
+            Perhaps your art work has what it takes to enter the national ASM contest and win!? Yes, of course it does! There are two contests this year you can enter: AGAR ART MAKER – for 13 years and up, and AGAR ART KIDS 12 years and under.
+          </p>
+          <p>
+            For full contest details (including Terms and Conditions you will need to read over before you submit your work) examples of previous winners. <a href="https://www.asm.org/agarart">Agar Art Website</a>
+          </p>
+          <p>
+            The next Agar Art contest will be in Spring 2019. Keep an eye on our website and <a href="https://www.eventbrite.com/o/baltimore-under-ground-science-space-4318633291">Eventbrite page</a> for more info!</p>
+          <p>
+            We also offer Agar Art as private classes and workshops-reach out to us at <a href="mailto:info@bugssonline.org">info@bugssonline.org</a>.</p>
+        </div>
+      </div>
+    </div>
+    <!--FOOTER Default BG/ACCENT TEXT-->
+    <footer class="bg-black border-top mt-3">
+      <!-- Add font awesome icons -->
+      <div class="row justify-content-around text-center mt-3">
+        <div class="col text-secondary">
+          Address: <br>
+          101 North Haven Street,<br>
+          Baltimore MD 21224
+        </div>
+        <div class="col" style="font-size: 3.5rem;">
+          <a href="https://www.facebook.com/BUGSS-Baltimore-Under-Ground-Science-Space-275707269195705/" class="fa fa-facebook text-decoration-none"></a>
+          <a href="https://twitter.com/bugsslab" class="fa fa-twitter text-decoration-none"></a>
+          <a href="https://www.youtube.com/channel/UCr4bqCH50xDCnrWBCUbobBQ" class="fa fa-youtube text-decoration-none"></a>
+          <a href="https://www.instagram.com/bugsslab/" class="fa fa-instagram text-decoration-none"></a>
+        </div>
+        <div class="col text-secondary">
+          Email<br> <a class="link-light" href="mailto:info@bugssonline.org">info@bugssonline.org</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+</html>
