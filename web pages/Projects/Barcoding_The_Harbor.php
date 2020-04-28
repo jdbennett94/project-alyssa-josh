@@ -72,7 +72,7 @@
               About
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="../About/About_Landing_Page.html">About BUGSS</a><a class="dropdown-item" href="../About/Donors_and_Sponsors.html">Donors and Sponsors</a>
+              <a class="dropdown-item" href="../About/Donors_and_Sponsors.html">Donors and Sponsors</a>
               <a class="dropdown-item" href="../About/FAQs.html">FAQ</a>
             </div>
           </li>
@@ -84,9 +84,8 @@
               Group Projects
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="../Projects/Projects_Landing.html">Group Projects Home</a>
               <a class="dropdown-item" href="../Projects/Scramble_Synthetic_Yeast.html">Scramble and Synthetic Yeast</a>
-              <a class="dropdown-item" href="Barcoding_The_Harbor.php">Barcoding The Harbor</a>
+              <a class="dropdown-item" href="../Barcoding_The_Harbor.php">Barcoding The Harbor</a>
             </div>
           </li>
           <li class="nav-item">
@@ -485,11 +484,6 @@
       </div>
 
     </div>
-</div>
-
-<div class="container-fluid">
-  <h3 class="display-3"> The overall data</h3>
-  <h4>< Click on any organism! See what changes</h4>
 </div>
 
 
