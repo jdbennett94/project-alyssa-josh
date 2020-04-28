@@ -487,9 +487,93 @@
     </div>
 </div>
 
-<div class="container-fluid">
+<!-- Chart implementiation of chart.js vs canvas php code being played with in gen. project file -->
+<div class="container">
   <h3 class="display-3"> The overall data</h3>
-  <h4>< Click on any organism! See what changes</h4>
+  <h4 class="display-4">< Click on any organism! See what changes</h4>
+  <div class="container-fluid jumbtron shadow p-2">
+      <!-- php version's here 
+      php
+      include 'chartV6.php';
+      ?
+
+
+          HELPFUL Resour.
+*************************************************************************************************
+      (Hard code versions so far, cant decide yet)
+      https://canvasjs.com/php-charts/stacked-area-100-chart/
+      https://canvasjs.com/php-charts/column-chart/
+      https://canvasjs.com/php-charts/doughnut-chart/ (i enjoy this one for overall version )
+
+      jquery bootstrap integratable versions
+      https://canvasjs.com/jquery-charts/animated-chart/ (with animation)
+
+
+
+      (Data binding versions, so can be used with database)
+      https://canvasjs.com/php-charts/chart-data-from-database/
+***********************************************************************************************************
+
+      ?php
+
+            $dataPoints = array();
+            //Best practice is to create a separate file for handling connection to database
+            try{
+                 // Creating a new connection.
+                // Replace your-hostname, your-db, your-username, your-password according to your database
+                $link = new \PDO(   'mysql:host=your-hostname;dbname=your-db;charset=utf8mb4', //'mysql:host=localhost;dbname=canvasjs_db;charset=utf8mb4',
+                                    'your-username', //'root',
+                                    'your-password', //'',
+                                    array(
+                                        \PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+                                        \PDO::ATTR_PERSISTENT => false
+                                    )
+                                );
+
+                $handle = $link->prepare('select x, y from datapoints');
+                $handle->execute();
+                $result = $handle->fetchAll(\PDO::FETCH_OBJ);
+
+                foreach($result as $row){
+                    array_push($dataPoints, array("x"=> $row->x, "y"=> $row->y));
+                }
+            	$link = null;
+            }
+            catch(\PDOException $ex){
+                print($ex->getMessage());
+            }
+
+            ?>
+            <!DOCTYPE HTML>
+            <html>
+            <head>
+            <script>
+            window.onload = function () {
+
+            var chart = new CanvasJS.Chart("chartContainer", {
+            	animationEnabled: true,
+            	exportEnabled: true,
+            	theme: "light1", // "light1", "light2", "dark1", "dark2"
+            	title:{
+            		text: "PHP Column Chart from Database"
+            	},
+            	data: [{
+            		type: "column", //change type to bar, line, area, pie, etc
+            		dataPoints: php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?
+            	}]
+            });
+            chart.render();
+
+            }
+
+
+              -->
+
+
+
+
+
+  </div>
 </div>
 
 
