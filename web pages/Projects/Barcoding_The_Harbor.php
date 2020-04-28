@@ -47,6 +47,10 @@
       .zoom:hover {
         transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
       }
+
+      .selectableInfo {
+          min-height: 55vh;
+      }
     </style>
 
     <title>Barcoding The Harbor</title>
@@ -171,7 +175,7 @@
         likes the sights of the “fragrant” waters.</p>
     </div>
     <div class="col align-self-center">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="10000">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="7000">
         <div class="carousel-inner">
           <div class="carousel-item active" style="height: 25vh;">
             <img class="d-block w-100 img-fluid img-responsive" src="../../media/Trashy McBoatface.jpg" alt="First slide">
@@ -189,7 +193,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col align-self-center">
+    <div class="col align-self-center my-auto">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="0">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -293,7 +297,7 @@
 <hr>
 
 <div class="container">
-    <h4>Meet The Team</h4>
+    <h4 class="text-center">Meet The Team</h4>
     <p>Our research team includes media & social artists, nature enthusiasts, civic
     scientists, and students. Our activities involve understanding the history of the Harbor,
     establishing ways to sustain the health of the Harbor, counting & identifying organisms,
@@ -356,11 +360,12 @@
 
 
 <div class="container-fluid">
-  <h4 class="card display-3 text-center shadow">Time To Play With Some of What We Found!</h4>
-  <p class="text-center display-5">Select an organism</p>
+  <h4 class=" rounded bg-primary py-3 display-5 text-center shadow text-white">Time To Play With Some of What We Found!</h4>
+  <p class="text-center display-5 mt-4 mb-4">Select an organism</p>
+  <hr>
     <div class="container-fluid">
       <div class="row mb-5">
-        <div class="col card-img zoom align-self-center mx-2">
+        <div class="col card-img zoom align-self-center ml-2">
           <img class="img-fluid" src="https://www.researchgate.net/publication/330852558/figure/fig6/AS:722579690102787@1549287831959/Lumbriculus-mud-worm.ppm" alt="Mud worm image">
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></a>
         </div>
@@ -372,35 +377,35 @@
           <img class=" img-fluid " src="https://media.gettyimages.com/photos/barnacle-larvae-nauplius-sp-microscopic-two-pair-white-background-cut-picture-id520528808?s=2048x2048" alt="Barnacle larvae image">
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2">
+        <div class="col card-img zoom align-self-center mx-2 mr-2">
           <img class="img-fluid" src="https://media.gettyimages.com/photos/an-image-of-a-photo-micrograph-of-flatworm-picture-id116938770?s=2048x2048" alt="Flatworm image">
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"></a>
         </div>
       </div>
-      <div class="collapse multi-collapse container-fluid" id="multiCollapseExample1">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Earthworm" allowfullscreen></iframe>
+      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample1">
+        <div class="embed-responsive embed-responsive-16by9 selectableInfo">
+            <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Earthworm" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container-fluid" id="multiCollapseExample2">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Nematode" allowfullscreen></iframe>
+      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample2">
+        <div class="embed-responsive embed-responsive-16by9 selectableInfo">
+            <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Nematode" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container-fluid" id="multiCollapseExample3">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Barnacle" allowfullscreen></iframe>
+      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample3">
+        <div class="embed-responsive embed-responsive-16by9 selectableInfo">
+            <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Barnacle" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container-fluid" id="multiCollapseExample4">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Flatworm" allowfullscreen></iframe>
+      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample4">
+        <div class="embed-responsive embed-responsive-16by9 selectableInfo">
+            <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Flatworm" allowfullscreen></iframe>
         </div>
       </div>
 
 <!-- Second row of organisms -->
       <div class="row mb-5">
-        <div class="col card-img zoom align-self-center mx-2">
+        <div class="col card-img zoom align-self-center ml-2">
           <img class="img-fluid" src="https://media.gettyimages.com/photos/copepod-micrograph-picture-id117333409?s=2048x2048" alt="Copepod image">
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample5" role="button" aria-expanded="false" aria-controls="multiCollapseExample5"></a>
         </div>
@@ -417,29 +422,29 @@
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample8" role="button" aria-expanded="false" aria-controls="multiCollapseExample8"></a>
         </div>
       </div>
-      <div class="collapse multi-collapse container" id="multiCollapseExample5">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Copepod" allowfullscreen></iframe>
+      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample5">
+        <div class="embed-responsive embed-responsive-16by9 selectableInfo">
+            <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Copepod" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container" id="multiCollapseExample6">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Palaemonetes" allowfullscreen></iframe>
+      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample6">
+        <div class="embed-responsive embed-responsive-16by9 selectableInfo">
+            <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Palaemonetes" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container" id="multiCollapseExample7">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Barnacle" allowfullscreen></iframe>
+      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample7">
+        <div class="embed-responsive embed-responsive-16by9 selectableInfo">
+            <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Barnacle" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container" id="multiCollapseExample8">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Mytilopsis_leucophaeata" allowfullscreen></iframe>
+      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample8">
+        <div class="embed-responsive embed-responsive-16by9 selectableInfo">
+            <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Mytilopsis_leucophaeata" allowfullscreen></iframe>
         </div>
       </div>
 
 <!-- Third Row Of Organisms -->
-      <div class="row my-auto">
+      <div class="row mb-5">
         <div class="col card-img zoom align-self-center mx-2">
           <img class="img-fluid" src="https://media.gettyimages.com/photos/bristle-worm-picture-id976282458?s=2048x2048" alt="Polycheate worm image">
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample9" role="button" aria-expanded="false" aria-controls="multiCollapseExample9"></a>
@@ -458,23 +463,23 @@
         </div>
       </div>
       <div class="collapse multi-collapse container" id="multiCollapseExample9">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Polychaete" allowfullscreen></iframe>
+        <div class="embed-responsive embed-responsive-16by9 selectableInfo">
+            <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Polychaete" allowfullscreen></iframe>
         </div>
       </div>
       <div class="collapse multi-collapse container" id="multiCollapseExample10">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Sea_anemone" allowfullscreen></iframe>
+        <div class="embed-responsive embed-responsive-16by9 selectableInfo">
+            <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Sea_anemone" allowfullscreen></iframe>
         </div>
       </div>
       <div class="collapse multi-collapse container" id="multiCollapseExample11">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Batrachochytrium_dendrobatidis" allowfullscreen></iframe>
+        <div class="embed-responsive embed-responsive-16by9 selectableInfo">
+            <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Batrachochytrium_dendrobatidis" allowfullscreen></iframe>
         </div>
       </div>
       <div class="collapse multi-collapse container" id="multiCollapseExample12">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://en.wikipedia.org/wiki/Ciliate" allowfullscreen></iframe>
+        <div class="embed-responsive embed-responsive-16by9 selectableInfo">
+            <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Ciliate" allowfullscreen></iframe>
         </div>
       </div>
 
