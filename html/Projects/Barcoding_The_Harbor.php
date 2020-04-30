@@ -488,11 +488,11 @@
 </div>
 
 <!-- Chart implementiation of chart.js vs canvas php code being played with in gen. project file -->
-<div class="container">
-  <h3 class="display-3"> The overall data</h3>
-  <h4 class="display-4">< Click on any organism! See what changes</h4>
-  <div class="container-fluid jumbtron shadow p-2">
-      <!-- php version's here 
+<div class="container bg-primary rounded">
+  <h3 class="display-3 text-center text-white"> <u>The Overall Data </u></h3>
+  <h4 class="display-5 text-center text-light">Click on any organism! See what changes</h4>
+  <div class="container jumbtron rounded bg-white shadow">
+      <!-- php version's here
       php
       include 'chartV6.php';
       ?
@@ -513,67 +513,101 @@
       (Data binding versions, so can be used with database)
       https://canvasjs.com/php-charts/chart-data-from-database/
 ***********************************************************************************************************
+  END OF GRAPH COMMENT BLOCK-->
+  <?php
 
-      ?php
+    $dataPoints = array();
+    //Best practice is to create a separate file for handling connection to database
+    try{
+         // Creating a new connection.
+        // Replace your-hostname, your-db, your-username, your-password according to your database
+        $link = new \PDO(   'mysql:host=cs-database.cs.loyola.edu;dbname=joshal;charset=utf8mb4', //'mysql:host=localhost;dbname=canvasjs_db;charset=utf8mb4',
+                            'jbennett', //'root',
+                            '1670682', //'',
+                            array(
+                                \PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+                                \PDO::ATTR_PERSISTENT => false
+                            )
+                        );
 
-            $dataPoints = array();
-            //Best practice is to create a separate file for handling connection to database
-            try{
-                 // Creating a new connection.
-                // Replace your-hostname, your-db, your-username, your-password according to your database
-                $link = new \PDO(   'mysql:host=your-hostname;dbname=your-db;charset=utf8mb4', //'mysql:host=localhost;dbname=canvasjs_db;charset=utf8mb4',
-                                    'your-username', //'root',
-                                    'your-password', //'',
-                                    array(
-                                        \PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-                                        \PDO::ATTR_PERSISTENT => false
-                                    )
-                                );
+        $handle = $link->prepare('select x, y, label from datapoints');
+        $handle->execute();
+        $result = $handle->fetchAll(\PDO::FETCH_OBJ);
 
-                $handle = $link->prepare('select x, y from datapoints');
-                $handle->execute();
-                $result = $handle->fetchAll(\PDO::FETCH_OBJ);
+        foreach($result as $row){
+            array_push($dataPoints, array("x"=> $row->x, "y"=> $row->y, "label"=> $row->label));
+        }
+    	$link = null;
+    }
+    catch(\PDOException $ex){
+        print($ex->getMessage());
+    }
 
-                foreach($result as $row){
-                    array_push($dataPoints, array("x"=> $row->x, "y"=> $row->y));
-                }
-            	$link = null;
-            }
-            catch(\PDOException $ex){
-                print($ex->getMessage());
-            }
-
-            ?>
-            <!DOCTYPE HTML>
-            <html>
-            <head>
-            <script>
-            window.onload = function () {
-
-            var chart = new CanvasJS.Chart("chartContainer", {
-            	animationEnabled: true,
-            	exportEnabled: true,
-            	theme: "light1", // "light1", "light2", "dark1", "dark2"
-            	title:{
-            		text: "PHP Column Chart from Database"
-            	},
-            	data: [{
-            		type: "column", //change type to bar, line, area, pie, etc
-            		dataPoints: php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?
-            	}]
-            });
-            chart.render();
-
-            }
+    ?>
 
 
-              -->
+    <script>
+          window.onload = function () {
+
+          var chart = new CanvasJS.Chart("chartContainer", {
+
+            axisX:{
+             title: "Organism (Via SILVA_tax_id)",
+             //minimum: 8990,
+             /*scaleBreaks: {
+                autoCalculate: true,  // change to false,
+                maxNumberOfAutoBreaks: 4,
+                collapsibleThreshold: ".01%"
+              },
+              scaleBreaks: {
+                customBreaks: [{
+                  startValue: 9050,
+                  endValue: 12900,
+                  type: "straight"
+                    },
+                    {
+                  startValue: 13500,
+                  endValue: 27300,
+                  type: "straight"
+                     }]
+
+                }, */
+            },
+
+
+            axisY:{
+             title:"Number of Specimens",
+             interlacedColor: "#F8F1E4",
+             //tickLength: 10
+             //maximum: 120000
+             },
+
+            animationEnabled: true,
+            exportEnabled: true,
+            theme: "light1", // "light1", "light2", "dark1", "dark2"
+            title:{
+              text: "Presence Of Species Where Greater Than 1% Of Million Sequence Reads"
+            },
+            data: [{
+              //explodeOnClick: true;
+              type: "column", //change type to bar, line, area, pie, etc
+              dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
+            }]
+          });
+          chart.render();
+
+          }
+      </script>
 
 
 
+<br>
 
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
   </div>
+  <br>
 </div>
 
 
