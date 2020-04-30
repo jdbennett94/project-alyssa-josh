@@ -308,40 +308,40 @@
     help us to sustain the health of our interconnected ecosystem.</p>
     <div class="row text-center justify-content-center">
       <div class="col">
-        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/MoFavli.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/MoFavli.jpg" alt="">
       </div>
       <div class="col">
-        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/DrSchefelde.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/DrSchefelde.jpg" alt="">
       </div>
       <div class="col">
-        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/StephenB.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/StephenB.jpg" alt="">
       </div>
       <div class="col">
-        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/TrevorB.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/TrevorB.jpg" alt="">
       </div>
       <div class="col">
-        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/EricS.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/EricS.jpg" alt="">
       </div>
       <div class="col">
-        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/AndyJ.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/AndyJ.jpg" alt="">
       </div>
     </div>
     <br>
     <div class="row text-center justify-content-center">
       <div class="col-2">
-        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/Charmaine.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/Charmaine.jpg" alt="">
       </div>
       <div class="col-2">
-        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/StevenS.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/StevenS.jpg" alt="">
       </div>
       <div class="col-2">
-        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/SairahS.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/SairahS.jpg" alt="">
       </div>
       <div class="col-2">
-        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/YongL.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/YongL.jpg" alt="">
       </div>
       <div class="col-2">
-        <img style="height:100;" class="img-fluid img-responsive" src="../../media/Headshots/TimB.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/TimB.jpg" alt="">
       </div>
     </div>
     <br>
@@ -360,26 +360,27 @@
 
 
 
-<div class="container-fluid">
+<div class="container-fluid text-center">
   <h4 class=" rounded bg-primary py-3 display-5 text-center shadow text-white">Time To Play With Some of What We Found!</h4>
-  <p class="text-center display-5 mt-4 mb-4">Select an organism</p>
+  <p class="text-center display-5 mt-4 mb-1">Select an organism</p>
+  <sub class="text-center"><sub>Photo credit: J. Adam Frederick, MD Sea Grant, Biofilms and Biodiversity website, https://www.mdseagrant.org/interactive_lessons/biofilm/</sub></sub>
   <hr>
-    <div class="container-fluid">
+    <div class="container-fluid img-center">
       <div class="row mb-5">
-        <div class="col card-img zoom align-self-center ml-2">
-          <img class="img-fluid" src="https://www.researchgate.net/publication/330852558/figure/fig6/AS:722579690102787@1549287831959/Lumbriculus-mud-worm.ppm" alt="Mud worm image">
+        <div class="col card-img zoom align-self-center ">
+          <img class="img-fluid rounded" src="../../media/HarborOrgs/MudWorm.png" alt="Mud worm image">
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2">
-          <img class="img-fluid " src="https://media.gettyimages.com/photos/nematodes-sem-picture-id1148109598?s=2048x2048" alt="Round worm image">
+        <div class="col card-img zoom align-self-center ">
+          <img class="img-fluid rounded" src="../../media/HarborOrgs/RoundWorm.png" alt="Round worm image">
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2">
-          <img class=" img-fluid " src="https://media.gettyimages.com/photos/barnacle-larvae-nauplius-sp-microscopic-two-pair-white-background-cut-picture-id520528808?s=2048x2048" alt="Barnacle larvae image">
+        <div class="col card-img zoom align-self-center ">
+          <img class=" img-fluid rounded" src="../../media/HarborOrgs/BarnacleLarvae.png" alt="Barnacle larvae image">
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2 mr-2">
-          <img class="img-fluid" src="https://media.gettyimages.com/photos/an-image-of-a-photo-micrograph-of-flatworm-picture-id116938770?s=2048x2048" alt="Flatworm image">
+        <div class="col card-img zoom align-self-center ">
+          <img class=" img-fluid rounded" src="../../media/HarborOrgs/FlatWorm.png" alt="Flatworm image">
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"></a>
         </div>
       </div>
@@ -405,21 +406,24 @@
       </div>
 
 <!-- Second row of organisms -->
-      <div class="row mb-5">
+      <div class="row mb-5 ">
         <div class="col card-img zoom align-self-center ml-2">
-          <img class="img-fluid" src="https://media.gettyimages.com/photos/copepod-micrograph-picture-id117333409?s=2048x2048" alt="Copepod image">
+          <img class="img-fluid rounded" src="../../media/HarborOrgs/Copepod.png" alt="Copepod image">
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample5" role="button" aria-expanded="false" aria-controls="multiCollapseExample5"></a>
         </div>
         <div class="col card-img zoom align-self-center mx-2">
-          <img class="img-fluid " src="https://farm66.staticflickr.com/65535/45691332935_695b169753_b.jpg" alt="Grass shrimp image">
+          <img class="img-fluid rounded" src="../../media/HarborOrgs/Screenshot from 2020-04-30 05-33-08.png" alt="Grass shrimp image">
+          <p class="card-text mt-2">#N/A</p>
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample6" role="button" aria-expanded="false" aria-controls="multiCollapseExample6"></a>
         </div>
         <div class="col card-img zoom align-self-center mx-2">
-          <img class=" img-fluid " src="https://media.gettyimages.com/photos/barnacles-on-hainan-island-picture-id845069720?s=2048x2048" alt="Barnacles image">
+          <img class=" img-fluid rounded" src="../../media/BarcodingHarbor/barnac2.gif" alt="Barnacles image">
+          <p class="card-text mt-2">#13006</p>
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample7" role="button" aria-expanded="false" aria-controls="multiCollapseExample7"></a>
         </div>
         <div class="col card-img zoom align-self-center mx-2">
-          <img class="img-fluid" src="http://www.aphotomarine.com/images/marine_bivalves/bivalve_mytilopsis_leucophaeata_26-02-16_1.jpg" alt="False dark mussel image">
+          <img class="img-fluid rounded" src="../../media/BarcodingHarbor/mussels-dark-false.png" alt="False dark mussel image">
+          <p class="card-text mt-2">#13202</p>
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample8" role="button" aria-expanded="false" aria-controls="multiCollapseExample8"></a>
         </div>
       </div>
@@ -447,19 +451,22 @@
 <!-- Third Row Of Organisms -->
       <div class="row mb-5">
         <div class="col card-img zoom align-self-center mx-2">
-          <img class="img-fluid" src="https://media.gettyimages.com/photos/bristle-worm-picture-id976282458?s=2048x2048" alt="Polycheate worm image">
+          <img class="img-fluid rounded" src="../../media/HarborOrgs/PolychaeteWorm.png" alt="Polycheate worm image">
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample9" role="button" aria-expanded="false" aria-controls="multiCollapseExample9"></a>
         </div>
         <div class="col card-img zoom align-self-center mx-2">
-          <img class="img-fluid " src="https://media.gettyimages.com/photos/sea-anemone-in-underwater-picture-id597280371?s=2048x2048" alt="Aenomone image">
+          <img class="img-fluid rounded" src="../../media/BarcodingHarbor/anemone.gif" alt="Aenomone image">
+          <p class="card-text mt-2">#13414</p>
           <a class="stretched-link"data-toggle="collapse" href="#multiCollapseExample10" role="button" aria-expanded="false" aria-controls="multiCollapseExample10"></a>
         </div>
         <div class="col card-img zoom align-self-center mx-2">
-          <img class=" img-fluid " src="https://alchetron.com/cdn/batrachochytrium-dendrobatidis-e2523ae1-fefc-428e-b3f9-1df3c916074-resize-750.jpeg" alt="Chytrid fungus image">
+          <img class=" img-fluid rounded" src="../../media/HarborOrgs/ChytridFungus.png" alt="Chytrid fungus image">
+          <p class="card-text mt-2">#27402</p>
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample11" role="button" aria-expanded="false" aria-controls="multiCollapseExample11"></a>
         </div>
         <div class="col card-img zoom align-self-center mx-2">
-          <img class="img-fluid" src="https://media.gettyimages.com/photos/ciliate-blepharisma-americanum-micrograph-picture-id169940394?s=2048x2048" alt="Ciliates image">
+          <img class="img-fluid rounded" src="../../media/BarcodingHarbor/cciliate.gif" alt="Ciliates image">
+          <p class="card-text mt-2">#9005</p>
           <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample12" role="button" aria-expanded="false" aria-controls="multiCollapseExample12"></a>
         </div>
       </div>
@@ -489,9 +496,9 @@
 
 <!-- Chart implementiation of chart.js vs canvas php code being played with in gen. project file -->
 <div class="container bg-primary rounded">
-  <h3 class="display-3 text-center text-white"> <u>The Overall Data </u></h3>
+  <h3 class="display-4 text-center text-white pt-1"> <u>The Overall Data </u></h3>
   <h4 class="display-5 text-center text-light">Click on any organism! See what changes</h4>
-  <div class="container jumbtron rounded bg-white shadow">
+  <div class="container jumbtron rounded shadow" style="background:lavender;">
       <!-- php version's here
       php
       include 'chartV6.php';
@@ -551,6 +558,8 @@
 
           var chart = new CanvasJS.Chart("chartContainer", {
 
+            backgroundColor: "lavender",
+
             axisX:{
              title: "Organism (Via SILVA_tax_id)",
              //minimum: 8990,
@@ -577,14 +586,14 @@
 
             axisY:{
              title:"Number of Specimens",
-             interlacedColor: "#F8F1E4",
+             //interlacedColor: "#F8F1E4",
              //tickLength: 10
              //maximum: 120000
              },
 
             animationEnabled: true,
-            exportEnabled: true,
-            theme: "light1", // "light1", "light2", "dark1", "dark2"
+            exportEnabled: false,
+            theme: "light2", // "light1", "light2", "dark1", "dark2"
             title:{
               text: "Presence Of Species Where Greater Than 1% Of Million Sequence Reads"
             },
@@ -603,7 +612,7 @@
 
 <br>
 
-<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<div class="rounded" id="chartContainer" style="height: 370px; width: 100%;"></div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
   </div>
