@@ -366,7 +366,7 @@
 <div class="container bg-primary shadow rounded pb-3 mt-3">
   <h3 class="display-4 text-center text-white pt-1"> <u>The Overall Data </u></h3>
   <h4 class="display-5 text-center text-light pb-2">Click on any organism! See what pops up!</h4>
-  <div class="container jumbtron rounded shadow" style="background:lavender;">
+  <div class="container jumbtron rounded shadow py-3" style="background:lavender;">
       <!-- php version's here
       php
       include 'chartV6.php';
@@ -460,7 +460,6 @@
              },
 
             animationEnabled: true,
-            click:onClick,
             exportEnabled: false,
             theme: "light2", // "light1", "light2", "dark1", "dark2"
             title:{
@@ -469,6 +468,7 @@
             data: [{
               //explodeOnClick: true;
               type: "column", //change type to bar, line, area, pie, etc
+              click:onClick,
               dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
             }]
           });
@@ -476,15 +476,112 @@
 
           //FUCNTION FOR CHART USAGE
           function onClick(e) {
-                alert(  e.dataSeries.type + ", dataPoint { x:" + e.dataPoint.x + ", y: "+ e.dataPoint.y + " }" );
-          }
+
+            var organism = "Organism Unrecognized";
+
+            if (e.dataPoint.x == 1){
+                organism = "Ciliates";
+                $('#collapseCiliates').collapse()
+            } else if( e.dataPoint.x == 2 ){
+                organism = "Polychaete Worm";
+                $('#collapsePolychaete').collapse()
+            } else if( e.dataPoint.x == 3 ){
+                organism = "Copepod";
+                $('#collapseCopepod').collapse()
+            } else if(e.dataPoint.x == 4){
+                organism = "Barnacle Larvae";
+                $('#collapseBarnacleLarvae').collapse()
+            } else if(e.dataPoint.x == 5){
+                organism = "Barnacle Clusters";
+                $('#collapseBarnacleCluster').collapse()
+            } else if(e.dataPoint.x == 6){
+                organism = "False Dark Mussel";
+                $('#collapseDarkMussel').collapse()
+            } else if(e.dataPoint.x == 7){
+                organism = "Round Worm";
+                $('#collapseRoundworm').collapse()
+            } else if(e.dataPoint.x == 8){
+                organism = "Flatworm";
+                $('#collapseFlatworms').collapse()
+            } else if(e.dataPoint.x == 9){
+                organism = "Mudworm";
+                $('#collapseMudworm').collapse()
+            } else if(e.dataPoint.x == 10){
+                organism = "Aneomone";
+                $('#collapseAnemone').collapse()
+            } else if(e.dataPoint.x == 11){
+                organism = "Chytrid Fungus";
+                $('#collapseChytridFungus').collapse()
+            } else if(e.dataPoint.x == 12){
+                organism = "Common Grass Shrimp";
+                $('#collapseCommonGrass').collapse()
+            }
+
+                alert( "You've selected the organism: \n" + organism + "\n\n" + "SILVA_tag_id: " + e.dataPoint.label + "\n" + "Organism Presense: " + e.dataPoint.y + "\n\n" + "Click 'Ok' and See What Info Has Been Uncovered!");
 
           }
+      }
       </script>
 
 
-      <div class="rounded" id="chartContainer" style="height: 370px; width: 100%;"></div>
+      <div class="rounded " id="chartContainer" style="height: 370px; width: 100%;"></div>
       <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    </div>
+
+    <br>
+
+    <!-- Organism Info Below Chart-->
+    <div class="rounded container jumbtron shadow bg-white">
+      <div class="accordion" id="accordionOrganism">
+        <div class="collapse container" id="collapseMudworm" aria-labelledby="headingMudworm" data-parent="#accordionOrganism">
+            <h4>Mud Worm</h4>
+            <p>This is a test of content</p>
+        </div>
+        <div class="collapse container" id="collapseRoundworm" aria-labelledby="headingRoundworm" data-parent="#accordionOrganism">
+            <h4>Round Worm</h4>
+            <p>This is a test of content</p>
+        </div>
+        <div class="collapse container" id="collapseBarnacleLarvae" aria-labelledby="headingBarnacleLarvae" data-parent="#accordionOrganism">
+            <h4>Mud Barnacle Larvae</h4>
+            <p>This is a test of content</p>
+        </div>
+        <div class="collapse container" id="collapseAnemone" aria-labelledby="headingAnemone" data-parent="#accordionOrganism">
+            <h4>Anemone</h4>
+            <p>This is a test of content</p>
+        </div>
+        <div class="collapse container" id="collapseBarnacleCluster" aria-labelledby="headingBarnacleCluster" data-parent="#accordionOrganism">
+            <h4>Barnacle Cluster</h4>
+            <p>This is a test of content</p>
+        </div>
+        <div class="collapse container" id="collapseCiliates" aria-labelledby="headingCiliates" data-parent="#accordionOrganism">
+            <h4>Ciliates</h4>
+            <p>This is a test of content</p>
+        </div>
+        <div class="collapse container" id="collapseCopepod" aria-labelledby="headingCopepod" data-parent="#accordionOrganism">
+            <h4>Copepod</h4>
+            <p>This is a test of content</p>
+        </div>
+        <div class="collapse container" id="collapseCommonGrass" aria-labelledby="headingCommonGrass" data-parent="#accordionOrganism">
+            <h4>Common Grass Shrimp</h4>
+            <p>This is a test of content</p>
+        </div>
+        <div class="collapse container" id="collapseDarkMussel" aria-labelledby="headingDarkMussel" data-parent="#accordionOrganism">
+            <h4>False Dark Mussel</h4>
+            <p>This is a test of content</p>
+        </div>
+        <div class="collapse container" id="collapseFlatworms" aria-labelledby="headingFlatworms" data-parent="#accordionOrganism">
+            <h4>Flatworms</h4>
+            <p>This is a test of content</p>
+        </div>
+        <div class="collapse container" id="collapseChytridFungus" aria-labelledby="headingChytridFungus" data-parent="#accordionOrganism">
+            <h4>Chytrid Fungus</h4>
+            <p>This is a test of content</p>
+        </div>
+        <div class="collapse container" id="collapsePolychaete" aria-labelledby="headingolychaete" data-parent="#accordionOrganism">
+            <h4>Polychaete Worm</h4>
+            <p>This is a test of content</p>
+        </div>
+      </div> <!-- Accordion End-->
     </div>
 </div>
 
