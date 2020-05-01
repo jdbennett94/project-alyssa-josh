@@ -1,4 +1,4 @@
-<html>
+<html lang="en" dir="ltr">
   <head>
     <!-- set viewport to screen size -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="UTF-8">
@@ -38,8 +38,7 @@
     <script src="../../js/formValidation.js"></script>
   </head>
   <body class="bg-black">
-    <!--TODO: Update Active classes on links if applicable-->
-    <!--TODO: We can decide to use dropdowns or another popup or make them click through.-->
+
     <!--NAVBAR-->
     <nav class="navbar navbar-light navbar-expand-lg bg-white">
       <a class="navbar-brand" href="../index.html"><img class="logoNav" src="../../media/bugsslogo-square300.png" alt="BUGSS Logo"></a>
@@ -126,14 +125,14 @@
                   <input type="hidden" name="on0" value="">
                   <div class="form-group">
                     <div class="form-check">
-                      <input type="radio" class="form-check-input" name="os0" value="Monthly DIY Community (Full) Membership" required>
-                      <label class="form-check-label" for="exampleRadios1">
+                      <input type="radio" class="form-check-input" name="os0" value="Monthly DIY Community (Full) Membership" id="monthlyDIY" required>
+                      <label class="form-check-label" for="monthlyDIY">
                         Monthly : $100.00 USD
                       </label>
                     </div>
                     <div class="form-check">
-                      <input type="radio" class="form-check-input" name="os0" value="Annual DIY Community (Full) Membership" required>
-                      <label class="form-check-label" for="exampleRadios1">
+                      <input type="radio" class="form-check-input" name="os0" value="Annual DIY Community (Full) Membership"  id="yearlyDIY" required>
+                      <label class="form-check-label" for="yearlyDIY">
                         Annual : $1,000.00 USD
                       </label>
                       <div class="invalid-feedback">
@@ -172,14 +171,14 @@
                   <input type="hidden" name="on0" value="Payment Op">
                   <div class="form-group">
                     <div class="form-check">
-                      <input type="radio" class="form-check-input" name="os0" value="Monthly Student Membership" required>
-                      <label class="form-check-label" for="exampleRadios1">
+                      <input type="radio" class="form-check-input" name="os0" value="Monthly Student Membership" id="monthlyStudent" required>
+                      <label class="form-check-label" for="monthlyStudent">
                         Monthly : $45.00 USD
                       </label>
                     </div>
                     <div class="form-check">
-                      <input type="radio" class="form-check-input" name="os0" value="Annual Student Membership" required>
-                      <label class="form-check-label" for="exampleRadios1">
+                      <input type="radio" class="form-check-input" name="os0" value="Annual Student Membership" id="yearlyStudent" required>
+                      <label class="form-check-label" for="yearlyStudent">
                         Annual : $450.00 USD
                       </label>
                       <div class="invalid-feedback">
@@ -214,14 +213,14 @@
                   <input type="hidden" name="on0" value="Payment Options">
                   <div class="form-group">
                     <div class="form-check">
-                      <input type="radio" class="form-check-input" name="os0" value="Monthly Friend of BUGSS membership" required>
-                      <label class="form-check-label" for="exampleRadios1">
+                      <input type="radio" class="form-check-input" name="os0" value="Monthly Friend of BUGSS membership" id="monthFriend" required>
+                      <label class="form-check-label" for="monthFriend">
                         Monthly : $25.00 USD
                       </label>
                     </div>
                     <div class="form-check">
-                      <input type="radio" class="form-check-input" name="os0" value="Annual Friend of BUGSS membership" required>
-                      <label class="form-check-label" for="exampleRadios1">
+                      <input type="radio" class="form-check-input" name="os0" value="Annual Friend of BUGSS membership" id="monthFriend" required>
+                      <label class="form-check-label" for="monthFriend">
                         Annual : $250.00 USD
                       </label>
                       <div class="invalid-feedback">

@@ -1,7 +1,8 @@
 <html lang="en" dir="ltr">
   <head>
     <!-- set viewport to screen size -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
     <!-- Master Stylesheet -->
     <link rel="stylesheet" href="css/SASS/BUGSS_Styles.css">
@@ -32,15 +33,17 @@
 
     <!--font awesome cdn for social Buttons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!--TODO: Change Title -->
     <title>Page Title</title>
 
   </head>
-  <body class="bg-black">
-    <!--TODO: Update Active classes on links if applicable-->
-    <!--TODO: We can decide to use dropdowns or another popup or make them click through.-->
+  <body class="d-flex flex-column min-vh-100">
+    <!--so the footer touches the bottom if content not long enough-->
     <!--NAVBAR-->
     <nav class="navbar navbar-light navbar-expand-lg bg-white">
+      <!--TODO: Update one 'a' tag with the class 'nav-link' to 'nav-link active' this will change the color to indicate the section of pages this page belongs to-->
+      <!--TODO: Change all 'href="#"' in this nav section to the relative or absolute urls for the new page-->
       <a class="navbar-brand" href="#"><img class="logoNav" src="media/bugsslogo-square300.png" alt="BUGSS Logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -82,72 +85,78 @@
             <a class="nav-link" href="#">Support Us</a>
           </li>
         </ul>
-        <!--<form class="form-inline" method="get" action="../search.php">
-          <input class="form-control mr-sm-2" type="search" name="query" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>-->
       </div>
     </nav>
-      <ul class="nav nav-fill nav-pills bg-primary">
-      <a class="nav-item nav-link text-white" href="#">Sub-Navigation 1</a>
-      <a class="nav-item nav-link text-white" href="#">A Link</a>
-      <a class="nav-item nav-link text-white" href="#">Another Link</a>
+    <!--NOTE: This is an example of the sub-navigation pages-->
+    <ul class="nav nav-fill nav-pills bg-primary">
+      <li class="nav-item">
+        <a class="nav-link text-white active rounded-0" href="#">Section Home</a>
+        <!--TODO: Remove the active class above if working on a page linked elsewhere in this navigation, add the active class to that 'a' tag -->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white rounded-0" href="#">A Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white rounded-0" href="#">Another Link</a>
+      </li>
     </ul>
-    <div>
-      <section id="cards" class="container">
-        <div class="d-flex my-3">
-          <!-- Jumbotron -->
-          <div class="jumbotron shadow w-100 py-5 mx-auto mt-3 bg-secondary">
-            <h1 class="display-3 text-white">Hello, world!</h1>
-            <p class="lead text-white">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-6 col-lg-4 mb-4">
-            <!-- Card -->
-            <div class="card shadow h-100 bg-primary">
-              <div class="card-body d-flex flex-column align-items-start">
-                <h4 class="card-title text-light font-weight-bold">Card Primary Fill</h4>
-                <p class="card-text text-light">With supporting text below as a natural lead-in to additional content. This has text that may wrap to the next line.</p>
-                <a href="#" class="btn btn-outline-secondary text-light mt-auto">Button</a>
-              </div>
-            </div>
 
+    <!--NOTE: THIS IS THE START OF PAGE CONTENT-->
+    <div class="container-fluid flex-grow-1">
+      <!--flew-grow-1 makes sure the footer stays at the bottom in addtion to the classes added to the body tag -->
+      <h1 class="display-4">This is very big header text for the top </h1>
+      <p class="lead">This is some catchy text! For important messages, not titles or headers.</p>
+      <h1>This is a normal h1 header</h1>
+      <p> This is a normal paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ut sem viverra aliquet eget. Nec nam aliquam sem et tortor consequat id porta nibh.
+        Fermentum leo vel orci porta non pulvinar neque. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Id diam maecenas ultricies mi eget mauris pharetra et. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper.
+        Feugiat in ante metus dictum at tempor commodo ullamcorper.
+      </p>
+      <h3> A smaller header </h3>
+      <!--JUMBOTRON-->
+      <div class="jumbotron shadow bg-primary py-5 mx-auto mt-3 ">
+        <h1 class="display-3 text-white">A jumbotron</h1>
+        <p class="lead text-white">Jumbotron, or an eyecatching block for text and call to action buttons. On the BUGSS site this is used in place of the very first header.</p>
+        <a href="#" class="btn btn-lg btn-secondary">Learn More</a>
+        <a href="#" class="btn btn-lg btn-primary text-white border-white">Learn More</a>
+      </div>
+      <!--CARD EXAMPLE -->
+      <div class="card shadow my-4">
+        <div class="card-body">
+          <h4 class="card-title text-primary mt-3"> This is a Card divider </h4>
+          <p class="card-text">They can be put in rows or change colors. For everything cards can do, see here: <a href="https://getbootstrap.com/docs/4.0/components/card/">Bootstrap Cards</a></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="card bg-secondary shadow my-4">
+            <div class="card-body">
+              <h4 class="card-title text-white mt-3"> This is a Card divider </h4>
+              <p class="card-text text-light">They can be put in rows or change colors. This Card is in an evenly divided row because of the Bootstrap Grid System.</p>
+            </div>
           </div>
-          <div class="col-xl-6 col-lg-4 mb-4">
-            <div class="card shadow border-secondary h-100">
+        </div>
+          <div class="col">
+            <div class="card shadow my-4">
+              <div class="card-header">
+                <h4 class="card-title text-primary mt-3"> This is a Card divider with a header section</h4>
+              </div>
               <div class="card-body">
-                <h4 class="card-title text-secondary">Card Outline</h4>
-                <p class="card-text text-dark">With supporting text below as a natural lead-in to additional content. This has text that may wrap to the next line.</p>
-                <a href="#" class="btn btn-outline-primary mt-auto">Button</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-4 mb-4">
-            <div class="card shadow border-dark h-100">
-              <div class="card-body d-flex flex-column align-items-start">
-                <h4 class="card-title">Card</h4>
-                <p class="card-text">Watch me scale, scale. Now watch me stack, stack. Watch me scale, scale...</p>
-                <a href="#" class="btn btn-primary border-white mt-auto">Button</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-4 mb-4">
-            <div class="card shadow bg-dark text-white h-100">
-              <div class="card-body d-flex flex-column align-items-start">
-                <h4 class="card-title">Card</h4>
-                <p class="card-text text-light">Watch me scale, scale. Now watch me stack, stack. Watch me scale, scale...</p>
-                <a href="#" class="btn btn-outline-secondary text-light mt-auto">Button</a>
+
+                <p class="card-text">They can be put in rows or change colors. For everything cards can do, see here: <a href="https://getbootstrap.com/docs/4.0/components/card/">Bootstrap Cards</a></p>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
+
+      </div>
+
+
+
 
     <!-- TODO: PICK A FOOTER OPTION-->
     <!--FOOTER Default BG/ACCENT TEXT-->
-    <footer class="border-top">
+    <footer class="border-top bg-black">
       <!-- Add font awesome icons -->
 
       <div class="row justify-content-around text-center">
@@ -163,9 +172,9 @@
           <a href="https://www.instagram.com/bugsslab/" class="fa fa-instagram text-decoration-none"></a>
         </div>
         <div class="col text-secondary">
-        Email<br> <a class="link-light" href="mailto:info@bugssonline.org">info@bugssonline.org</a>
-         </div>
-          </div>
+          Email<br> <a class="link-light" href="mailto:info@bugssonline.org">info@bugssonline.org</a>
+        </div>
+      </div>
     </footer>
 
   </body>
