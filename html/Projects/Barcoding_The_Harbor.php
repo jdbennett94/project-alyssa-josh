@@ -102,7 +102,7 @@
             <a class="nav-link" href="../Support/Support_Us_Landing.html">Support Us</a>
           </li>
         </ul>
-      
+
       </div>
     </nav>
 
@@ -285,7 +285,7 @@
         barcode of an item and use that code to identify the item. </p>
     </div>
     <div class="col align-self-center">
-        <img class="img-fluid img-responsive" src="../../media/BarcodingCrabImage.png" alt="">
+        <img class="img-fluid img-responsive" src="../../media/BarcodingCrabImage.png" alt="crab">
     </div>
   </div>
 
@@ -305,46 +305,46 @@
     help us to sustain the health of our interconnected ecosystem.</p>
     <div class="row text-center justify-content-center">
       <div class="col">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/MoFavli.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/MoFavli.jpg" alt="MoFavli" >
       </div>
       <div class="col">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/DrSchefelde.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/DrSchefelde.jpg" alt="Dr. Schefelde" >
       </div>
       <div class="col">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/StephenB.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/StephenB.jpg" alt="Stephen B" >
       </div>
       <div class="col">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/TrevorB.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/TrevorB.jpg" alt="Trevor B">
       </div>
       <div class="col">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/EricS.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/EricS.jpg" alt="Eric" >
       </div>
       <div class="col">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/AndyJ.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/AndyJ.jpg" alt="Andy">
       </div>
     </div>
     <br>
     <div class="row text-center justify-content-center">
       <div class="col-2">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/Charmaine.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/Charmaine.jpg" alt="Charmaine" >
       </div>
       <div class="col-2">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/StevenS.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/StevenS.jpg" alt="Steven S">
       </div>
       <div class="col-2">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/SairahS.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/SairahS.jpg" alt="Sairah s" >
       </div>
       <div class="col-2">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/YongL.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/YongL.jpg" alt="Yong L">
       </div>
       <div class="col-2">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/TimB.jpg" alt="">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/TimB.jpg" alt="Tim B" >
       </div>
     </div>
     <br>
     <div class="row img-center justify-content-center">
       <div class="col-2">
-        <img class="img-fluid img-responsive" src="../../media/Headshots/You.png" alt="">
+        <img class="img-fluid img-responsive" src="../../media/Headshots/You.png" alt="You">
       </div>
     </div>
 </div>
