@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
     <!-- set viewport to screen size -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,7 +57,7 @@
 
   </head>
   <body>
-
+    <!--TODO: Update Active classes on links if applicable-->
     <!--NAVBAR-->
     <nav class="navbar navbar-light navbar-expand-lg bg-white">
       <a class="navbar-brand" href="../index.html"><img class="logoNav" src="../../media/bugsslogo-square300.png" alt="BUGSS Logo"></a>
@@ -102,7 +102,10 @@
             <a class="nav-link" href="../Support/Support_Us_Landing.html">Support Us</a>
           </li>
         </ul>
-
+        <!--<form class="form-inline" method="get" action="../search.php">
+          <input class="form-control mr-sm-2" type="search" name="query" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>-->
       </div>
     </nav>
 
@@ -285,7 +288,7 @@
         barcode of an item and use that code to identify the item. </p>
     </div>
     <div class="col align-self-center">
-        <img class="img-fluid img-responsive" src="../../media/BarcodingCrabImage.png" alt="crab">
+        <img class="img-fluid img-responsive" src="../../media/BarcodingCrabImage.png" alt="">
     </div>
   </div>
 
@@ -305,46 +308,46 @@
     help us to sustain the health of our interconnected ecosystem.</p>
     <div class="row text-center justify-content-center">
       <div class="col">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/MoFavli.jpg" alt="MoFavli" >
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/MoFavli.jpg" alt="">
       </div>
       <div class="col">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/DrSchefelde.jpg" alt="Dr. Schefelde" >
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/DrSchefelde.jpg" alt="">
       </div>
       <div class="col">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/StephenB.jpg" alt="Stephen B" >
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/StephenB.jpg" alt="">
       </div>
       <div class="col">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/TrevorB.jpg" alt="Trevor B">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/TrevorB.jpg" alt="">
       </div>
       <div class="col">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/EricS.jpg" alt="Eric" >
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/EricS.jpg" alt="">
       </div>
       <div class="col">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/AndyJ.jpg" alt="Andy">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/AndyJ.jpg" alt="">
       </div>
     </div>
     <br>
     <div class="row text-center justify-content-center">
       <div class="col-2">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/Charmaine.jpg" alt="Charmaine" >
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/Charmaine.jpg" alt="">
       </div>
       <div class="col-2">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/StevenS.jpg" alt="Steven S">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/StevenS.jpg" alt="">
       </div>
       <div class="col-2">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/SairahS.jpg" alt="Sairah s" >
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/SairahS.jpg" alt="">
       </div>
       <div class="col-2">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/YongL.jpg" alt="Yong L">
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/YongL.jpg" alt="">
       </div>
       <div class="col-2">
-        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/TimB.jpg" alt="Tim B" >
+        <img style="height:15vh;" class="img-fluid img-responsive" src="../../media/Headshots/TimB.jpg" alt="">
       </div>
     </div>
     <br>
     <div class="row img-center justify-content-center">
       <div class="col-2">
-        <img class="img-fluid img-responsive" src="../../media/Headshots/You.png" alt="You">
+        <img class="img-fluid img-responsive" src="../../media/Headshots/You.png" alt="">
       </div>
     </div>
 </div>
@@ -355,10 +358,14 @@
 
 </div> <!--This dev is for the toggle of viewable elements  -->
 
+<div class="container-fluid text-center">
+  <h4 class=" rounded bg-primary py-3 display-5 text-center shadow text-white">Time To Play With Some of What We Found!</h4>
+</div>
+
 <!-- Chart implementiation of chart.js vs canvas php code being played with in gen. project file -->
-<div class="container bg-primary rounded pb-2">
+<div class="container bg-primary shadow rounded pb-3 mt-3">
   <h3 class="display-4 text-center text-white pt-1"> <u>The Overall Data </u></h3>
-  <h4 class="display-5 text-center text-light">Click on any organism! See what pops up!</h4>
+  <h4 class="display-5 text-center text-light pb-2">Click on any organism! See what pops up!</h4>
   <div class="container jumbtron rounded shadow" style="background:lavender;">
       <!-- php version's here
       php
@@ -478,142 +485,147 @@
 <br>
 
 
-<div class="container-fluid text-center">
-  <h4 class=" rounded bg-primary py-3 display-5 text-center shadow text-white">Time To Play With Some of What We Found!</h4>
-  <p class="text-center display-5 mt-4 mb-1">Select an organism</p>
-  <sub class="text-center"><sub>Photo credit: J. Adam Frederick, MD Sea Grant, Biofilms and Biodiversity website, https://www.mdseagrant.org/interactive_lessons/biofilm/</sub></sub>
+<div class="container-fluid text-center mb-0">
+  <p class="text-center display-5">Select an organism</p>
+  <!-- May need proper author reference pehaps  <sub class="text-center"><sub>Photo credit: J. Adam Frederick, MD Sea Grant, Biofilms and Biodiversity website, https://www.mdseagrant.org/interactive_lessons/biofilm/</sub></sub> -->
   <hr>
     <div class="container-fluid img-center">
-      <div class="row mb-5">
-        <div class="col card-img zoom align-self-center ">
-          <img class="img-fluid rounded" src="../../media/HarborOrgs/MudWorm.png" alt="Mud worm image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></a>
+      <!-- Accordion Sections -->
+      <div class="accordion" id="accordionExample1">
+        <div class="row mb-5">
+          <div class="col card-img zoom align-self-center" id="headingOne">
+            <img class="img-fluid rounded" src="../../media/CorrectTileImages/wmworm1.gif" alt="Mud worm image">
+            <a class="stretched-link" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne"></a>
+          </div>
+          <div class="col card-img zoom align-self-center" id="headingTwo">
+            <img class="img-fluid rounded" src="../../media/CorrectTileImages/round worm.jpg" alt="Round worm image">
+            <a class="stretched-link" data-toggle="collapse"  href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo"></a>
+          </div>
+          <div class="col card-img zoom align-self-center" id="headingThree">
+            <img class=" img-fluid rounded" src="../../media/CorrectTileImages/barnacle larvae.jpg" alt="Barnacle larvae image">
+            <a class="stretched-link" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree"></a>
+          </div>
+          <div class="col card-img zoom align-self-center" id="headingFour">
+            <img class=" img-fluid rounded" src="../../media/CorrectTileImages/Flatworms_page_image.jpg" alt="Flatworm image">
+            <a class="stretched-link" data-toggle="collapse" href="#collapseFour" role="button" aria-expanded="false" aria-controls="collapseFour"></a>
+          </div>
         </div>
-        <div class="col card-img zoom align-self-center ">
-          <img class="img-fluid rounded" src="../../media/HarborOrgs/RoundWorm.png" alt="Round worm image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"></a>
-        </div>
-        <div class="col card-img zoom align-self-center ">
-          <img class=" img-fluid rounded" src="../../media/HarborOrgs/BarnacleLarvae.png" alt="Barnacle larvae image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3"></a>
-        </div>
-        <div class="col card-img zoom align-self-center ">
-          <img class=" img-fluid rounded" src="../../media/HarborOrgs/FlatWorm.png" alt="Flatworm image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"></a>
-        </div>
-      </div>
-      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample1">
+      <div class="collapse container mb-5" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample1">
         <div class="embed-responsive embed-responsive-16by9 selectableInfo">
             <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Earthworm" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample2">
+      <div class="collapse container mb-5" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample1">
         <div class="embed-responsive embed-responsive-16by9 selectableInfo">
             <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Nematode" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample3">
+      <div class="collapse container mb-5" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample1">
         <div class="embed-responsive embed-responsive-16by9 selectableInfo">
             <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Barnacle" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample4">
+      <div class="collapse container mb-5" id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionExample1">
         <div class="embed-responsive embed-responsive-16by9 selectableInfo">
             <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Flatworm" allowfullscreen></iframe>
         </div>
       </div>
+    </div> <!-- ACCORDION 1 -->
 
 <!-- Second row of organisms -->
+      <div class="accordion" id="accordionExample2">
       <div class="row mb-5 ">
-        <div class="col card-img zoom align-self-center ml-2">
-          <img class="img-fluid rounded" src="../../media/HarborOrgs/Copepod.png" alt="Copepod image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample5" role="button" aria-expanded="false" aria-controls="multiCollapseExample5"></a>
+        <div class="col card-img zoom align-self-center ml-2" id="headingFive">
+          <img class="img-fluid rounded" src="../../media/CorrectTileImages/Copepod.jpg" alt="Copepod image">
+          <a class="stretched-link" data-toggle="collapse" href="#collapseFive" role="button" aria-expanded="false" aria-controls="collapseFive"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2">
-          <img class="img-fluid rounded" src="../../media/HarborOrgs/Screenshot from 2020-04-30 05-33-08.png" alt="Grass shrimp image">
+        <div class="col card-img zoom align-self-center mx-2" id="headingSix">
+          <img class="img-fluid rounded" src="../../media/CorrectTileImages/common grass shrimp.jpg" alt="Grass shrimp image">
           <p class="card-text mt-2">#N/A</p>
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample6" role="button" aria-expanded="false" aria-controls="multiCollapseExample6"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#collapseSix" role="button" aria-expanded="false" aria-controls="collapseSix"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2">
-          <img class=" img-fluid rounded" src="../../media/BarcodingHarbor/barnac2.gif" alt="Barnacles image">
+        <div class="col card-img zoom align-self-center mx-2" id="headingSeven">
+          <img class=" img-fluid rounded" src="../../media/CorrectTileImages/Barnacle_cluster.jpg" alt="Barnacles image">
           <p class="card-text mt-2">#13006</p>
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample7" role="button" aria-expanded="false" aria-controls="multiCollapseExample7"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#collapseSeven" role="button" aria-expanded="false" aria-controls="collapseSeven"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2">
-          <img class="img-fluid rounded" src="../../media/BarcodingHarbor/mussels-dark-false.png" alt="False dark mussel image">
+        <div class="col card-img zoom align-self-center mx-2" id="headingEight">
+          <img class="img-fluid rounded" src="../../media/CorrectTileImages/dark false mussel.jpg" alt="False dark mussel image">
           <p class="card-text mt-2">#13202</p>
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample8" role="button" aria-expanded="false" aria-controls="multiCollapseExample8"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#collapseEight" role="button" aria-expanded="false" aria-controls="collapseEight"></a>
         </div>
       </div>
-      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample5">
+      <div class="collapse container mb-5" id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionExample2">
         <div class="embed-responsive embed-responsive-16by9 selectableInfo">
             <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Copepod" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample6">
+      <div class="collapse container mb-5" id="collapseSix" aria-labelledby="headingSix" data-parent="#accordionExample2">
         <div class="embed-responsive embed-responsive-16by9 selectableInfo">
             <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Palaemonetes" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample7">
+      <div class="collapse container mb-5" id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionExample2">
         <div class="embed-responsive embed-responsive-16by9 selectableInfo">
             <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Barnacle" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container mb-5" id="multiCollapseExample8">
+      <div class="collapse container mb-5" id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionExample2">
         <div class="embed-responsive embed-responsive-16by9 selectableInfo">
             <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Mytilopsis_leucophaeata" allowfullscreen></iframe>
         </div>
       </div>
+    </div> <!-- ACCORDION 2 -->
 
 <!-- Third Row Of Organisms -->
-      <div class="row mb-5">
-        <div class="col card-img zoom align-self-center mx-2">
-          <img class="img-fluid rounded" src="../../media/HarborOrgs/PolychaeteWorm.png" alt="Polycheate worm image">
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample9" role="button" aria-expanded="false" aria-controls="multiCollapseExample9"></a>
+      <div class="accordion" id="accordionExample3">
+      <div class="row mb-1">
+        <div class="col card-img zoom align-self-center mx-2" id="headingNine">
+          <img class="img-fluid rounded" src="../../media/CorrectTileImages/polychaete worm.jpg" alt="Polycheate worm image">
+          <a class="stretched-link" data-toggle="collapse" href="#collapseNine" role="button" aria-expanded="false" aria-controls="collapseNine"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2">
-          <img class="img-fluid rounded" src="../../media/BarcodingHarbor/anemone.gif" alt="Aenomone image">
+        <div class="col card-img zoom align-self-center mx-2" id="headingTen">
+          <img class="img-fluid rounded" src="../../media/CorrectTileImages/anemone.jpg" alt="Aenomone image">
           <p class="card-text mt-2">#13414</p>
-          <a class="stretched-link"data-toggle="collapse" href="#multiCollapseExample10" role="button" aria-expanded="false" aria-controls="multiCollapseExample10"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#collapseTen" role="button" aria-expanded="false" aria-controls="collapseTen"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2">
-          <img class=" img-fluid rounded" src="../../media/HarborOrgs/ChytridFungus.png" alt="Chytrid fungus image">
+        <div class="col card-img zoom align-self-center mx-2" id="headingEleven">
+          <img class=" img-fluid rounded" src="../../media/CorrectTileImages/chytrid fungus.jpg" alt="Chytrid fungus image">
           <p class="card-text mt-2">#27402</p>
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample11" role="button" aria-expanded="false" aria-controls="multiCollapseExample11"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#collapseEleven" role="button" aria-expanded="false" aria-controls="collapseEleven"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2">
-          <img class="img-fluid rounded" src="../../media/BarcodingHarbor/cciliate.gif" alt="Ciliates image">
+        <div class="col card-img zoom align-self-center mx-2" id="headingTwelve">
+          <img class="img-fluid rounded" src="../../media/CorrectTileImages/ciliates.jpg" alt="Ciliates image">
           <p class="card-text mt-2">#9005</p>
-          <a class="stretched-link" data-toggle="collapse" href="#multiCollapseExample12" role="button" aria-expanded="false" aria-controls="multiCollapseExample12"></a>
+          <a class="stretched-link" data-toggle="collapse" href="#collapseTwelve" role="button" aria-expanded="false" aria-controls="collapseTwelve"></a>
         </div>
       </div>
-      <div class="collapse multi-collapse container" id="multiCollapseExample9">
+      <div class="collapse container" id="collapseNine" aria-labelledby="headingNine" data-parent="#accordionExample3">
         <div class="embed-responsive embed-responsive-16by9 selectableInfo">
             <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Polychaete" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container" id="multiCollapseExample10">
+      <div class="collapse container" id="collapseTen" aria-labelledby="headingTen" data-parent="#accordionExample3">
         <div class="embed-responsive embed-responsive-16by9 selectableInfo">
             <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Sea_anemone" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container" id="multiCollapseExample11">
+      <div class="collapse container" id="collapseEleven" aria-labelledby="headingEleven" data-parent="#accordionExample3">
         <div class="embed-responsive embed-responsive-16by9 selectableInfo">
             <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Batrachochytrium_dendrobatidis" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="collapse multi-collapse container" id="multiCollapseExample12">
+      <div class="collapse container" id="collapseTwelve" aria-labelledby="headingTwelve" data-parent="#accordionExample3">
         <div class="embed-responsive embed-responsive-16by9 selectableInfo">
             <iframe class="embed-responsive-item selectableInfo" src="https://en.wikipedia.org/wiki/Ciliate" allowfullscreen></iframe>
         </div>
       </div>
-
+    </div> <!-- ACCORDION 3 -->
     </div>
 </div>
 
-  </div>
-  <br>
+<!-- Extra div element? -->
+</div>
 </div>
 
 
@@ -621,7 +633,13 @@
 
 
 
+<hr>
 
+<div class="container text-center">
+    <h5>Missed or want to see the <br>background and information on this project?</h5>
+    <!-- Button for toggle of elements -->
+    <button class="btn btn-secondary" onClick="window.location.reload();">Click Here</button>
+</div>
 
 
 <hr>
@@ -646,16 +664,6 @@
   </div>
   <br>
   <h4 class="text-center">Email Lisa <br>at <u>lscheifele@bugssonline.org</u> <br>for info and to get involved! </h4>
-</div>
-
-
-
-<hr>
-
-<div class="container text-center">
-    <h5>Missed or want to see the <br>background and information on this project?</h5>
-    <!-- Button for toggle of elements -->
-    <button class="btn btn-secondary" onclick="myFunction()">Click Here</button>
 </div>
 
 <hr>
