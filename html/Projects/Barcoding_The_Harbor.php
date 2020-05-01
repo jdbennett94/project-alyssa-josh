@@ -479,45 +479,178 @@
 
             var organism = "Organism Unrecognized";
 
+            //Full listing is to fix collapsing malfunction that would occur
             if (e.dataPoint.x == 1){
                 organism = "Ciliates";
-                $('#collapseCiliates').collapse()
+                $('#collapseCiliates').collapse('toggle');
+                $('#collapsePolychaete').collapse('hide');
+                $('#collapseCopepod').collapse('hide');
+                $('#collapseBarnacleLarvae').collapse('hide');
+                $('#collapseBarnacleCluster').collapse('hide');
+                $('#collapseDarkMussel').collapse('hide');
+                $('#collapseRoundworm').collapse('hide');
+                $('#collapseFlatworms').collapse('hide');
+                $('#collapseMudworm').collapse('hide');
+                $('#collapseAnemone').collapse('hide');
+                $('#collapseChytridFungus').collapse('hide');
+                $('#collapseCommonGrass').collapse('hide');
             } else if( e.dataPoint.x == 2 ){
                 organism = "Polychaete Worm";
-                $('#collapsePolychaete').collapse()
+                $('#collapsePolychaete').collapse('toggle');
+                $('#collapseCiliates').collapse('hide');
+                $('#collapseCopepod').collapse('hide');
+                $('#collapseBarnacleLarvae').collapse('hide');
+                $('#collapseBarnacleCluster').collapse('hide');
+                $('#collapseDarkMussel').collapse('hide');
+                $('#collapseRoundworm').collapse('hide');
+                $('#collapseFlatworms').collapse('hide');
+                $('#collapseMudworm').collapse('hide');
+                $('#collapseAnemone').collapse('hide');
+                $('#collapseChytridFungus').collapse('hide');
+                $('#collapseCommonGrass').collapse('hide');
             } else if( e.dataPoint.x == 3 ){
                 organism = "Copepod";
-                $('#collapseCopepod').collapse()
+                $('#collapseCopepod').collapse('toggle');
+                $('#collapsePolychaete').collapse('hide');
+                $('#collapseCiliates').collapse('hide');
+                $('#collapseBarnacleLarvae').collapse('hide');
+                $('#collapseBarnacleCluster').collapse('hide');
+                $('#collapseDarkMussel').collapse('hide');
+                $('#collapseRoundworm').collapse('hide');
+                $('#collapseFlatworms').collapse('hide');
+                $('#collapseMudworm').collapse('hide');
+                $('#collapseAnemone').collapse('hide');
+                $('#collapseChytridFungus').collapse('hide');
+                $('#collapseCommonGrass').collapse('hide');
             } else if(e.dataPoint.x == 4){
                 organism = "Barnacle Larvae";
-                $('#collapseBarnacleLarvae').collapse()
+                $('#collapseBarnacleLarvae').collapse('toggle');
+                $('#collapseCopepod').collapse('hide');
+                $('#collapsePolychaete').collapse('hide');
+                $('#collapseCiliates').collapse('hide');
+                $('#collapseBarnacleCluster').collapse('hide');
+                $('#collapseDarkMussel').collapse('hide');
+                $('#collapseRoundworm').collapse('hide');
+                $('#collapseFlatworms').collapse('hide');
+                $('#collapseMudworm').collapse('hide');
+                $('#collapseAnemone').collapse('hide');
+                $('#collapseChytridFungus').collapse('hide');
+                $('#collapseCommonGrass').collapse('hide');
             } else if(e.dataPoint.x == 5){
                 organism = "Barnacle Clusters";
-                $('#collapseBarnacleCluster').collapse()
+                $('#collapseBarnacleCluster').collapse('toggle');
+                $('#collapseBarnacleLarvae').collapse('hide');
+                $('#collapseCopepod').collapse('hide');
+                $('#collapsePolychaete').collapse('hide');
+                $('#collapseCiliates').collapse('hide');
+                $('#collapseDarkMussel').collapse('hide');
+                $('#collapseRoundworm').collapse('hide');
+                $('#collapseFlatworms').collapse('hide');
+                $('#collapseMudworm').collapse('hide');
+                $('#collapseAnemone').collapse('hide');
+                $('#collapseChytridFungus').collapse('hide');
+                $('#collapseCommonGrass').collapse('hide');
             } else if(e.dataPoint.x == 6){
                 organism = "False Dark Mussel";
-                $('#collapseDarkMussel').collapse()
+                $('#collapseDarkMussel').collapse('toggle');
+                $('#collapseBarnacleCluster').collapse('hide');
+                $('#collapseBarnacleLarvae').collapse('hide');
+                $('#collapseCopepod').collapse('hide');
+                $('#collapsePolychaete').collapse('hide');
+                $('#collapseCiliates').collapse('hide');
+                $('#collapseRoundworm').collapse('hide');
+                $('#collapseFlatworms').collapse('hide');
+                $('#collapseMudworm').collapse('hide');
+                $('#collapseAnemone').collapse('hide');
+                $('#collapseChytridFungus').collapse('hide');
+                $('#collapseCommonGrass').collapse('hide');
             } else if(e.dataPoint.x == 7){
                 organism = "Round Worm";
-                $('#collapseRoundworm').collapse()
+                $('#collapseRoundworm').collapse('toggle');
+                $('#collapseDarkMussel').collapse('hide');
+                $('#collapseBarnacleCluster').collapse('hide');
+                $('#collapseBarnacleLarvae').collapse('hide');
+                $('#collapseCopepod').collapse('hide');
+                $('#collapsePolychaete').collapse('hide');
+                $('#collapseCiliates').collapse('hide');
+                $('#collapseFlatworms').collapse('hide');
+                $('#collapseMudworm').collapse('hide');
+                $('#collapseAnemone').collapse('hide');
+                $('#collapseChytridFungus').collapse('hide');
+                $('#collapseCommonGrass').collapse('hide');
             } else if(e.dataPoint.x == 8){
                 organism = "Flatworm";
-                $('#collapseFlatworms').collapse()
+                $('#collapseFlatworms').collapse('toggle');
+                $('#collapseRoundworm').collapse('hide');
+                $('#collapseDarkMussel').collapse('hide');
+                $('#collapseBarnacleCluster').collapse('hide');
+                $('#collapseBarnacleLarvae').collapse('hide');
+                $('#collapseCopepod').collapse('hide');
+                $('#collapsePolychaete').collapse('hide');
+                $('#collapseCiliates').collapse('hide');
+                $('#collapseMudworm').collapse('hide');
+                $('#collapseAnemone').collapse('hide');
+                $('#collapseChytridFungus').collapse('hide');
+                $('#collapseCommonGrass').collapse('hide');
             } else if(e.dataPoint.x == 9){
                 organism = "Mudworm";
-                $('#collapseMudworm').collapse()
+                $('#collapseMudworm').collapse('toggle');
+                $('#collapseFlatworms').collapse('hide');
+                $('#collapseRoundworm').collapse('hide');
+                $('#collapseDarkMussel').collapse('hide');
+                $('#collapseBarnacleCluster').collapse('hide');
+                $('#collapseBarnacleLarvae').collapse('hide');
+                $('#collapseCopepod').collapse('hide');
+                $('#collapsePolychaete').collapse('hide');
+                $('#collapseCiliates').collapse('hide');
+                $('#collapseAnemone').collapse('hide');
+                $('#collapseChytridFungus').collapse('hide');
+                $('#collapseCommonGrass').collapse('hide');
             } else if(e.dataPoint.x == 10){
                 organism = "Aneomone";
-                $('#collapseAnemone').collapse()
+                $('#collapseAnemone').collapse('toggle');
+                $('#collapseMudworm').collapse('hide');
+                $('#collapseFlatworms').collapse('hide');
+                $('#collapseRoundworm').collapse('hide');
+                $('#collapseDarkMussel').collapse('hide');
+                $('#collapseBarnacleCluster').collapse('hide');
+                $('#collapseBarnacleLarvae').collapse('hide');
+                $('#collapseCopepod').collapse('hide');
+                $('#collapsePolychaete').collapse('hide');
+                $('#collapseCiliates').collapse('hide');
+                $('#collapseChytridFungus').collapse('hide');
+                $('#collapseCommonGrass').collapse('hide');
             } else if(e.dataPoint.x == 11){
                 organism = "Chytrid Fungus";
-                $('#collapseChytridFungus').collapse()
+                $('#collapseChytridFungus').collapse('toggle');
+                $('#collapseAnemone').collapse('hide');
+                $('#collapseMudworm').collapse('hide');
+                $('#collapseFlatworms').collapse('hide');
+                $('#collapseRoundworm').collapse('hide');
+                $('#collapseDarkMussel').collapse('hide');
+                $('#collapseBarnacleCluster').collapse('hide');
+                $('#collapseBarnacleLarvae').collapse('hide');
+                $('#collapseCopepod').collapse('hide');
+                $('#collapsePolychaete').collapse('hide');
+                $('#collapseCiliates').collapse('hide');
+                $('#collapseCommonGrass').collapse('hide');
             } else if(e.dataPoint.x == 12){
                 organism = "Common Grass Shrimp";
-                $('#collapseCommonGrass').collapse()
+                $('#collapseCommonGrass').collapse('toggle');
+                $('#collapseChytridFungus').collapse('hide');
+                $('#collapseMudworm').collapse('hide');
+                $('#collapseFlatworms').collapse('hide');
+                $('#collapseRoundworm').collapse('hide');
+                $('#collapseDarkMussel').collapse('hide');
+                $('#collapseBarnacleCluster').collapse('hide');
+                $('#collapseBarnacleLarvae').collapse('hide');
+                $('#collapseCopepod').collapse('hide');
+                $('#collapsePolychaete').collapse('hide');
+                $('#collapseCiliates').collapse('hide');
+                $('#collapseAnemone').collapse('hide');
             }
 
-                alert( "You've selected the organism: \n" + organism + "\n\n" + "SILVA_tag_id: " + e.dataPoint.label + "\n" + "Organism Presense: " + e.dataPoint.y + "\n\n" + "Click 'Ok' and See What Info Has Been Uncovered!");
+                //alert( "You've selected the organism: \n" + organism + "\n\n" + "SILVA_tag_id: " + e.dataPoint.label + "\n" + "Organism Presense: " + e.dataPoint.y + "\n\n" + "Click 'Ok' and See What Info Has Been Uncovered!");
 
           }
       }
@@ -533,57 +666,167 @@
     <!-- Organism Info Below Chart-->
     <div class="rounded container jumbtron shadow bg-white">
       <div class="accordion" id="accordionOrganism">
-        <div class="collapse container" id="collapseMudworm" aria-labelledby="headingMudworm" data-parent="#accordionOrganism">
-            <h4>Mud Worm</h4>
-            <p>This is a test of content</p>
+        <!-- Front Card
+        <div class="collapse show container" id="collapsePlaceholder" aria-labelledby="headingExample" data-parent="#accordionOrganism">
+            <div class="row py-3">
+                <div class="col">
+                    <h4><u>Organism Name</u></h4>
+                    <p>DNA Sequence </p>
+                    <p>Natioanal Center for Biological Information Data </p>
+                </div>
+                <div class="col align-self-center">
+                    <img class="img-fluid rounded" src="../../media/CorrectTileImages/polychaete worm.jpg" alt="Example Image For Chart Selection">
+                </div>
+            </div>
         </div>
-        <div class="collapse container" id="collapseRoundworm" aria-labelledby="headingRoundworm" data-parent="#accordionOrganism">
-            <h4>Round Worm</h4>
-            <p>This is a test of content</p>
+      -->
+        <div class="collapse container" id="collapseMudworm" aria-expanded="false" aria-labelledby="headingMudworm" data-parent="#accordionOrganism">
+            <div class="row py-3">
+                <div class="col">
+                    <h4><u>Mud Worm</u></h4>
+                    <p>DNA:</p>
+                    <p>NCBI Info: </p>
+                </div>
+                <div class="col align-self-center">
+                    <img class="img-fluid rounded" src="../../media/CorrectTileImages/wmworm1.gif" alt="Mud worm image">
+                </div>
+            </div>
         </div>
-        <div class="collapse container" id="collapseBarnacleLarvae" aria-labelledby="headingBarnacleLarvae" data-parent="#accordionOrganism">
-            <h4>Mud Barnacle Larvae</h4>
-            <p>This is a test of content</p>
+        <div class="collapse container" id="collapseRoundworm" aria-expanded="false" aria-labelledby="headingRoundworm" data-parent="#accordionOrganism">
+            <div class="row py-3">
+                <div class="col">
+                    <h4><u>Round Worm</u></h4>
+                    <p>DNA:</p>
+                    <p>NCBI Info: </p>
+                </div>
+                <div class="col align-self-center">
+                    <img class="img-fluid rounded" src="../../media/CorrectTileImages/round worm.jpg" alt="Round worm image">
+                </div>
+            </div>
         </div>
-        <div class="collapse container" id="collapseAnemone" aria-labelledby="headingAnemone" data-parent="#accordionOrganism">
-            <h4>Anemone</h4>
-            <p>This is a test of content</p>
+        <div class="collapse container" id="collapseBarnacleLarvae" aria-expanded="false" aria-labelledby="headingBarnacleLarvae" data-parent="#accordionOrganism">
+            <div class="row py-3">
+                <div class="col">
+                    <h4><u>Barnacle Larvae</u></h4>
+                    <p>DNA:</p>
+                    <p>NCBI Info: </p>
+                </div>
+                <div class="col align-self-center">
+                    <img class=" img-fluid rounded" src="../../media/CorrectTileImages/barnacle larvae.jpg" alt="Barnacle larvae image">
+                </div>
+            </div>
         </div>
-        <div class="collapse container" id="collapseBarnacleCluster" aria-labelledby="headingBarnacleCluster" data-parent="#accordionOrganism">
-            <h4>Barnacle Cluster</h4>
-            <p>This is a test of content</p>
+        <div class="collapse container" id="collapseAnemone" aria-expanded="false" aria-labelledby="headingAnemone" data-parent="#accordionOrganism">
+            <div class="row py-3">
+                <div class="col">
+                    <h4><u>Anemone</u></h4>
+                    <p>DNA:</p>
+                    <p>NCBI Info: </p>
+                </div>
+                <div class="col align-self-center">
+                    <img class="img-fluid rounded" src="../../media/CorrectTileImages/anemone.jpg" alt="Aenomone image">
+                </div>
+            </div>
         </div>
-        <div class="collapse container" id="collapseCiliates" aria-labelledby="headingCiliates" data-parent="#accordionOrganism">
-            <h4>Ciliates</h4>
-            <p>This is a test of content</p>
+        <div class="collapse container" id="collapseBarnacleCluster" aria-expanded="false" aria-labelledby="headingBarnacleCluster" data-parent="#accordionOrganism">
+            <div class="row py-3">
+                <div class="col">
+                    <h4><u>Barnacle Cluster</u></h4>
+                    <p>DNA:</p>
+                    <p>NCBI Info: </p>
+                </div>
+                <div class="col align-self-center">
+                    <img class=" img-fluid rounded" src="../../media/CorrectTileImages/Barnacle_cluster.jpg" alt="Barnacles image">
+                </div>
+            </div>
         </div>
-        <div class="collapse container" id="collapseCopepod" aria-labelledby="headingCopepod" data-parent="#accordionOrganism">
-            <h4>Copepod</h4>
-            <p>This is a test of content</p>
+        <div class="collapse container" id="collapseCiliates" aria-expanded="false" aria-labelledby="headingCiliates" data-parent="#accordionOrganism">
+            <div class="row py-3">
+                <div class="col">
+                    <h4><u>Ciliates</u></h4>
+                    <p>DNA:</p>
+                    <p>NCBI Info: </p>
+                </div>
+                <div class="col align-self-center">
+                    <img class="img-fluid rounded" src="../../media/CorrectTileImages/ciliates.jpg" alt="Ciliates image">
+                </div>
+            </div>
         </div>
-        <div class="collapse container" id="collapseCommonGrass" aria-labelledby="headingCommonGrass" data-parent="#accordionOrganism">
-            <h4>Common Grass Shrimp</h4>
-            <p>This is a test of content</p>
+        <div class="collapse container" id="collapseCopepod" aria-expanded="false" aria-labelledby="headingCopepod" data-parent="#accordionOrganism">
+            <div class="row py-3">
+                <div class="col">
+                    <h4><u>Copepod</u></h4>
+                    <p>DNA:</p>
+                    <p>NCBI Info: </p>
+                </div>
+                <div class="col align-self-center">
+                    <img class="img-fluid rounded" src="../../media/CorrectTileImages/Copepod.jpg" alt="Copepod image">
+                </div>
+            </div>
         </div>
-        <div class="collapse container" id="collapseDarkMussel" aria-labelledby="headingDarkMussel" data-parent="#accordionOrganism">
-            <h4>False Dark Mussel</h4>
-            <p>This is a test of content</p>
+        <div class="collapse container" id="collapseCommonGrass" aria-expanded="false" aria-labelledby="headingCommonGrass" data-parent="#accordionOrganism">
+            <div class="row py-3">
+                <div class="col">
+                    <h4><u>Common Grass Shrimp</u></h4>
+                    <p>DNA:</p>
+                    <p>NCBI Info: </p>
+                </div>
+                <div class="col align-self-center">
+                    <img class="img-fluid rounded" src="../../media/CorrectTileImages/common grass shrimp.jpg" alt="Grass shrimp image">
+                </div>
+            </div>
         </div>
-        <div class="collapse container" id="collapseFlatworms" aria-labelledby="headingFlatworms" data-parent="#accordionOrganism">
-            <h4>Flatworms</h4>
-            <p>This is a test of content</p>
+        <div class="collapse container" id="collapseDarkMussel" aria-expanded="false" aria-labelledby="headingDarkMussel" data-parent="#accordionOrganism">
+            <div class="row py-3">
+                <div class="col">
+                    <h4><u>False Dark Mussel</u></h4>
+                    <p>DNA:</p>
+                    <p>NCBI Info: </p>
+                </div>
+                <div class="col align-self-center">
+                    <img class="img-fluid rounded" src="../../media/CorrectTileImages/dark false mussel.jpg" alt="False dark mussel image">
+                </div>
+            </div>
         </div>
-        <div class="collapse container" id="collapseChytridFungus" aria-labelledby="headingChytridFungus" data-parent="#accordionOrganism">
-            <h4>Chytrid Fungus</h4>
-            <p>This is a test of content</p>
+        <div class="collapse container" id="collapseFlatworms" aria-expanded="false" aria-labelledby="headingFlatworms" data-parent="#accordionOrganism">
+            <div class="row py-3">
+                <div class="col">
+                    <h4><u>Flatworms</u></h4>
+                    <p>DNA:</p>
+                    <p>NCBI Info: </p>
+                </div>
+                <div class="col align-self-center">
+                    <img class=" img-fluid rounded" src="../../media/CorrectTileImages/Flatworms_page_image.jpg" alt="Flatworm image">
+                </div>
+            </div>
         </div>
-        <div class="collapse container" id="collapsePolychaete" aria-labelledby="headingolychaete" data-parent="#accordionOrganism">
-            <h4>Polychaete Worm</h4>
-            <p>This is a test of content</p>
+        <div class="collapse container" id="collapseChytridFungus" aria-expanded="false" aria-labelledby="headingChytridFungus" data-parent="#accordionOrganism">
+            <div class="row py-3">
+                <div class="col">
+                    <h4><u>Chytrid Fungus</u></h4>
+                    <p>DNA:</p>
+                    <p>NCBI Info: </p>
+                </div>
+                <div class="col align-self-center">
+                    <img class=" img-fluid rounded" src="../../media/CorrectTileImages/chytrid fungus.jpg" alt="Chytrid fungus image">
+                </div>
+            </div>
+        </div>
+        <div class="collapse container" id="collapsePolychaete" aria-expanded="false" aria-labelledby="headingPolychaete" data-parent="#accordionOrganism">
+            <div class="row py-3">
+                <div class="col">
+                    <h4><u>Polychaete Worm</u></h4>
+                    <p>DNA: ATCHAS</p>
+                    <p>NCBI Info: </p>
+                </div>
+                <div class="col align-self-center">
+                    <img class="img-fluid rounded" src="../../media/CorrectTileImages/polychaete worm.jpg" alt="Polycheate worm image">
+                </div>
+            </div>
         </div>
       </div> <!-- Accordion End-->
-    </div>
-</div>
+    </div> <!-- Expanding Organism End-->
+</div> <!-- Chart Data Interaction Div End-->
 
 <br>
 
@@ -644,17 +887,14 @@
         </div>
         <div class="col card-img zoom align-self-center mx-3" id="headingSix">
           <img class="img-fluid rounded" src="../../media/CorrectTileImages/common grass shrimp.jpg" alt="Grass shrimp image">
-          <p class="card-text mt-2">#N/A</p>
           <a class="stretched-link" data-toggle="collapse" href="#collapseSix" role="button" aria-expanded="false" aria-controls="collapseSix"></a>
         </div>
         <div class="col card-img zoom align-self-center mx-3" id="headingSeven">
           <img class=" img-fluid rounded" src="../../media/CorrectTileImages/Barnacle_cluster.jpg" alt="Barnacles image">
-          <p class="card-text mt-2">#13006</p>
           <a class="stretched-link" data-toggle="collapse" href="#collapseSeven" role="button" aria-expanded="false" aria-controls="collapseSeven"></a>
         </div>
         <div class="col card-img zoom align-self-center mx-3" id="headingEight">
           <img class="img-fluid rounded" src="../../media/CorrectTileImages/dark false mussel.jpg" alt="False dark mussel image">
-          <p class="card-text mt-2">#13202</p>
           <a class="stretched-link" data-toggle="collapse" href="#collapseEight" role="button" aria-expanded="false" aria-controls="collapseEight"></a>
         </div>
       </div>
@@ -689,17 +929,14 @@
         </div>
         <div class="col card-img zoom align-self-center mx-3" id="headingTen">
           <img class="img-fluid rounded" src="../../media/CorrectTileImages/anemone.jpg" alt="Aenomone image">
-          <p class="card-text mt-2">#13414</p>
           <a class="stretched-link" data-toggle="collapse" href="#collapseTen" role="button" aria-expanded="false" aria-controls="collapseTen"></a>
         </div>
         <div class="col card-img zoom align-self-center mx-3" id="headingEleven">
           <img class=" img-fluid rounded" src="../../media/CorrectTileImages/chytrid fungus.jpg" alt="Chytrid fungus image">
-          <p class="card-text mt-2">#27402</p>
           <a class="stretched-link" data-toggle="collapse" href="#collapseEleven" role="button" aria-expanded="false" aria-controls="collapseEleven"></a>
         </div>
         <div class="col card-img zoom align-self-center mx-3" id="headingTwelve">
           <img class="img-fluid rounded" src="../../media/CorrectTileImages/ciliates.jpg" alt="Ciliates image">
-          <p class="card-text mt-2">#9005</p>
           <a class="stretched-link" data-toggle="collapse" href="#collapseTwelve" role="button" aria-expanded="false" aria-controls="collapseTwelve"></a>
         </div>
       </div>
