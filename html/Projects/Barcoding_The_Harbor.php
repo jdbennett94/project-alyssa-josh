@@ -460,6 +460,7 @@
              },
 
             animationEnabled: true,
+            click:onClick,
             exportEnabled: false,
             theme: "light2", // "light1", "light2", "dark1", "dark2"
             title:{
@@ -472,6 +473,11 @@
             }]
           });
           chart.render();
+
+          //FUCNTION FOR CHART USAGE
+          function onClick(e) {
+                alert(  e.dataSeries.type + ", dataPoint { x:" + e.dataPoint.x + ", y: "+ e.dataPoint.y + " }" );
+          }
 
           }
       </script>
@@ -493,19 +499,19 @@
       <!-- Accordion Sections -->
       <div class="accordion" id="accordionExample1">
         <div class="row mb-5">
-          <div class="col card-img zoom align-self-center" id="headingOne">
+          <div class="col card-img zoom align-self-center mx-3" id="headingOne">
             <img class="img-fluid rounded" src="../../media/CorrectTileImages/wmworm1.gif" alt="Mud worm image">
             <a class="stretched-link" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne"></a>
           </div>
-          <div class="col card-img zoom align-self-center" id="headingTwo">
+          <div class="col card-img zoom align-self-center mx-3" id="headingTwo">
             <img class="img-fluid rounded" src="../../media/CorrectTileImages/round worm.jpg" alt="Round worm image">
             <a class="stretched-link" data-toggle="collapse"  href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo"></a>
           </div>
-          <div class="col card-img zoom align-self-center" id="headingThree">
+          <div class="col card-img zoom align-self-center mx-3" id="headingThree">
             <img class=" img-fluid rounded" src="../../media/CorrectTileImages/barnacle larvae.jpg" alt="Barnacle larvae image">
             <a class="stretched-link" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree"></a>
           </div>
-          <div class="col card-img zoom align-self-center" id="headingFour">
+          <div class="col card-img zoom align-self-center mx-3" id="headingFour">
             <img class=" img-fluid rounded" src="../../media/CorrectTileImages/Flatworms_page_image.jpg" alt="Flatworm image">
             <a class="stretched-link" data-toggle="collapse" href="#collapseFour" role="button" aria-expanded="false" aria-controls="collapseFour"></a>
           </div>
@@ -535,21 +541,21 @@
 <!-- Second row of organisms -->
       <div class="accordion" id="accordionExample2">
       <div class="row mb-5 ">
-        <div class="col card-img zoom align-self-center ml-2" id="headingFive">
+        <div class="col card-img zoom align-self-center mx-3" id="headingFive">
           <img class="img-fluid rounded" src="../../media/CorrectTileImages/Copepod.jpg" alt="Copepod image">
           <a class="stretched-link" data-toggle="collapse" href="#collapseFive" role="button" aria-expanded="false" aria-controls="collapseFive"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2" id="headingSix">
+        <div class="col card-img zoom align-self-center mx-3" id="headingSix">
           <img class="img-fluid rounded" src="../../media/CorrectTileImages/common grass shrimp.jpg" alt="Grass shrimp image">
           <p class="card-text mt-2">#N/A</p>
           <a class="stretched-link" data-toggle="collapse" href="#collapseSix" role="button" aria-expanded="false" aria-controls="collapseSix"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2" id="headingSeven">
+        <div class="col card-img zoom align-self-center mx-3" id="headingSeven">
           <img class=" img-fluid rounded" src="../../media/CorrectTileImages/Barnacle_cluster.jpg" alt="Barnacles image">
           <p class="card-text mt-2">#13006</p>
           <a class="stretched-link" data-toggle="collapse" href="#collapseSeven" role="button" aria-expanded="false" aria-controls="collapseSeven"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2" id="headingEight">
+        <div class="col card-img zoom align-self-center mx-3" id="headingEight">
           <img class="img-fluid rounded" src="../../media/CorrectTileImages/dark false mussel.jpg" alt="False dark mussel image">
           <p class="card-text mt-2">#13202</p>
           <a class="stretched-link" data-toggle="collapse" href="#collapseEight" role="button" aria-expanded="false" aria-controls="collapseEight"></a>
@@ -580,21 +586,21 @@
 <!-- Third Row Of Organisms -->
       <div class="accordion" id="accordionExample3">
       <div class="row mb-1">
-        <div class="col card-img zoom align-self-center mx-2" id="headingNine">
+        <div class="col card-img zoom align-self-center mx-3" id="headingNine">
           <img class="img-fluid rounded" src="../../media/CorrectTileImages/polychaete worm.jpg" alt="Polycheate worm image">
           <a class="stretched-link" data-toggle="collapse" href="#collapseNine" role="button" aria-expanded="false" aria-controls="collapseNine"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2" id="headingTen">
+        <div class="col card-img zoom align-self-center mx-3" id="headingTen">
           <img class="img-fluid rounded" src="../../media/CorrectTileImages/anemone.jpg" alt="Aenomone image">
           <p class="card-text mt-2">#13414</p>
           <a class="stretched-link" data-toggle="collapse" href="#collapseTen" role="button" aria-expanded="false" aria-controls="collapseTen"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2" id="headingEleven">
+        <div class="col card-img zoom align-self-center mx-3" id="headingEleven">
           <img class=" img-fluid rounded" src="../../media/CorrectTileImages/chytrid fungus.jpg" alt="Chytrid fungus image">
           <p class="card-text mt-2">#27402</p>
           <a class="stretched-link" data-toggle="collapse" href="#collapseEleven" role="button" aria-expanded="false" aria-controls="collapseEleven"></a>
         </div>
-        <div class="col card-img zoom align-self-center mx-2" id="headingTwelve">
+        <div class="col card-img zoom align-self-center mx-3" id="headingTwelve">
           <img class="img-fluid rounded" src="../../media/CorrectTileImages/ciliates.jpg" alt="Ciliates image">
           <p class="card-text mt-2">#9005</p>
           <a class="stretched-link" data-toggle="collapse" href="#collapseTwelve" role="button" aria-expanded="false" aria-controls="collapseTwelve"></a>
@@ -635,10 +641,19 @@
 
 <hr>
 
+<script type="text/javascript">
+  //Function to return to top of page
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        window.location.reload();
+    }
+</script>
+
 <div class="container text-center">
     <h5>Missed or want to see the <br>background and information on this project?</h5>
     <!-- Button for toggle of elements -->
-    <button class="btn btn-secondary" onClick="window.location.reload();">Click Here</button>
+    <button class="btn btn-secondary" onClick="topFunction()">Click Here</button>
 </div>
 
 
