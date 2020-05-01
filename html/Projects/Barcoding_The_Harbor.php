@@ -57,7 +57,7 @@
 
   </head>
   <body>
-    <!--TODO: Update Active classes on links if applicable-->
+    
     <!--NAVBAR-->
     <nav class="navbar navbar-light navbar-expand-lg bg-white">
       <a class="navbar-brand" href="../index.html"><img class="logoNav" src="../../media/bugsslogo-square300.png" alt="BUGSS Logo"></a>
