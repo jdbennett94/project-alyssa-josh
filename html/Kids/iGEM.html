@@ -92,7 +92,7 @@
     <title>BUGSS Kids and Parents</title>
 
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <!--TODO: Update Active classes on links if applicable-->
     <!--TODO: We can decide to use dropdowns or another popup or make them click through.-->
     <!--NAVBAR-->
@@ -157,127 +157,174 @@
       </li>
     </ul>
 
+    <div class="container-fluid bg-white flex-grow-1">
+      <ul class="nav justify-content-around" id="pills-tab-1" role="tablist" style=".active{color:#7a56e9}">
+        <li class="nav-item">
+          <a class="nav-link active rounded-0 text-primary" id="pills-join-tab" data-toggle="pill" href="#pills-join" role="tab" aria-controls="pills-igem" aria-selected="false">Join the team!</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link rounded-0 text-primary" id="pills-2018-tab" data-toggle="pill" href="#pills-2018" role="tab" aria-controls="pills-youth" aria-selected="true">Baltimore BioCrew 2018</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link rounded-0 text-primary" id="pills-ed-tab" data-toggle="pill" href="#pills-ed" role="tab" aria-controls="pills-ed" aria-selected="true">Thank You</a>
+        </li>
 
-    <div class="container-fluid bg-white" >
-  <ul class="nav justify-content-around" id="pills-tab-1" role="tablist" style=".active{color:#7a56e9}">
-          <li class="nav-item">
-            <a class="nav-link active rounded-0 text-primary" id="pills-join-tab" data-toggle="pill" href="#pills-join" role="tab" aria-controls="pills-igem" aria-selected="false">Join the team!</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link rounded-0 text-primary" id="pills-2018-tab" data-toggle="pill" href="#pills-2018" role="tab" aria-controls="pills-youth" aria-selected="true">Baltimore BioCrew 2018</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link rounded-0 text-primary" id="pills-ed-tab" data-toggle="pill" href="#pills-ed" role="tab" aria-controls="pills-clubs" aria-selected="true">Thank You</a>
-          </li>
+      </ul>
 
-        </ul>
+      <div class="tab-content container-fluid bg-white" id="pills-tab-1Content">
+        <div class="tab-pane fade show active" id="pills-join" role="tabpanel" aria-labelledby="pills-join-tab">
+          <h1 class="display-4">Baltimore BioCrew iGEM team</h1>
+          <h3>
+            Do you know any students that would be interested in hands-on learning in the lab by building with biology in the summer?
+          </h3>
+          <p>The International Genetically Engineered Machines (iGEM) competition is an annual event open to undergraduate teams, high school students, and community labs like BUGSS from around the world. Explore the <a
+              href="http://igem.org/About">iGEM website</a>.
 
-        <div class="tab-content container-fluid bg-white" id="pills-tab-1Content">
-          <div class="tab-pane fade show active" id="pills-join" role="tabpanel" aria-labelledby="pills-join-tab">
-            <h1 class="display-4">Baltimore BioCrew iGEM team</h1>
-            <h3>
-              Do you know any students that would be interested in hands-on learning in the lab by building with biology in the summer?
-            </h3>
-            <p>The International Genetically Engineered Machines (iGEM) competition is an annual event open to undergraduate teams, high school students, and community labs like BUGSS from around the world. Explore the iGEM website:
-              http://igem.org/About
-            </p>
-            <p>
+          </p>
+          <p>
 
-              It’s kind of a big deal, with teams working all year to make their own genetic machines from existing and novel parts. Examples include a rainbow of pigmented bacteria, banana and wintergreen smelling bacteria, and an arsenic sensor.
-              Know any
-              wiz kids who love science? This is a great opportunity to let their creativity flow and build a genetic device of their own design.
-            </p>
-            <p>
-              For the past two years, the BUGSS (Baltimore Underground Science Space) community lab has hosted a team of high school students who participated in iGEM-they are the Baltimore BioCrew! Their project was to engineer bacteria to break
-              down
-              plastic that contaminates the inner harbor. Check out a front page story on the Baltimore Sun here: http://www.baltimoresun.com/news/maryland/bs-md-plastic-eating-bacteria-20161116-story.html
-            </p>
-            <p>
-              This year, the BioCrew mentored middle school students who were associate members and worked on a related project on plastic degradation. The team is looking for more middle school associate members and high school members to join the
-              team!
-              The team will meet throughout the winter and spring on Saturdays to prepare for their summer working in the lab. This is a unique opportunity for students to participate in creative hands-on science!
-            </p>
-          </div>
-
-          <div class="tab-pane fade" id="pills-2018" role="tabpanel" aria-labelledby="pills-2018-tab">
-            <h1 class="display-4">About the Baltimore BioCrew</h1>
-            <div class="row justify-content-between mb-3">
-              <div class="col">
-                <img src="../../media/20180505_163343.jpg" class="img-fluid">
-              </div>
-              <div class="col">
-                <p>
-                  Hello, we are the Baltimore Bio Crew and we are a team of high school students. We work at the Baltimore Underground Science Space (BUGSS). BUGSS is a public laboratory offering classes, seminars, and lab access so that anyone can
-                  safely
-                  and affordably investigate the living world.
-                </p>
-                <p>
-                  We successfully showcased “Coagulance Rx” at the 2018 iGEM Giant Jamboree, the synthetic biology industry’s largest innovation event hosted by the International Genetically Engineered Machine (iGEM) Foundation. The Giant Jamboree
-                  is
-                  the
-                  culminating event of iGEM’s annual, worldwide, synthetic biology competition for students all around the world to use genetic engineering to solve local problems.
-                </p>
-              </div>
-            </div>
-            <h3>
-              We’re thrilled that our team won a bronze medal and also the award for Best High School Presentation!
-            </h3>
-            <p>
-              Each year, the competition brings together more than 6,000 participants from across the globe to explore and create unique applications of synthetic biology with the mission to bring positive contributions to their communities and
-              society at large. Beyond the technology, participants are evaluated on teamwork, responsibility, entrepreneurship, sharing, safety and more. Baltimore Underground Science Space (BUGSS), Baltimore’s regional community laboratory,
-              sponsors a team each year, the Baltimore BioCrew, which brings together students from Baltimore and our neighboring communities to combat a local problem using synthetic biology. “The Baltimore BioCrew program is a true collaborative
-              project,” says Lisa Scheifele Ph.D., Executive Director of BUGSS. “It brings our students together with professional scientists and trainees who serve as their scientific mentors, local professionals such as the Chesapeake Area
-              Biological Safety Association and the University of Maryland’s Science, Technology and Society program who mentor our students on safety and presentation skills, and individual and corporate sponsors such as Becton Dickinson, Inc. who
-              partner with us to support this amazing team.”
-            </p>
-
-            <p>
-              The Baltimore BioCrew’s team’s project, Coagulance Rx, originated from the team’s desire to address gun violence in Baltimore. When meeting with Dr. Thomas Scalea, Physician-in-Chief at the University of Maryland Shock Trauma Center
-              and
-              Dr. Habeeba Park of Stop the Bleed, they learned that massive blood loss can cause death within only 5-10 minutes. Rallied to action by stories of preventable deaths during incidents like the Sandy Hook massacre, the BioCrew used
-              synthetic biology to engineer bacterial cells that would produce the Russel’s viper snake venom protein. This protein coagulates blood and can be embedded in bandages that are distributed to the public to help stop bleeding in
-              emergency
-              situations. BioCrew team member Henry Ryle found that, “iGEM was an incredible experience. I learned so much about myself and the synthetic biology field, a field of study that I barely knew existed. I learned graduate level
-              scientific
-              procedures as a high schooler, and learned how to program a website. It has totally changed my view of the world- seeing other teams and listening to their work in Boston was eye opening to me. I am so glad I got this opportunity, and
-              I
-              hope other high schoolers in Baltimore get it as well.”
-            </p>
-            <p>
-              <!--TODO: format list-->
-              Students on the team include: </p>
-            <p>
-              Melissa Jones (Eleanor Roosevelt High School, Greenbelt), Akinwumi Akinfenwa, Mya Smith, Shikei Morrison, Heydy Herbert (Baltimore Polytechnic Institute), Abner Russom (Northwood High School, Rockville), Zoe Hsieh (Hereford High
-              School,
-              Parkton), Justin Bai (Gilman School), Jocelyn Choo, Naige Correal-Winters, and Patrick Correal-Winters (Centennial High School, Ellicott City), Zion Smith, and Nidele Dongmo (Baltimore City College), Mame Gueye, Mercedes Ferandes,
-              Ryan
-              Scott, and Henry Ryle (Bard High School Early College Baltimore), and Ella Coleman (Rensselaer Polytechnic Institute).
-            </p>
-            <blockquote class="container blockquote">
-              <p>
-                “This year’s Giant Jamboree was a spectacular display of hard work and ingenuity. These students are showing the world what’s possible when we fearlessly tackle tough problems and open our minds to new applications of engineering
-                biology. Many of the projects presented at iGEM will serve as the foundation and inspiration for important research, influential companies and international interest to come – these participants are most certainly tomorrow’s
-                leaders.”
-              </p>
-              <footer class="blockquote-footer">Randy Rettberg, co-founder and president of iGEM.</footer>
-            </blockquote>
-            </p>
-            <h5>
-              For more information on the BioCrew’s project, visit<a href="http://2018.igem.org/Team:Baltimore_BioCrew"> our page on iGEM's website. </a>
-            </h5>
-            <p>
-              Your donations help sustain our team and ensure that we can register a team in 2019. Thank you for your donation in any amount!
-            </p>
-          </div>
+            It’s kind of a big deal, with teams working all year to make their own genetic machines from existing and novel parts. Examples include a rainbow of pigmented bacteria, banana and wintergreen smelling bacteria, and an arsenic sensor.
+            Know any
+            wiz kids who love science? This is a great opportunity to let their creativity flow and build a genetic device of their own design.
+          </p>
+          <p>
+            For the past two years, the BUGSS (Baltimore Underground Science Space) community lab has hosted a team of high school students who participated in iGEM-they are the Baltimore BioCrew! Their project was to engineer bacteria to break
+            down
+            plastic that contaminates the inner harbor. <a href="http://www.baltimoresun.com/news/maryland/bs-md-plastic-eating-bacteria-20161116-story.html">Check out a front page story on the Baltimore Sun </a>
+          </p>
+          <p>
+            This year, the BioCrew mentored middle school students who were associate members and worked on a related project on plastic degradation. The team is looking for more middle school associate members and high school members to join the
+            team!
+            The team will meet throughout the winter and spring on Saturdays to prepare for their summer working in the lab. This is a unique opportunity for students to participate in creative hands-on science!
+          </p>
         </div>
+
+        <div class="tab-pane fade" id="pills-2018" role="tabpanel" aria-labelledby="pills-2018-tab">
+          <h1 class="display-4">About the Baltimore BioCrew</h1>
+          <div class="row justify-content-between mb-3">
+            <div class="col-md-6">
+              <img src="../../media/20180505_163343.jpg" class="img-fluid rounded" alt="BioCrew Class photo">
+            </div>
+            <div class="col-md-6">
+              <p>
+                Hello, we are the Baltimore Bio Crew and we are a team of high school students. We work at the Baltimore Underground Science Space (BUGSS). BUGSS is a public laboratory offering classes, seminars, and lab access so that anyone can
+                safely and affordably investigate the living world.
+              </p>
+              <p>
+                We successfully showcased “Coagulance Rx” at the 2018 iGEM Giant Jamboree, the synthetic biology industry’s largest innovation event hosted by the International Genetically Engineered Machine (iGEM) Foundation. The Giant Jamboree is
+                the culminating event of iGEM’s annual, worldwide, synthetic biology competition for students all around the world to use genetic engineering to solve local problems.
+              </p>
+              <h3 class="d-none d-xl-block">
+                We’re thrilled that our team won a bronze medal and also the award for Best High School Presentation!
+              </h3>
+            </div>
+          </div>
+          <h3 class="d-xl-none">
+            We’re thrilled that our team won a bronze medal and also the award for Best High School Presentation!
+          </h3>
+          <p>
+            Each year, the competition brings together more than 6,000 participants from across the globe to explore and create unique applications of synthetic biology with the mission to bring positive contributions to their communities and society
+            at large. Beyond the technology, participants are evaluated on teamwork, responsibility, entrepreneurship, sharing, safety and more. Baltimore Underground Science Space (BUGSS), Baltimore’s regional community laboratory, sponsors a team
+            each year, the Baltimore BioCrew, which brings together students from Baltimore and our neighboring communities to combat a local problem using synthetic biology. “The Baltimore BioCrew program is a true collaborative project,” says Lisa
+            Scheifele Ph.D., Executive Director of BUGSS. “It brings our students together with professional scientists and trainees who serve as their scientific mentors, local professionals such as the Chesapeake Area Biological Safety Association
+            and the University of Maryland’s Science, Technology and Society program who mentor our students on safety and presentation skills, and individual and corporate sponsors such as Becton Dickinson, Inc. who
+            partner with us to support this amazing team.”
+          </p>
+          <blockquote class="container blockquote">
+            <p class="mb-0">“The Baltimore BioCrew program is a true collaborative project.”
+              <footer class="blockquote-footer">Lisa Scheifele Ph.D., Executive Director of BUGSS.</p>
+          </blockquote>
+
+          <p>
+            The Baltimore BioCrew’s team’s project, Coagulance Rx, originated from the team’s desire to address gun violence in Baltimore. When meeting with Dr. Thomas Scalea, Physician-in-Chief at the University of Maryland Shock Trauma Center and
+            Dr. Habeeba Park of Stop the Bleed, they learned that massive blood loss can cause death within only 5-10 minutes. Rallied to action by stories of preventable deaths during incidents like the Sandy Hook massacre, the BioCrew used
+            synthetic biology to engineer bacterial cells that would produce the Russel’s viper snake venom protein. This protein coagulates blood and can be embedded in bandages that are distributed to the public to help stop bleeding in emergency
+            situations. BioCrew team member Henry Ryle found that, “iGEM was an incredible experience. I learned so much about myself and the synthetic biology field, a field of study that I barely knew existed. I learned graduate level scientific
+            procedures as a high schooler, and learned how to program a website. It has totally changed my view of the world- seeing other teams and listening to their work in Boston was eye opening to me. I am so glad I got this opportunity, and I
+            hope other high schoolers in Baltimore get it as well.”
+          </p>
+          <p>
+            <!--TODO: format list-->
+            Students on the team include: </p>
+          <p>
+            <div class="row">
+              <ul class="list-group col-md-3">
+                <li class="list-group-item"> Melissa Jones (Eleanor Roosevelt High School, Greenbelt)</li>
+                <li class="list-group-item">Akinwumi Akinfenwa</li>
+                <li class="list-group-item">Mya Smith</li>
+                <li class="list-group-item">Shikei Morrison</li>
+                <li class="list-group-item">Heydy Herbert (Baltimore Polytechnic Institute)</li>
+              </ul>
+              <ul class="list-group col-md-3">
+                <li class="list-group-item">Abner Russom (Northwood High School, Rockville)</li>
+                <li class="list-group-item">Zoe Hsieh (Hereford High School, Parkton)</li>
+                <li class="list-group-item">Justin Bai (Gilman School)</li>
+                <li class="list-group-item">Jocelyn Choo</li>
+                <li class="list-group-item"> Naige Correal-Winters</li>
+              </ul>
+              <ul class="list-group col-md-3">
+                <li class="list-group-item">Patrick Correal-Winters (Centennial High School, Ellicott City)</li>
+                <li class="list-group-item">Zion Smith,</li>
+                <li class="list-group-item">Justin Bai (Gilman School)</li>
+                <li class="list-group-item">Nidele Dongmo (Baltimore City College)</li>
+
+              </ul>
+
+              <ul class="list-group col-md-3">
+                <li class="list-group-item">Mame Gueye</li>
+                <li class="list-group-item">Mercedes Ferandes</li>
+                <li class="list-group-item">Ryan Scott</li>
+                <li class="list-group-item">Henry Ryle (Bard High School Early College Baltimore)</li>
+                <li class="list-group-item">Ella Coleman (Rensselaer Polytechnic Institute).</li>
+
+              </ul>
+            </div>
+          </p>
+          <blockquote class="container blockquote">
+            <p>
+              “This year’s Giant Jamboree was a spectacular display of hard work and ingenuity. These students are showing the world what’s possible when we fearlessly tackle tough problems and open our minds to new applications of engineering
+              biology. Many of the projects presented at iGEM will serve as the foundation and inspiration for important research, influential companies and international interest to come – these participants are most certainly tomorrow’s
+              leaders.”
+            </p>
+            <footer class="blockquote-footer">Randy Rettberg, co-founder and president of iGEM.</footer>
+          </blockquote>
+          </p>
+          <h5>
+            For more information on the BioCrew’s project, visit<a href="http://2018.igem.org/Team:Baltimore_BioCrew"> our page on iGEM's website. </a>
+          </h5>
+          <p>
+            Your donations help sustain our team and ensure that we can register a team in 2019. Thank you for your donation in any amount!
+          </p>
+        </div>
+
+        <div class="tab-pane fade" id="pills-ed" role="tabpanel" aria-labelledby="pills-ed-tab">
+
+          <h1 class="display-4">Thank you to our friend and mentor Ed Zavala</h1>
+          <div class="row mb-3">
+            <div class="col">
+              <img class="img-fluid rounded" src="https://bugssonline.org/wp-content/uploads/2018/11/Ed2.jpg" alt="Ed teaching"></div>
+            <div class="col">
+              <img class="img-fluid rounded" src="https://bugssonline.org/wp-content/uploads/2018/11/Ed1.jpg" alt="Ed">
+            </div>
+          </div>
+          <p>On our first day of iGEM, way back on May 5, the entirety of our team met for the first time. One of the mentors we met there was Ed. Ed was something of a genius. He personally took the time to explain every science topic we could think of, and was always ready to help teach lab skills and protocols. Not a meeting went by when Ed wasn’t there. Throughout our project, through the ups and downs, he was there to lighten the mood and help. Slowly, at times very slowly, our project came together. Ed was always prideful, bragging about the team to his friends and families. When the Giant Jamboree rolled around, he was so excited to be joining the members who went.</p>
+          <p>In Boston, Ed immediately began to plan his trip. He decided in advance which talks he would go to, trying to pack every talk he could, even though he knew he couldn’t. Every talk blew him away. He said he saw a little bit of us in all of those faces on the stage. When our presentation came up, we were terrified. We were convinced that we weren’t prepared, that we would embarrass ourselves. He helped us practice our presentation, offering encouragement and critique whenever it was needed. Then came the longest 20 minutes of our lives. We were genuinely surprised about how well the presentation seemed to go. Ed was ecstatic. We had never seen him so happy. At least, until the next day.</p>
+          <p>The next day was the awards ceremony. When we saw we had gotten bronze, we were admittedly disappointed. Then we saw the nominees for best presentation. We were shocked when we saw the Baltimore Bio-Crew among the names. That 10 second delay before we saw the results were some of the most tense of our lives. We saw that we had won, and we went crazy. We ran out of the auditorium, and at the end of the hallway we saw Ed. He had the biggest grin on his face. That was the most excited we had ever seen him. We had a massive group hug. Alas, that was the end of the Jamboree, and it was time to board the plane back to Baltimore. We went our separate ways, planning to see each other again when we had our post-iGEM meeting.</p>
+          <p>A few days before our planned meeting, we got crushing news. Ed had tragically died. He was out running and fell ill. The doctors at the hospital did everything to save him, but they couldn’t. At first, all we felt was shock. Then anger, at ourselves for not making the most of his last few weeks alive, at the doctors for not saving him, at anyone. His memorial service came up in a few days. After tearful speeches from the team, his family, and his friends, that grief was replaced with stark determination. We made a promise to ourselves, and to Ed, that next year we would take home gold and have a great summer of science.</p>
+          <p>So Ed, thank you for everything you did for us. For supporting us, pushing us, helping us. For being a mentor, for being a team mate, and for being a friend. We will win gold for you. You will be missed.</p>
+          <div class="d-flex justify-content-center">
+          <img class="img-fluid rounded" src="https://bugssonline.org/wp-content/uploads/2018/11/Picture11.png" alt="group picture">
+        </div>
+        </div>
+
       </div>
 
-
+    </div>
 
     </div>
 
     <!--FOOTER Default BG/ACCENT TEXT-->
-    <footer class="bg-black border-top mt-3">
+    <footer class="bg-black border-top mt-3 sticky-footer">
       <!-- Add font awesome icons -->
       <div class="row justify-content-around text-center mt-3">
         <div class="col text-secondary">
