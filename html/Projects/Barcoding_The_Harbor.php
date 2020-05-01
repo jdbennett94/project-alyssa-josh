@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <!-- set viewport to screen size -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

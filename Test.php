@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en" dir="ltr">
 <head>
   <title>Eventbrite</title>
 
