@@ -358,6 +358,127 @@
 
 </div> <!--This dev is for the toggle of viewable elements  -->
 
+<!-- Chart implementiation of chart.js vs canvas php code being played with in gen. project file -->
+<div class="container bg-primary rounded pb-2">
+  <h3 class="display-4 text-center text-white pt-1"> <u>The Overall Data </u></h3>
+  <h4 class="display-5 text-center text-light">Click on any organism! See what pops up!</h4>
+  <div class="container jumbtron rounded shadow" style="background:lavender;">
+      <!-- php version's here
+      php
+      include 'chartV6.php';
+      ?
+
+
+          HELPFUL Resour.
+*************************************************************************************************
+      (Hard code versions so far, cant decide yet)
+      https://canvasjs.com/php-charts/stacked-area-100-chart/
+      https://canvasjs.com/php-charts/column-chart/
+      https://canvasjs.com/php-charts/doughnut-chart/ (i enjoy this one for overall version )
+
+      jquery bootstrap integratable versions
+      https://canvasjs.com/jquery-charts/animated-chart/ (with animation)
+
+
+
+      (Data binding versions, so can be used with database)
+      https://canvasjs.com/php-charts/chart-data-from-database/
+***********************************************************************************************************
+  END OF GRAPH COMMENT BLOCK-->
+  <?php
+
+    $dataPoints = array();
+    //Best practice is to create a separate file for handling connection to database
+    try{
+         // Creating a new connection.
+        // Replace your-hostname, your-db, your-username, your-password according to your database
+        $link = new \PDO(   'mysql:host=cs-database.cs.loyola.edu;dbname=joshal;charset=utf8mb4', //'mysql:host=localhost;dbname=canvasjs_db;charset=utf8mb4',
+                            'jbennett', //'root',
+                            '1670682', //'',
+                            array(
+                                \PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+                                \PDO::ATTR_PERSISTENT => false
+                            )
+                        );
+
+        $handle = $link->prepare('select x, y, label from datapoints');
+        $handle->execute();
+        $result = $handle->fetchAll(\PDO::FETCH_OBJ);
+
+        foreach($result as $row){
+            array_push($dataPoints, array("x"=> $row->x, "y"=> $row->y, "label"=> $row->label));
+        }
+    	$link = null;
+    }
+    catch(\PDOException $ex){
+        print($ex->getMessage());
+    }
+
+    ?>
+
+
+    <script>
+          window.onload = function () {
+
+          var chart = new CanvasJS.Chart("chartContainer", {
+
+            backgroundColor: "lavender",
+
+            axisX:{
+             title: "Organism (Via SILVA_tax_id)",
+             //minimum: 8990,
+             /*scaleBreaks: {
+                autoCalculate: true,  // change to false,
+                maxNumberOfAutoBreaks: 4,
+                collapsibleThreshold: ".01%"
+              },
+              scaleBreaks: {
+                customBreaks: [{
+                  startValue: 9050,
+                  endValue: 12900,
+                  type: "straight"
+                    },
+                    {
+                  startValue: 13500,
+                  endValue: 27300,
+                  type: "straight"
+                     }]
+
+                }, */
+            },
+
+
+            axisY:{
+             title:"Number of Specimens",
+             //interlacedColor: "#F8F1E4",
+             //tickLength: 10
+             //maximum: 120000
+             },
+
+            animationEnabled: true,
+            exportEnabled: false,
+            theme: "light2", // "light1", "light2", "dark1", "dark2"
+            title:{
+              text: "Presence Of Species Where Greater Than 1% Of Million Sequence Reads"
+            },
+            data: [{
+              //explodeOnClick: true;
+              type: "column", //change type to bar, line, area, pie, etc
+              dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
+            }]
+          });
+          chart.render();
+
+          }
+      </script>
+
+
+      <div class="rounded" id="chartContainer" style="height: 370px; width: 100%;"></div>
+      <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    </div>
+</div>
+
+<br>
 
 
 <div class="container-fluid text-center">
@@ -493,127 +614,6 @@
 
     </div>
 </div>
-
-<!-- Chart implementiation of chart.js vs canvas php code being played with in gen. project file -->
-<div class="container bg-primary rounded">
-  <h3 class="display-4 text-center text-white pt-1"> <u>The Overall Data </u></h3>
-  <h4 class="display-5 text-center text-light">Click on any organism! See what changes</h4>
-  <div class="container jumbtron rounded shadow" style="background:lavender;">
-      <!-- php version's here
-      php
-      include 'chartV6.php';
-      ?
-
-
-          HELPFUL Resour.
-*************************************************************************************************
-      (Hard code versions so far, cant decide yet)
-      https://canvasjs.com/php-charts/stacked-area-100-chart/
-      https://canvasjs.com/php-charts/column-chart/
-      https://canvasjs.com/php-charts/doughnut-chart/ (i enjoy this one for overall version )
-
-      jquery bootstrap integratable versions
-      https://canvasjs.com/jquery-charts/animated-chart/ (with animation)
-
-
-
-      (Data binding versions, so can be used with database)
-      https://canvasjs.com/php-charts/chart-data-from-database/
-***********************************************************************************************************
-  END OF GRAPH COMMENT BLOCK-->
-  <?php
-
-    $dataPoints = array();
-    //Best practice is to create a separate file for handling connection to database
-    try{
-         // Creating a new connection.
-        // Replace your-hostname, your-db, your-username, your-password according to your database
-        $link = new \PDO(   'mysql:host=cs-database.cs.loyola.edu;dbname=joshal;charset=utf8mb4', //'mysql:host=localhost;dbname=canvasjs_db;charset=utf8mb4',
-                            'jbennett', //'root',
-                            '1670682', //'',
-                            array(
-                                \PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-                                \PDO::ATTR_PERSISTENT => false
-                            )
-                        );
-
-        $handle = $link->prepare('select x, y, label from datapoints');
-        $handle->execute();
-        $result = $handle->fetchAll(\PDO::FETCH_OBJ);
-
-        foreach($result as $row){
-            array_push($dataPoints, array("x"=> $row->x, "y"=> $row->y, "label"=> $row->label));
-        }
-    	$link = null;
-    }
-    catch(\PDOException $ex){
-        print($ex->getMessage());
-    }
-
-    ?>
-
-
-    <script>
-          window.onload = function () {
-
-          var chart = new CanvasJS.Chart("chartContainer", {
-
-            backgroundColor: "lavender",
-
-            axisX:{
-             title: "Organism (Via SILVA_tax_id)",
-             //minimum: 8990,
-             /*scaleBreaks: {
-                autoCalculate: true,  // change to false,
-                maxNumberOfAutoBreaks: 4,
-                collapsibleThreshold: ".01%"
-              },
-              scaleBreaks: {
-                customBreaks: [{
-                  startValue: 9050,
-                  endValue: 12900,
-                  type: "straight"
-                    },
-                    {
-                  startValue: 13500,
-                  endValue: 27300,
-                  type: "straight"
-                     }]
-
-                }, */
-            },
-
-
-            axisY:{
-             title:"Number of Specimens",
-             //interlacedColor: "#F8F1E4",
-             //tickLength: 10
-             //maximum: 120000
-             },
-
-            animationEnabled: true,
-            exportEnabled: false,
-            theme: "light2", // "light1", "light2", "dark1", "dark2"
-            title:{
-              text: "Presence Of Species Where Greater Than 1% Of Million Sequence Reads"
-            },
-            data: [{
-              //explodeOnClick: true;
-              type: "column", //change type to bar, line, area, pie, etc
-              dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
-            }]
-          });
-          chart.render();
-
-          }
-      </script>
-
-
-
-<br>
-
-<div class="rounded" id="chartContainer" style="height: 370px; width: 100%;"></div>
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
   </div>
   <br>
