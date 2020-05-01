@@ -57,7 +57,7 @@
 
   </head>
   <body>
-    
+
     <!--NAVBAR-->
     <nav class="navbar navbar-light navbar-expand-lg bg-white">
       <a class="navbar-brand" href="../index.html"><img class="logoNav" src="../../media/bugsslogo-square300.png" alt="BUGSS Logo"></a>
@@ -102,10 +102,7 @@
             <a class="nav-link" href="../Support/Support_Us_Landing.html">Support Us</a>
           </li>
         </ul>
-        <!--<form class="form-inline" method="get" action="../search.php">
-          <input class="form-control mr-sm-2" type="search" name="query" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>-->
+      
       </div>
     </nav>
 
