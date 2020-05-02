@@ -148,7 +148,7 @@
 <div id="ClickAwaySection">
 
   <div class="container text-center">
-    <h5>Click Here To See the Organisms and Data</h5>
+    <h5>View the Organisms and Data</h5>
     <!-- Button for toggle of elements -->
     <button class="btn btn-primary" onclick="myFunction()">Organisms & Data</button>
   </div>
@@ -977,7 +977,7 @@
 <div class="container text-center">
     <h5>Missed or want to see the <br>background and information on this project?</h5>
     <!-- Button for toggle of elements -->
-    <button class="btn btn-secondary" onClick="topFunction()">Click Here</button>
+    <button class="btn btn-secondary" onClick="topFunction()">Learn More</button>
 </div>
 
 
