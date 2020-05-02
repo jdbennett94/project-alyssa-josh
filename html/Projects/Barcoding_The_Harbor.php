@@ -119,7 +119,7 @@
     </ul>
 
 <div class="container shadow jumbotron-secondary w-100 mx-auto">
-  <h1 class="display-4 text-center">Welcome to Barcoding the Harbor!</h1> 
+  <h1 class="display-4 text-center">Welcome to Barcoding the Harbor!</h1>
     <div class="row">
       <div class="container">
         <br>
@@ -704,7 +704,7 @@
                 <div class="col">
                     <h4><u>Barnacle Cluster</u></h4>
                     <p>Organism SILVA Id #13006</p>
-                    <p>Here'some feeding in action!</p>
+                    <p>Here is  some feeding in action!</p>
                     <div class="embed-responsive embed-responsive-16by9">
                       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sdMgQrHfoH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
