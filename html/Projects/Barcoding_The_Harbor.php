@@ -649,8 +649,8 @@
                 <div class="col">
                     <h4><u>Mud Worm</u></h4>
                     <p>Organism SILVA Id #13373</p>
-                    <p>Example DNA Seq: <br>CCTACTACCGATGGATAATTTGGTGAGGTCGCCTAGACTGGCTGCTGGCTTCGGCCGTGCGGCCGGGAAGACGCCCAAACTTGGTCGTCTAGAGGAAGTAAAAGTCGTAACAAGGTTTCC</p>
-                    <p>National Center for Biotechnological Information Data: <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">Click Here</a></p>
+                    <p>Example DNA Seq: <br>CCTACTACCGATGGATAATTTGGT<br>GAGGTCGCCTAGACTGGCTGCTGGCT<br>TCGGCCGTGCGGCCGGGAAGACGCCCAAACTTGGTC<br>GTCTAGAGGAAGTAAAAGTCGTAACAAGGTTTCC</p>
+                    <p>National Center for Biotechnology Information Data: <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">Click Here</a></p>
                 </div>
                 <div class="col align-self-center">
                     <img class="img-fluid rounded" src="../../media/CorrectTileImages/wmworm1.gif" alt="Mud worm image">
@@ -662,8 +662,8 @@
                 <div class="col">
                     <h4><u>Round Worm</u></h4>
                     <p>Organism SILVA Id #13251</p>
-                    <p>Example DNA Seq: <br>GCTGCCCGGAACTGAGCCGTTTCGAGAAAGCTGGGGACTGACGACTTGTGGGTGCGCAAGCACTTCTTGTCGACGGAAACCAGTTTAATCGGTATGGCTTGAACCGGGCAAAAGTCGTAACAAGGTTTCC</p>
-                    <p>National Center for Biotechnological Information Data: <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">Click Here</a></p>
+                    <p>Example DNA Seq: <br>GCTGCCCGGAACTGAGCCGTTTCGAG<br>AAAGCTGGGGACTGACGACTTGTGGGTG<br>CGCAAGCACTTCTTGTCGACGGAAACCAGTTTAATCGGTAT<br>GGCTTGAACCGGGCAAAAGTCGTAACAAGGTTTCC</p>
+                    <p>National Center for Biotechnology Information Data: <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">Click Here</a></p>
                 </div>
                 <div class="col align-self-center">
                     <img class="img-fluid rounded" src="../../media/CorrectTileImages/round worm.jpg" alt="Round worm image">
@@ -718,8 +718,8 @@
                 <div class="col">
                     <h4><u>Ciliates</u></h4>
                     <p>Organism SILVA Id #9005</p>
-                    <p>Example DNA Seq:<br> ACTTCTACCGATTCGAGTGGTTCGACGAATGATTAGGATCGACAACATTAGTTGTTGCAATTTTTGTAAGTCATATCACTTAGAGGAAGGAAAAGGCGTAACAAGGTTTCC</p>
-                    <p>National Center for Biotechnological Information Data: <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">Click Here</a></p>
+                    <p>Example DNA Seq:<br> ACTTCTACCGATTCGAGTGGTTCGACGA<br>ATGATTAGGATCGACAACATTAGT<br>TGTTGCAATTTTTGTAAGTCATATCACTTAGA<br>GGAAGGAAAAGGCGTAACAAGGTTTCC</p>
+                    <p>National Center for Biotechnology Information Data: <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">Click Here</a></p>
                 </div>
                 <div class="col align-self-center">
                     <img class="img-fluid rounded" src="../../media/CorrectTileImages/ciliates.jpg" alt="Ciliates image">
@@ -731,8 +731,8 @@
                 <div class="col">
                     <h4><u>Copepod</u></h4>
                     <p>Organism SILVA Id #12982</p>
-                    <p>Example DNA Seq: <br>GCTACTACCGATTGAATGTCTTAGTGAGGACCATGGAAGGAACCCTAAGCCAAGGTTAAGGGAGCCTAAAGTGGTTCAAACTGTTTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCC</p>
-                    <p>National Center for Biotechnological Information Data: <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">Click Here</a></p>
+                    <p>Example DNA Seq: <br>GCTACTACCGATTGAATGTCTTAGTGA<br>GGACCATGGAAGGAACCCTAAGCCAAGGTTAAGGGAG<br>CCTAAAGTGGTTCAAACTGTTTCATTTAGAG<br>GAAGTAAAAGTCGTAACAAGGTTTCC</p>
+                    <p>National Center for Biotechnology Information Data: <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">Click Here</a></p>
                 </div>
                 <div class="col align-self-center">
                     <img class="img-fluid rounded" src="../../media/CorrectTileImages/Copepod.jpg" alt="Copepod image">
@@ -787,7 +787,7 @@
                     <p>Organism SILVA Id #27402</p>
                     <p>Batrachochytrium dendrobatidis</p>
                     <p>Often exhbited on frogs, the fungus eventually forms a parasitic effect causing Chytridiomycosis; an infectious disease that affects amphibians worldwide! </p>
-                    <p>Example of DNA seq: <br>GCTACTACCGATTGAATGGCTTAGTGAGACCTCCGGATCGACGATCAACATCTGGCAACAGAAGTCGGTTGTTGAGAAGCTGGTCAAACTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTAACC</p>
+                    <p>Example of DNA seq: <br>GCTACTACCGATTGAATGGCTTAG<br>TGAGACCTCCGGATCGACGATCAACATCTGGC<br>AACAGAAGTCGGTTGTTGAGAAGCTGGTCAAACTTGGTCATT<br>TAGAGGAAGTAAAAGTCGTAACAAGGTAACC</p>
                     <p>For more info: <a href="https://www.chesapeakebay.net/discover/field-guide/entry/common_grass_shrimp">Click Here</a></p>
                 </div>
                 <div class="col align-self-center">
@@ -817,7 +817,7 @@
 
 
 <div class="container-fluid text-center mb-0">
-  <p class="text-center display-5">Select an organism</p>
+  <p class="text-center display-5">Still Curious? <br> Read up on our organism by selecting one below</p>
   <!-- May need proper author reference pehaps  <sub class="text-center"><sub>Photo credit: J. Adam Frederick, MD Sea Grant, Biofilms and Biodiversity website, https://www.mdseagrant.org/interactive_lessons/biofilm/</sub></sub> -->
   <hr>
     <div class="container-fluid img-center">
