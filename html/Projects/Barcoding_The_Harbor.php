@@ -430,33 +430,11 @@
 
             axisX:{
              title: "Organism (Via SILVA_tax_id)",
-             //minimum: 8990,
-             /*scaleBreaks: {
-                autoCalculate: true,  // change to false,
-                maxNumberOfAutoBreaks: 4,
-                collapsibleThreshold: ".01%"
-              },
-              scaleBreaks: {
-                customBreaks: [{
-                  startValue: 9050,
-                  endValue: 12900,
-                  type: "straight"
-                    },
-                    {
-                  startValue: 13500,
-                  endValue: 27300,
-                  type: "straight"
-                     }]
-
-                }, */
             },
 
 
             axisY:{
              title:"Number of Specimens",
-             //interlacedColor: "#F8F1E4",
-             //tickLength: 10
-             //maximum: 120000
              },
 
             animationEnabled: true,
@@ -666,24 +644,11 @@
     <!-- Organism Info Below Chart-->
     <div class="rounded container jumbtron shadow bg-white">
       <div class="accordion" id="accordionOrganism">
-        <!-- Front Card
-        <div class="collapse show container" id="collapsePlaceholder" aria-labelledby="headingExample" data-parent="#accordionOrganism">
-            <div class="row py-3">
-                <div class="col">
-                    <h4><u>Organism Name</u></h4>
-                    <p>DNA Sequence </p>
-                    <p>Natioanal Center for Biological Information Data </p>
-                </div>
-                <div class="col align-self-center">
-                    <img class="img-fluid rounded" src="../../media/CorrectTileImages/polychaete worm.jpg" alt="Example Image For Chart Selection">
-                </div>
-            </div>
-        </div>
-      -->
         <div class="collapse container" id="collapseMudworm" aria-expanded="false" aria-labelledby="headingMudworm" data-parent="#accordionOrganism">
             <div class="row py-3">
                 <div class="col">
                     <h4><u>Mud Worm</u></h4>
+                    <p>Organism SILVA Id #13373</p>
                     <p>DNA:</p>
                     <p>NCBI Info: </p>
                 </div>
@@ -696,6 +661,7 @@
             <div class="row py-3">
                 <div class="col">
                     <h4><u>Round Worm</u></h4>
+                    <p>Organism SILVA Id #13251</p>
                     <p>DNA:</p>
                     <p>NCBI Info: </p>
                 </div>
@@ -708,6 +674,10 @@
             <div class="row py-3">
                 <div class="col">
                     <h4><u>Barnacle Larvae</u></h4>
+                    <p>Organism SILVA Id #13006</p>
+                    <p>Order: Sessilia</p>
+                    <p>Lifespan 5 to 10 years </p>
+                    <p>For more info: <a href="https://www.chesapeakebay.net/discover/field-guide/entry/barnacles">Click Here</a></p>
                     <p>DNA:</p>
                     <p>NCBI Info: </p>
                 </div>
@@ -720,6 +690,10 @@
             <div class="row py-3">
                 <div class="col">
                     <h4><u>Anemone</u></h4>
+                    <p>Organism SILVA Id #13414</p>
+                    <p>Diadumene leucolena</p>
+                    <p>Diet: Feeds on plankton and tiny fish</p>
+                    <p>For more info: <a href="https://www.chesapeakebay.net/discover/field-guide/entry/ghost_anemone">Click Here</a></p>
                     <p>DNA:</p>
                     <p>NCBI Info: </p>
                 </div>
@@ -732,6 +706,7 @@
             <div class="row py-3">
                 <div class="col">
                     <h4><u>Barnacle Cluster</u></h4>
+                    <p>Organism SILVA Id #13006</p>
                     <p>DNA:</p>
                     <p>NCBI Info: </p>
                 </div>
@@ -744,6 +719,7 @@
             <div class="row py-3">
                 <div class="col">
                     <h4><u>Ciliates</u></h4>
+                    <p>Organism SILVA Id #9005</p>
                     <p>DNA:</p>
                     <p>NCBI Info: </p>
                 </div>
@@ -756,6 +732,7 @@
             <div class="row py-3">
                 <div class="col">
                     <h4><u>Copepod</u></h4>
+                    <p>Organism SILVA Id #12982</p>
                     <p>DNA:</p>
                     <p>NCBI Info: </p>
                 </div>
@@ -768,6 +745,7 @@
             <div class="row py-3">
                 <div class="col">
                     <h4><u>Common Grass Shrimp</u></h4>
+                    <p>Organism SILVA Id #n/a</p>
                     <p>DNA:</p>
                     <p>NCBI Info: </p>
                 </div>
@@ -780,6 +758,9 @@
             <div class="row py-3">
                 <div class="col">
                     <h4><u>False Dark Mussel</u></h4>
+                    <p>Organism SILVA Id #13202</p>
+                    <p>Mytilopsis leucophaeata</p>
+                    <p>Boldy Going Where Oysters Can't: <a href="https://www.chesapeakebay.net/news/blog/boldly_going_where_oysters_cant">Click Here</a></p>
                     <p>DNA:</p>
                     <p>NCBI Info: </p>
                 </div>
@@ -791,7 +772,11 @@
         <div class="collapse container" id="collapseFlatworms" aria-expanded="false" aria-labelledby="headingFlatworms" data-parent="#accordionOrganism">
             <div class="row py-3">
                 <div class="col">
-                    <h4><u>Flatworms</u></h4>
+                    <h4><u>Flat worms</u></h4>
+                    <p>Organism SILVA Id #13373</p>
+                    <p>Order: Polycladida</p>
+                    <p>Diet: Feeds on barnacles, bryozoans and oyster spat</p>
+                    <p>For more info: <a href="https://www.chesapeakebay.net/discover/field-guide/entry/flatworms">Click Here</a></p>
                     <p>DNA:</p>
                     <p>NCBI Info: </p>
                 </div>
@@ -804,6 +789,7 @@
             <div class="row py-3">
                 <div class="col">
                     <h4><u>Chytrid Fungus</u></h4>
+                    <p>Organism SILVA Id #27402</p>
                     <p>DNA:</p>
                     <p>NCBI Info: </p>
                 </div>
@@ -816,7 +802,11 @@
             <div class="row py-3">
                 <div class="col">
                     <h4><u>Polychaete Worm</u></h4>
-                    <p>DNA: ATCHAS</p>
+                    <p>Organism SILVA Id #12925</p>
+                    <p>AKA Bristle Worms</p>
+                    <p>Diet: Feed on plankton and other bits of organic matter</p>
+                    <p>DNA: </p>
+                    <p>For more info: <a href="https://www.chesapeakebay.net/discover/field-guide/entry/bristle_worms">Click Here</a></p>
                     <p>NCBI Info: </p>
                 </div>
                 <div class="col align-self-center">
