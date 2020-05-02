@@ -3,7 +3,7 @@ Client: Dr. Lisa Scheifele
 BUGSS Website - Alyssa Schilke & Josh Bennett  
 Goal: To update, refresh, and re-contextualize large portions of the Baltimore Underground Science Space Website  
 
-**Documentions**
+# Documentation
 
 Proposal: https://docs.google.com/document/d/12TbOZMTU15mCxTezGNSLiZwZjOzIOsaWnHSR97uG0Os/edit
 
@@ -14,10 +14,11 @@ Design Specification Doc: https://docs.google.com/document/d/1TyseOpcyrWaspyxnvL
 Testing Specification Doc: https://docs.google.com/document/d/1sGmcwcQPlwAZxTIQhg5IIgr6aG_ARqPyzFMb-GpL9KU/edit?usp=sharing
 
 
-**Project Key Points**  
-Overview of the Project -- The purpose of this project is to redesign and perform an overhaul of the Baltimore Underground Science Space website (bugssonline.org)
+# Project Key Point
+## Overview of the Project 
+The purpose of this project is to redesign and perform an overhaul of the Baltimore Underground Science Space website (bugssonline.org)
 
-**Implemented Features --**
+## Implemented Features
 - New color scheme
 - Updated navigation schema
 - Updated PayPal functionality and layout
@@ -28,44 +29,41 @@ Overview of the Project -- The purpose of this project is to redesign and perfor
 - Communities webpage
 - Membership webpage
 - Membership pricing layout and display, along with functionality for purchase
-
-
-**Not Yet Implemented Features --**
 - Barcoding The Harbor Infographic
 - Barcoding The Harbor species selection tiles
 - Barcoding The Harbor interactive chart/Infographic
-- Mail list form update
-- MySQL table update for mail list
 - MySQL table for interactive organism graph info
 - Completed PayPal authentication components
-- Several pages of old content to be imported and fit within new layout/design
+- Eventbrite API connection
 
-**Dependencies --**
+## Not Yet Implemented Features
 
-Frameworks:
+- Mail list form update
+- MySQL table update for mail list
+
+# Dependencies
+
+## Frameworks:
 - Bootstrap 4
 - W3
 - jquery
+- CanvasJS
 
-General Web Dev:
+## General Web Dev:
 - HTML
 - PHP
 - CSS
+- SASS
 
-Database:
+## Database:
 - MySQL
 - myPHPadmin  
 
-[[ what software, libraries, databases, operating systems, etc, are required for compiling and/or running your code? How does one install these dependencies (can be provided via link to instruction page)? ]]
+# View the live development version of the site here: [joshal.cs.loyola.edu](joshal.cs.loyola.edu/html)
 
+## To fork this repo:
+- Download a SASS complier such as [Koala](http://koala-app.com/)
+- Setup a web server or your localhost to run PHP
+- All other files can be run in the web browser
 
-**Instructions for Compilation --**
-To compile code, no action is needed on the users part.
-
-[[ exactly what does one need to do to compile your code? Include all steps and assumptions EXACTLY. ]]
-
-
-**Instructions for Running --**
-To run and view individual pages, open .html and .php files in web browser of user's choice. Within the web server, interaction between multiple pages is available via href linkage on clickable navigation header and subtree.
-
-[[ these instructions are for if you are running after compiling from this GitHub repository. So don't tell us to download from the app store if you are building a mobile app. ]]
+This project contains all code created by the development team, as well as "Analysis - SILVA results of Inner Harbor Data.py" which was provide by the cilent to interpret the organism data, and the Bootstrap 4 source files for compling the project SCSS file.
