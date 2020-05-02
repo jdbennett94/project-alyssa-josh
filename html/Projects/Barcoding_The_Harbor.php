@@ -119,6 +119,7 @@
     </ul>
 
 <div class="container shadow jumbotron-secondary w-100 mx-auto">
+  <h1 class="display-4 text-center">Welcome to Barcoding the Harbor!</h1> 
     <div class="row">
       <div class="container">
         <br>
