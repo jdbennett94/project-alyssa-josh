@@ -650,7 +650,7 @@
                     <h4><u>Mud Worm</u></h4>
                     <p>Organism SILVA Id #13373</p>
                     <p>Example DNA Seq: <br>CCTACTACCGATGGATAATTTGGT<br>GAGGTCGCCTAGACTGGCTGCTGGCT<br>TCGGCCGTGCGGCCGGGAAGACGCCCAAACTTGGTC<br>GTCTAGAGGAAGTAAAAGTCGTAACAAGGTTTCC</p>
-                    <p> <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">National Center for Biotechnology Information Data</a></p>
+                     <a class="btn btn-secondary" href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">National Center for Biotechnology Information Data</a>
                 </div>
                 <div class="col align-self-center">
                     <img class="img-fluid rounded" src="../../media/CorrectTileImages/wmworm1.gif" alt="Mud worm image">
@@ -663,7 +663,7 @@
                     <h4><u>Round Worm</u></h4>
                     <p>Organism SILVA Id #13251</p>
                     <p>Example DNA Seq: <br>GCTGCCCGGAACTGAGCCGTTTCGAG<br>AAAGCTGGGGACTGACGACTTGTGGGTG<br>CGCAAGCACTTCTTGTCGACGGAAACCAGTTTAATCGGTAT<br>GGCTTGAACCGGGCAAAAGTCGTAACAAGGTTTCC</p>
-                    <p><a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">National Center for Biotechnology Information Data</a></p>
+                    <a class="btn btn-secondary" href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">National Center for Biotechnology Information Data</a>
                 </div>
                 <div class="col align-self-center">
                     <img class="img-fluid rounded" src="../../media/CorrectTileImages/round worm.jpg" alt="Round worm image">
@@ -677,7 +677,7 @@
                     <p>Organism SILVA Id #13006</p>
                     <p>Order: Sessilia</p>
                     <p>Lifespan 5 to 10 years </p>
-                    <p><a href="https://www.chesapeakebay.net/discover/field-guide/entry/barnacles">More Information</a></p>
+                    <a class="btn btn-secondary" href="https://www.chesapeakebay.net/discover/field-guide/entry/barnacles">More Information</a>
                 </div>
                 <div class="col align-self-center">
                     <img class=" img-fluid rounded" src="../../media/CorrectTileImages/barnacle larvae.jpg" alt="Barnacle larvae image">
@@ -691,7 +691,7 @@
                     <p>Organism SILVA Id #13414</p>
                     <p>Diadumene leucolena</p>
                     <p>Diet: Feeds on plankton and tiny fish</p>
-                    <p><a href="https://www.chesapeakebay.net/discover/field-guide/entry/ghost_anemone">More information</a></p>
+                    <a class="btn btn-secondary" href="https://www.chesapeakebay.net/discover/field-guide/entry/ghost_anemone">More information</a>
                 </div>
                 <div class="col align-self-center">
                     <img class="img-fluid rounded" src="../../media/CorrectTileImages/anemone.jpg" alt="Aenomone image">
@@ -719,7 +719,7 @@
                     <h4><u>Ciliates</u></h4>
                     <p>Organism SILVA Id #9005</p>
                     <p>Example DNA Seq:<br> ACTTCTACCGATTCGAGTGGTTCGACGA<br>ATGATTAGGATCGACAACATTAGT<br>TGTTGCAATTTTTGTAAGTCATATCACTTAGA<br>GGAAGGAAAAGGCGTAACAAGGTTTCC</p>
-                    <p><a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">National Center for Biotechnology Information Data</a></p>
+                    <a class="btn btn-secondary" href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">National Center for Biotechnology Information Data</a>
                 </div>
                 <div class="col align-self-center">
                     <img class="img-fluid rounded" src="../../media/CorrectTileImages/ciliates.jpg" alt="Ciliates image">
@@ -732,7 +732,7 @@
                     <h4><u>Copepod</u></h4>
                     <p>Organism SILVA Id #12982</p>
                     <p>Example DNA Seq: <br>GCTACTACCGATTGAATGTCTTAGTGA<br>GGACCATGGAAGGAACCCTAAGCCAAGGTTAAGGGAG<br>CCTAAAGTGGTTCAAACTGTTTCATTTAGAG<br>GAAGTAAAAGTCGTAACAAGGTTTCC</p>
-                    <p><a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">National Center for Biotechnology Information Data</a></p>
+                    <a class="btn btn-secondary" href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">National Center for Biotechnology Information Data</a>
                 </div>
                 <div class="col align-self-center">
                     <img class="img-fluid rounded" src="../../media/CorrectTileImages/Copepod.jpg" alt="Copepod image">
@@ -746,7 +746,7 @@
                     <p>Organism SILVA Id #n/a</p>
                     <p>Diet: Feeds on worms, algae and tiny crustaceans <br>
                      Lifespan: 1 year</p>
-                     <p><a href="https://www.chesapeakebay.net/discover/field-guide/entry/common_grass_shrimp">More Information</a></p>
+                     <a class="btn btn-secondary" href="https://www.chesapeakebay.net/discover/field-guide/entry/common_grass_shrimp">More Information</a>
                 </div>
                 <div class="col align-self-center">
                     <img class="img-fluid rounded" src="../../media/CorrectTileImages/common grass shrimp.jpg" alt="Grass shrimp image">
@@ -759,7 +759,7 @@
                     <h4><u>False Dark Mussel</u></h4>
                     <p>Organism SILVA Id #13202</p>
                     <p>Mytilopsis leucophaeata</p>
-                    <p> <br> <a href="https://www.chesapeakebay.net/news/blog/boldly_going_where_oysters_cant">Boldly Going Where Oysters Can't</a></p>
+                    <a class="btn btn-secondary" href="https://www.chesapeakebay.net/news/blog/boldly_going_where_oysters_cant">Boldly Going Where Oysters Can't</a>
                 </div>
                 <div class="col align-self-center">
                     <img class="img-fluid rounded" src="../../media/CorrectTileImages/dark false mussel.jpg" alt="False dark mussel image">
@@ -773,7 +773,7 @@
                     <p>Organism SILVA Id #13373</p>
                     <p>Order: Polycladida</p>
                     <p>Diet: Feeds on barnacles, bryozoans and oyster spat</p>
-                    <p>For more info: <a href="https://www.chesapeakebay.net/discover/field-guide/entry/flatworms">More Information</a></p>
+                    <a class="btn btn-secondary" href="https://www.chesapeakebay.net/discover/field-guide/entry/flatworms">More Information</a>
                 </div>
                 <div class="col align-self-center">
                     <img class=" img-fluid rounded" src="../../media/CorrectTileImages/Flatworms_page_image.jpg" alt="Flatworm image">
@@ -788,7 +788,7 @@
                     <p>Batrachochytrium dendrobatidis</p>
                     <p>Often exhbited on frogs, the fungus eventually forms a parasitic effect causing Chytridiomycosis; an infectious disease that affects amphibians worldwide! </p>
                     <p>Example of DNA seq: <br>GCTACTACCGATTGAATGGCTTAG<br>TGAGACCTCCGGATCGACGATCAACATCTGGC<br>AACAGAAGTCGGTTGTTGAGAAGCTGGTCAAACTTGGTCATT<br>TAGAGGAAGTAAAAGTCGTAACAAGGTAACC</p>
-                    <p><a href="https://www.chesapeakebay.net/discover/field-guide/entry/common_grass_shrimp">More information</a></p>
+                    <a class="btn btn-secondary" href="https://www.chesapeakebay.net/discover/field-guide/entry/common_grass_shrimp">More information</a>
                 </div>
                 <div class="col align-self-center">
                     <img class=" img-fluid rounded" src="../../media/CorrectTileImages/chytrid fungus.jpg" alt="Chytrid fungus image">
@@ -802,7 +802,7 @@
                     <p>Organism SILVA Id #12925</p>
                     <p>AKA Bristle Worms</p>
                     <p>Diet: Feed on plankton and other bits of organic matter</p>
-                    <p><a href="https://www.chesapeakebay.net/discover/field-guide/entry/bristle_worms">More Information</a></p>
+                    <a class="btn btn-secondary" href="https://www.chesapeakebay.net/discover/field-guide/entry/bristle_worms">More Information</a>
                 </div>
                 <div class="col align-self-center">
                     <img class="img-fluid rounded" src="../../media/CorrectTileImages/polychaete worm.jpg" alt="Polycheate worm image">
