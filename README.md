@@ -15,7 +15,7 @@ Goal: To update, refresh, and re-contextualize large portions of the Baltimore U
 
 [User Study & Test Doc](https://docs.google.com/document/d/1vwXcw9XVzWZc1-x-Mub-Y8rSFr2UtjUW87-73NnmA3A/edit?usp=sharing)
 
-[Final Report](https://drive.google.com/file/d/1cicooc9m40PiQ6n54_sCPdKuN-5GKqNo/view)
+[Final Report Document](https://drive.google.com/file/d/1cicooc9m40PiQ6n54_sCPdKuN-5GKqNo/view)
 
 # Project Key Point
 ## Overview of the Project 
