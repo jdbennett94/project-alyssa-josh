@@ -19,7 +19,7 @@ Goal: To update, refresh, and re-contextualize large portions of the Baltimore U
 
 # Project Key Point
 ## Overview of the Project 
-The purpose of this project is to redesign and perform an overhaul of the Baltimore Underground Science Space website [(bugssonline.org)](https://bugssonline.org/)
+The purpose of this project is to redesign and perform an overhaul of the Baltimore Underground Science Space website from scratch[(bugssonline.org)](https://bugssonline.org/)
 
 ## Implemented Features
 - New color scheme
