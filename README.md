@@ -59,7 +59,7 @@ The purpose of this project is to redesign and perform an overhaul of the Baltim
 - MySQL
 - myPHPadmin  
 
-# View the live development version of the site here: [joshal.cs.loyola.edu](www.joshal.cs.loyola.edu/html)
+# View the live development version of the site here: [joshal.cs.loyola.edu](http://joshal.cs.loyola.edu/html/index.html)
 
 ## To fork this repo:
 - Download a SASS complier such as [Koala](http://koala-app.com/)
