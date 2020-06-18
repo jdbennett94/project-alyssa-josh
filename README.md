@@ -13,7 +13,7 @@ Goal: To update, refresh, and re-contextualize large portions of the Baltimore U
 
 [Testing Specification Doc](https://docs.google.com/document/d/1sGmcwcQPlwAZxTIQhg5IIgr6aG_ARqPyzFMb-GpL9KU/)
 
-[User Study Doc](https://docs.google.com/document/d/1vwXcw9XVzWZc1-x-Mub-Y8rSFr2UtjUW87-73NnmA3A/edit?usp=sharing)
+[User Study & Test Plan Doc](https://docs.google.com/document/d/1vwXcw9XVzWZc1-x-Mub-Y8rSFr2UtjUW87-73NnmA3A/edit?usp=sharing)
 
 [Final Report](https://drive.google.com/file/d/1cicooc9m40PiQ6n54_sCPdKuN-5GKqNo/view)
 
